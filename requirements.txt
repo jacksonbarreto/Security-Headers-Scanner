@@ -1,0 +1,3 @@
+selenium:4.27
+pandas:2.2
+webdriver-manager:4.0
