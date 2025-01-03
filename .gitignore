@@ -173,4 +173,4 @@ cython_debug/
 
 src/data/results/
 src/data/errors/
-src/data/source/*.tt
+src/data/source/*.*

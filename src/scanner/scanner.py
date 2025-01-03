@@ -55,6 +55,7 @@ def process_scan(row, url_column, language):
 
         driver = start_webdriver(user_agent, language)
         result = {
+            "assessment_date": None,
             "headers_analyzed": False,
             "http_status_code": None,
             "https_status_code": None,
@@ -82,7 +83,6 @@ def process_scan(row, url_column, language):
                 })
 
             # 2. Test HTTPS directly, if didn't have redirect
-            print(f"Redirected_to_https({base_url}): ", result["redirected_to_https"])
             if not result["redirected_to_https"]:
                 print(f"Scanning HTTPS: {https_url}")
                 driver.get(https_url)
@@ -95,7 +95,7 @@ def process_scan(row, url_column, language):
                         "protocol_http": scan_result.protocol,
                         **assessing_security_headers(scan_result.headers)
                     })
-
+            result["assessment_date"] = pd.Timestamp.now()
             process_result_by_platform[platform] = {**row.to_dict(), **result}
         except Exception as e:
             print(f"Error scanning {base_url} - {platform}: {e}")

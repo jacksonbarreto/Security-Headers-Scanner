@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-from datetime import datetime
 
 
 def sanitize_url(url):
@@ -12,8 +11,7 @@ def save(dataframe, country_code, platform, error=False):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    now = datetime.now().strftime("%Y-%m-%d")
-    filename = f"{country_code}_{platform}_{'errors_' if error else ''}{now}.csv"
+    filename = f"{country_code}_{platform}_{'errors_' if error else ''}.csv"
     output_file = os.path.join(output_dir, filename)
 
     if isinstance(dataframe, list):
@@ -22,4 +20,7 @@ def save(dataframe, country_code, platform, error=False):
         df = dataframe
 
     if not df.empty:
-        df.to_csv(output_file, index=False)
+        if os.path.exists(output_file):
+            df.to_csv(output_file, mode='a', header=False, index=False)
+        else:
+            df.to_csv(output_file, index=False)
