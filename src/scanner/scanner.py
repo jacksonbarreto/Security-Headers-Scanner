@@ -114,13 +114,13 @@ def process_scan(row, url_column_name, language):
             errors.extend(process_error)
 
 
-def assessing_security_headers(headers):
+def assessing_security_headers(received_headers):
     analysis = {}
-    normalized_headers = {k.lower(): v for k, v in headers.items()}
-    expected_headers = {k.lower(): v for k, v in config['expected_headers'].items()}
+    normalized_received_headers = {k.lower(): v for k, v in received_headers.items()}
+    normalized_expected_headers = {k.lower(): v for k, v in config['expected_headers'].items()}
 
-    for expected_header, heuristic in expected_headers.items():
-        received_header = normalized_headers.get(expected_header, "Missing")
+    for expected_header, heuristic in normalized_expected_headers.items():
+        received_header = normalized_received_headers.get(expected_header, "Missing")
         analysis[f"{expected_header}_presence"] = received_header != "Missing"
 
         if received_header != "Missing":
@@ -128,6 +128,6 @@ def assessing_security_headers(headers):
         else:
             analysis[f"{expected_header}_config"] = "Missing"
 
-    analysis['raw_headers'] = str(headers)
+    analysis['raw_headers'] = str(received_headers)
 
     return analysis
