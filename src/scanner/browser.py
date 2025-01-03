@@ -8,20 +8,15 @@ from src.scanner.scan_result import ScanResult
 
 
 def start_webdriver(user_agent, language):
+    arguments = ["--headless", f"user-agent={user_agent}", f"accept-language={language}", f"--lang={language}",
+                 "--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled",
+                 "--dns-server=1.1.1.1", "--ignore-certificate-errors", "--ignore-certificate-errors-spki-list",
+                 "--ignore-ssl-errors=yes"]
     options = Options()
-    options.add_argument("--headless")
-    options.add_argument(f"user-agent={user_agent}")
-    options.add_argument(f"accept-language={language}")
-    options.add_argument(f"--lang={language}")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--dns-server=1.1.1.1")
-    options.add_argument("--ignore-certificate-errors")
-    options.add_argument("--ignore-certificate-errors-spki-list")
-    options.add_argument("--ignore-ssl-errors=yes")
-    options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+    for arg in arguments:
+        options.add_argument(arg)
 
+    options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
     driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(config['timeout'])
     driver.execute_cdp_cmd("Network.setCacheDisabled", {"cacheDisabled": True})
