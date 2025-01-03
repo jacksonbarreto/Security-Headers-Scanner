@@ -13,6 +13,7 @@ errors = []
 HTTP = "http://"
 HTTPS = "https://"
 
+
 def run_scan(input_file):
     global results_by_platform
     global errors
@@ -41,6 +42,7 @@ def run_scan(input_file):
         save(results, country_code, platform)
     if errors:
         save(errors, country_code, 'combined', error=True)
+
 
 def process_scan(row, url_column, language):
     process_result_by_platform = {}
@@ -110,6 +112,7 @@ def process_scan(row, url_column, language):
         if process_error:
             errors.extend(process_error)
 
+
 def assessing_security_headers(headers):
     analysis = {}
     normalized_headers = {k.lower(): v for k, v in headers.items()}
@@ -127,10 +130,3 @@ def assessing_security_headers(headers):
     analysis['raw_headers'] = str(headers)
 
     return analysis
-
-
-
-
-
-
-

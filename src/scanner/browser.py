@@ -33,6 +33,7 @@ def start_webdriver(user_agent, language):
     })
     return driver
 
+
 def get_scan_result(driver):
     logs = driver.get_log("performance")
     headers = {}
@@ -44,7 +45,6 @@ def get_scan_result(driver):
     for entry in logs:
         log = entry['message']
         message_data = json.loads(log)['message']
-
         if 'Network.requestWillBeSent' in message_data['method']:
             redirect_response = message_data['params'].get('redirectResponse', {})
             if redirect_response:

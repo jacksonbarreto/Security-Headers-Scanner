@@ -1,6 +1,7 @@
 import os
 from src.scanner.scanner import run_scan
 
+
 def main():
     input_directory = os.path.join('.', 'src', 'data', 'source')
     files = [f for f in os.listdir(input_directory) if f.endswith('.csv')]
@@ -17,6 +18,7 @@ def main():
             run_scan(file_path)
         except Exception as e:
             print(f"Error scanning {file}: {e}")
+
 
 if __name__ == "__main__":
     main()

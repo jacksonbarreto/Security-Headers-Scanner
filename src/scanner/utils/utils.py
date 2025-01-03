@@ -5,6 +5,7 @@ import pandas as pd
 def sanitize_url(url):
     return url.replace("http://", "").replace("https://", "").strip("/")
 
+
 def save(dataframe, country_code, platform, error=False):
     folder = 'errors' if error else 'results'
     output_dir = os.path.join('.', 'src', 'data', folder)
