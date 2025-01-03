@@ -12,7 +12,7 @@ def save(dataframe, country_code, platform, error=False):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    filename = f"{country_code}_{platform}_{'errors_' if error else ''}.csv"
+    filename = f"{country_code}_{platform}{'_errors_' if error else ''}.csv"
     output_file = os.path.join(output_dir, filename)
 
     if isinstance(dataframe, list):
