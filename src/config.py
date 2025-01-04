@@ -11,7 +11,7 @@ config = {
         {"it": "it;en;q=0.6"},
     ],
     "expected_headers": {
-        "X-XSS-Protection": lambda value: "Strong" if "1" in value.lower() else "Weak",
+        "X-XSS-Protection": lambda value: "Strong" if "1; mode=block" in value.lower() else "Weak",
         "X-Frame-Options": lambda value: "Strong" if value.lower() in ["deny", "sameorigin"] else "Weak",
         "X-Content-Type-Options": lambda value: "Strong" if value.lower() == "nosniff" else "Weak",
         "Referrer-Policy": lambda value: (

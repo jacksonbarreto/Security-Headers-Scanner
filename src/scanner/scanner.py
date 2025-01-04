@@ -1,6 +1,8 @@
 import os
+from urllib.parse import urlparse
+
 import pandas as pd
-from src.scanner.browser import start_webdriver, get_scan_result
+from src.scanner.browser import get_webdriver, get_scan_result
 from src.config import config
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
@@ -57,55 +59,50 @@ def process_scan(row, url_column_name, language):
 
         result = {
             "assessment_date": None,
-            "headers_analyzed": False,
             "http_status_code": None,
             "https_status_code": None,
             "redirected_to_https": False,
+            "redirected_https_to_same_domain": False,
+            "final_url": None,
             "idioma": language,
             "platform": platform,
             "protocol_http": None,
             "redirect_count": None,
         }
 
-        driver = start_webdriver(user_agent, language)
+        web_driver = get_webdriver(user_agent, language)
         try:
-            # test HTTP
             print(f"Scanning HTTP: {base_url} - {platform}")
-            driver.get(http_url)
-            scan_result = get_scan_result(driver)
+            web_driver.get(http_url)
+            scan_result = get_scan_result(web_driver)
             result["http_status_code"] = scan_result.initial_status
             result["redirected_to_https"] = scan_result.final_url.startswith(HTTPS)
             if result["redirected_to_https"]:
-                result.update({
-                    "headers_analyzed": True,
-                    "https_status_code": scan_result.final_status,
-                    **assessing_security_headers(scan_result.headers)
-                })
+                result["https_status_code"] = scan_result.final_status
+                result["redirected_https_to_same_domain"] = base_url == urlparse(scan_result.final_url).netloc
 
-            # 2. Test HTTPS directly, if didn't have redirect
             if not result["redirected_to_https"]:
                 print(f"Scanning HTTPS: {https_url}")
-                driver.quit()
-                driver = start_webdriver(user_agent, language)
-                driver.get(https_url)
-                scan_result = get_scan_result(driver)
+                web_driver.quit()
+                web_driver = get_webdriver(user_agent, language)
+                web_driver.get(https_url)
+                scan_result = get_scan_result(web_driver)
                 result["https_status_code"] = scan_result.final_status
-                if result["https_status_code"] == 200:
-                    result.update({
-                        "headers_analyzed": True,
-                        **assessing_security_headers(scan_result.headers)
-                    })
 
-            result["protocol_http"] = scan_result.protocol
-            result["redirect_count"] = scan_result.redirect_count
-            result["assessment_date"] = pd.Timestamp.now()
+            result.update({
+                "protocol_http": scan_result.protocol,
+                "final_url": scan_result.final_url,
+                "redirect_count": scan_result.redirect_count,
+                "assessment_date": pd.Timestamp.now(),
+                **assessing_security_headers(scan_result.headers)
+            })
             process_result_by_platform[platform] = {**row.to_dict(), **result}
         except Exception as e:
             print(f"Error scanning {base_url} - {platform}: {e}")
             error_result = {**row.to_dict(), "platform": platform, "error": str(e)}
             process_error.append(error_result)
         finally:
-            driver.quit()
+            web_driver.quit()
 
     with lock:
         for platform, result in process_result_by_platform.items():

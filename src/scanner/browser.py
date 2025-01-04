@@ -7,7 +7,7 @@ from src.config import config
 from src.scanner.scan_result import ScanResult
 
 
-def start_webdriver(user_agent, language):
+def get_webdriver(user_agent, language):
     arguments = ["--headless", f"user-agent={user_agent}", f"accept-language={language}", f"--lang={language}",
                  "--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled",
                  "--dns-server=1.1.1.1", "--ignore-certificate-errors", "--ignore-certificate-errors-spki-list",
@@ -29,8 +29,8 @@ def start_webdriver(user_agent, language):
     return driver
 
 
-def get_scan_result(driver):
-    logs = driver.get_log("performance")
+def get_scan_result(web_driver):
+    logs = web_driver.get_log("performance")
     headers = {}
     protocol = "Unknown"
     initial_status = None
@@ -57,7 +57,7 @@ def get_scan_result(driver):
 
                 if initial_status is None:
                     initial_status = final_status
-    final_url = driver.current_url
+    final_url = web_driver.current_url
     return ScanResult(
         initial_status=initial_status,
         final_status=final_status,
