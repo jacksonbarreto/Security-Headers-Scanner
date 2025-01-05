@@ -29,32 +29,44 @@ config = {
         "Strict-Transport-Security": lambda value: (
             "Strong" if (
                     "max-age=" in value.lower()
-                    and int(value.lower().split('max-age=')[1].split(';')[0]) > 31536000
-                    and "includesubdomains" in value.lower()
-                    and "preload" in value.lower()
+                    and int(value.lower().split('max-age=')[1].split(';')[0]) >= 31536000
+                    and ("includesubdomains" in value.lower()
+                    or ("includesubdomains" in value.lower() and "preload" in value.lower()))
             )
             else "Weak"
         ),
         "Content-Security-Policy": lambda value: (
             "Strong" if (
                     "default-src 'self'" in value.lower()
+                    and "form-action 'self'" in value.lower()
+                    and "object-src 'none'" in value.lower()
+                    and "upgrade-insecure-requests" in value.lower()
+                    and "block-all-mixed-content" in value.lower()
                     and "unsafe-eval" not in value.lower()
                     and (
                             "unsafe-inline" not in value.lower()
-                            or "'nonce-" in value.lower()
-                            or "'hash-" in value.lower()
+                            or "nonce-" in value.lower()
+                            or "hash-" in value.lower()
                     )
-                    and "frame-ancestors 'self'" in value.lower()
+                    and value.lower() in ["frame-ancestors 'self'", "frame-ancestors 'none'"]
                     and "https://*" not in value.lower()
             )
             else "Weak"
         ),
         "cross-origin-resource-policy": lambda value: "Strong" if value.lower() in ["same-origin",
                                                                                     "same-site"] else "Weak",
-        "cross-origin-embedder-policy": lambda value: "Strong" if value.lower() in ["require-corp", "credentialless"] else "Weak",
+        "cross-origin-embedder-policy": lambda value: "Strong" if value.lower() in ["require-corp",
+                                                                                    "credentialless"] else "Weak",
         "cross-origin-opener-policy": lambda value: "Strong" if (
                 value.lower() in ["same-origin", "same-origin-allow-popups"]
         ) else "Weak",
+        "Set-Cookie": lambda value: (
+            "Strong" if (
+                "secure" in value.lower() and
+                ("samesite=strict" in value.lower() or "samesite=lax" in value.lower()) and
+                "httponly" in value.lower()
+            ) else "Weak"
+        ),
     },
     "timeout": 60,
     "max_threads": 5
