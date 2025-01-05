@@ -20,6 +20,7 @@ def run_scan(input_file):
     global results_by_platform
     global errors
     errors = []
+    results_by_platform = {list(device.keys())[0]: [] for device in config['user_agents']}
 
     filename = os.path.basename(input_file)
     country_code = filename[:2]
