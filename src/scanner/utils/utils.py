@@ -1,10 +1,16 @@
 import os
 import pandas as pd
-
+from urllib.parse import urlparse
 
 def sanitize_url(url):
-    return url.replace("http://", "").replace("https://", "").strip("/")
+    return url.replace("http://", "").replace("https://", "").split("/")[0].split(':')[0]
 
+def normalize_domain(url):
+    parsed_url = urlparse(url)
+    domain = parsed_url.netloc or parsed_url.path
+    if domain.startswith("www."):
+        domain = domain[4:]
+    return domain.split(':')[0]
 
 def save(dataframe, country_code, platform, error=False):
     folder = 'errors' if error else 'results'

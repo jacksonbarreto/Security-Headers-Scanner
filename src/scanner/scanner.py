@@ -7,7 +7,7 @@ from src.config import config
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
 
-from src.scanner.utils.utils import save, sanitize_url
+from src.scanner.utils.utils import save, sanitize_url, normalize_domain
 
 lock = threading.Lock()
 results_by_platform = {list(device.keys())[0]: [] for device in config['user_agents']}
@@ -80,7 +80,9 @@ def process_scan(row, url_column_name, language):
             result["redirected_to_https"] = scan_result.final_url.startswith(HTTPS)
             if result["redirected_to_https"]:
                 result["https_status_code"] = scan_result.final_status
-                result["redirected_https_to_same_domain"] = base_url == urlparse(scan_result.final_url).netloc
+                base_domain = normalize_domain(base_url)
+                final_domain = normalize_domain(scan_result.final_url)
+                result["redirected_https_to_same_domain"] = base_domain == final_domain
 
             if not result["redirected_to_https"]:
                 print(f"Scanning HTTPS: {https_url}")
