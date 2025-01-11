@@ -1,5 +1,4 @@
 import os
-from urllib.parse import urlparse
 
 import pandas as pd
 from src.scanner.browser import get_webdriver, get_scan_result
@@ -10,6 +9,7 @@ import threading
 from src.scanner.utils.utils import save, sanitize_url, normalize_domain
 
 lock = threading.Lock()
+
 results_by_platform = {list(device.keys())[0]: [] for device in config['user_agents']}
 errors = []
 HTTP = "http://"
@@ -20,7 +20,9 @@ def run_scan(input_file):
     global results_by_platform
     global errors
     errors = []
+
     results_by_platform = {list(device.keys())[0]: [] for device in config['user_agents']}
+
 
     filename = os.path.basename(input_file)
     country_code = filename[:2]
