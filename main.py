@@ -1,4 +1,6 @@
 import os
+
+from src.config import config
 from src.scanner.scanner import run_scan
 
 
@@ -11,13 +13,16 @@ def main():
         print(f"No CSV files found in '{input_directory}'. Please ensure the files are in the correct directory.")
         return
 
-    for file in files:
-        file_path = os.path.join(input_directory, file)
-        print(f"Scanning file: {file}")
-        try:
-            run_scan(file_path)
-        except Exception as e:
-            print(f"Error scanning {file}: {e}")
+    daily_assessments = config.get("daily_assessments", 5)
+
+    for i in range(daily_assessments):
+        for file in files:
+            file_path = os.path.join(input_directory, file)
+            print(f"Scanning file: {file}")
+            try:
+                run_scan(file_path)
+            except Exception as e:
+                print(f"Error scanning {file}: {e}")
 
 
 if __name__ == "__main__":

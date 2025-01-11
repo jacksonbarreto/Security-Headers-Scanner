@@ -69,5 +69,6 @@ config = {
         ),
     },
     "timeout": 60,
-    "max_threads": 5
+    "max_threads": 5,
+    "daily_assessments": 5
 }
