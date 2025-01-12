@@ -68,7 +68,19 @@ config = {
             ) else "Weak"
         ),
     },
+    "deprecated_headers": ["X-XSS-Protection", "X-Frame-Options"],
+    "critical_headers": ["Strict-Transport-Security", "Content-Security-Policy"],
+    "header_multipliers": {
+        "Strict-Transport-Security": 2,
+        "Content-Security-Policy": 1.8,
+        "cross-origin-embedder-policy": 1.5,
+        "cross-origin-resource-policy": 1.5,
+        "cross-origin-opener-policy": 1.5,
+        "X-Frame-Options": 0.8,
+        "X-XSS-Protection": 0.8,
+    },
     "timeout": 60,
     "max_threads": 5,
-    "daily_assessments": 5
+    "daily_assessments": 1,
+    "basic_point_unit": 10,
 }

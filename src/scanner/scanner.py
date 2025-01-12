@@ -61,7 +61,7 @@ def process_scan(row, url_column_name, language):
         user_agent = list(device.values())[0]
 
         result = {
-            "assessment_date": None,
+            "assessment_datetime": None,
             "http_status_code": None,
             "https_status_code": None,
             "redirected_to_https": False,
@@ -98,7 +98,7 @@ def process_scan(row, url_column_name, language):
                 "protocol_http": scan_result.protocol,
                 "final_url": scan_result.final_url,
                 "redirect_count": scan_result.redirect_count,
-                "assessment_date": pd.Timestamp.now(),
+                "assessment_datetime": pd.Timestamp.now(),
                 **assessing_security_headers(scan_result.headers)
             })
             process_result_by_platform[platform] = {**row.to_dict(), **result}
