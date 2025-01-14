@@ -1,0 +1,136 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,platform,error
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"invalid literal for int() with base 10: '15768000, '"
+DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '31536000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
+DE0080,Universität Paderborn,public,University,No,www.uni-paderborn.de,DEA4,Detmold,Detmold,DEA47,Paderborn,Paderborn,desktop,"Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
+	(No symbol) [0x00007FF6A7B0BFD0]
+	(No symbol) [0x00007FF6A79A590A]
+	(No symbol) [0x00007FF6A79A3061]
+	(No symbol) [0x00007FF6A7993BD9]
+	(No symbol) [0x00007FF6A799592F]
+	(No symbol) [0x00007FF6A7993E9F]
+	(No symbol) [0x00007FF6A799371D]
+	(No symbol) [0x00007FF6A799363A]
+	(No symbol) [0x00007FF6A7991251]
+	(No symbol) [0x00007FF6A7991B1C]
+	(No symbol) [0x00007FF6A79A89DA]
+	(No symbol) [0x00007FF6A7A4038E]
+	(No symbol) [0x00007FF6A7A1F36A]
+	(No symbol) [0x00007FF6A7A3F584]
+	(No symbol) [0x00007FF6A7A1F113]
+	(No symbol) [0x00007FF6A79EA918]
+	(No symbol) [0x00007FF6A79EBA81]
+	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
+	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
+	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
+	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
+	(No symbol) [0x00007FF6A7B1757F]
+	(No symbol) [0x00007FF6A7B12FC4]
+	(No symbol) [0x00007FF6A7B1315D]
+	(No symbol) [0x00007FF6A7B02979]
+	BaseThreadInitThunk [0x00007FFD73617374+20]
+	RtlUserThreadStart [0x00007FFD753FCC91+33]
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.694
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
+	(No symbol) [0x00007FF6A7B0BFD0]
+	(No symbol) [0x00007FF6A79A590A]
+	(No symbol) [0x00007FF6A7993972]
+	(No symbol) [0x00007FF6A799363A]
+	(No symbol) [0x00007FF6A7991251]
+	(No symbol) [0x00007FF6A7991CFF]
+	(No symbol) [0x00007FF6A79A09CE]
+	(No symbol) [0x00007FF6A79B4A9D]
+	(No symbol) [0x00007FF6A79BB26A]
+	(No symbol) [0x00007FF6A7992464]
+	(No symbol) [0x00007FF6A79B48C3]
+	(No symbol) [0x00007FF6A7A3F8CB]
+	(No symbol) [0x00007FF6A7A1F113]
+	(No symbol) [0x00007FF6A79EA918]
+	(No symbol) [0x00007FF6A79EBA81]
+	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
+	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
+	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
+	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
+	(No symbol) [0x00007FF6A7B1757F]
+	(No symbol) [0x00007FF6A7B12FC4]
+	(No symbol) [0x00007FF6A7B1315D]
+	(No symbol) [0x00007FF6A7B02979]
+	BaseThreadInitThunk [0x00007FFD73617374+20]
+	RtlUserThreadStart [0x00007FFD753FCC91+33]
+"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
+DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '31536000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
+DE0336,Technische Hochschule Bingen,public,University of applied sciences,No,www.th-bingen.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3J,Mainz-Bingen,Mainz-Bingen,desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
+	(No symbol) [0x00007FF6A7B0BFD0]
+	(No symbol) [0x00007FF6A79A590A]
+	(No symbol) [0x00007FF6A79A3061]
+	(No symbol) [0x00007FF6A7993BD9]
+	(No symbol) [0x00007FF6A799592F]
+	(No symbol) [0x00007FF6A7993E9F]
+	(No symbol) [0x00007FF6A799371D]
+	(No symbol) [0x00007FF6A799363A]
+	(No symbol) [0x00007FF6A7991251]
+	(No symbol) [0x00007FF6A7991B1C]
+	(No symbol) [0x00007FF6A79A89DA]
+	(No symbol) [0x00007FF6A7A4038E]
+	(No symbol) [0x00007FF6A7A1F36A]
+	(No symbol) [0x00007FF6A7A3F584]
+	(No symbol) [0x00007FF6A7A1F113]
+	(No symbol) [0x00007FF6A79EA918]
+	(No symbol) [0x00007FF6A79EBA81]
+	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
+	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
+	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
+	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
+	(No symbol) [0x00007FF6A7B1757F]
+	(No symbol) [0x00007FF6A7B12FC4]
+	(No symbol) [0x00007FF6A7B1315D]
+	(No symbol) [0x00007FF6A7B02979]
+	BaseThreadInitThunk [0x00007FFD73617374+20]
+	RtlUserThreadStart [0x00007FFD753FCC91+33]
+"
+DE0336,Technische Hochschule Bingen,public,University of applied sciences,No,www.th-bingen.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3J,Mainz-Bingen,Mainz-Bingen,mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=131.0.6778.265)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
+	(No symbol) [0x00007FF6A7B0BFD0]
+	(No symbol) [0x00007FF6A79A590A]
+	(No symbol) [0x00007FF6A79A3061]
+	(No symbol) [0x00007FF6A7993BD9]
+	(No symbol) [0x00007FF6A799592F]
+	(No symbol) [0x00007FF6A7993E9F]
+	(No symbol) [0x00007FF6A799371D]
+	(No symbol) [0x00007FF6A799363A]
+	(No symbol) [0x00007FF6A7991251]
+	(No symbol) [0x00007FF6A7991B1C]
+	(No symbol) [0x00007FF6A79A89DA]
+	(No symbol) [0x00007FF6A7A4038E]
+	(No symbol) [0x00007FF6A7A1F36A]
+	(No symbol) [0x00007FF6A7A3F584]
+	(No symbol) [0x00007FF6A7A1F113]
+	(No symbol) [0x00007FF6A79EA918]
+	(No symbol) [0x00007FF6A79EBA81]
+	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
+	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
+	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
+	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
+	(No symbol) [0x00007FF6A7B1757F]
+	(No symbol) [0x00007FF6A7B12FC4]
+	(No symbol) [0x00007FF6A7B1315D]
+	(No symbol) [0x00007FF6A7B02979]
+	BaseThreadInitThunk [0x00007FFD73617374+20]
+	RtlUserThreadStart [0x00007FFD753FCC91+33]
+"

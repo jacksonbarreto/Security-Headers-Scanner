@@ -1,0 +1,347 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021
+FR0002,Université de technologie de Troyes,public,Other,Yes,www.utt.fr,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF22,Aube,Aube
+FR0003,École de l'air,public,Other,No,www.ecole-air-espace.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0004,École nationale supérieure d'architecture de Marseille,public,Other,No,www.marseille.archi.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0005,École supérieure d'art et de design Marseille-Mediterranée,public,Other,No,www.esadmm.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0006,École centrale de Marseille,public,Other,No,www.centrale-marseille.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0007,Aix-Marseille université,public,University,Yes,www.univ-amu.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0008,Université de Caen Basse-Normandie,public,University,No,www.unicaen.fr,FRD1,Basse-Normandie ,Basse-Normandie ,FRD11,Calvados ,Calvados
+FR0009,École supérieure d'arts et médias de Caen - Cherbourg,public,Other,No,www.esam-c2.fr,FRD1,Basse-Normandie ,Basse-Normandie ,FRD11,Calvados ,Calvados
+FR0010,École nationale supérieure d'ingénieurs de Caen,public,Other,No,www.ensicaen.fr,FRD1,Basse-Normandie ,Basse-Normandie ,FRD11,Calvados ,Calvados
+FR0011,École supérieure d'ingénieurs des travaux de la construction de Caen,private,Other,No,www.esitc-caen.fr,FRD1,Basse-Normandie ,Basse-Normandie ,FRD11,Calvados ,Calvados
+FR0013,École d'ingénieurs en génie des systèmes industriels,private,Other,No,www.eigsi.fr,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime
+FR0014,Université de La Rochelle,public,University,Yes,www.univ-larochelle.fr,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime
+FR0015,École nationale supérieure d'art de Bourges,public,Other,No,www.ensa-bourges.fr,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB01,Cher,Cher
+FR0017,École nationale supérieure d'art de Dijon,public,Other,No,www.ensa-dijon.fr,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or
+FR0018,Université de Bourgogne,public,University,Yes,www.u-bourgogne.fr,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or
+FR0020,"Institut national supérieur des sciences agronomiques, de l'alimentation et de l'environnement",public,Other,No,www.agrosupdijon.fr,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or
+FR0021,École nationale supérieure de mécanique et des microtechniques,public,Other,No,www.ens2m.fr,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs
+FR0022,Université de Franche-Comté,public,University,No,www.univ-fcomte.fr,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs
+FR0023,École nationale d'ingénieurs de Brest,public,Other,No,www.enib.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0024,École Navale,public,Other,No,www.ecole-navale.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0025,École nationale supérieure de techniques avancées Bretagne,public,Other,No,www.ensta-bretagne.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0026,Université de Bretagne Occidentale,public,University,Yes,www.univ-brest.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0028,Institut supérieur de l'électronique et du numérique Brest,private,Other,No,isen-brest.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0029,École des mines d'Alès,public,Other,No,www.mines-ales.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ12,Gard,Gard
+FR0030,Université de Nîmes,public,University,No,www.unimes.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ12,Gard,Gard
+FR0031,Institut supérieur des Arts de Toulouse,public,Other,No,www.isdat.eu,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0032,École nationale supérieure d'architecture de Toulouse,public,Other,No,www.toulouse.archi.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0033,Institut national des sciences appliquées de Toulouse,public,Other,Yes,www.insa-toulouse.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0034,École d'ingénieurs de Purpan,private,Other,No,www.purpan.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0035,Institut catholique de Toulouse,private,Other,No,www.ict-toulouse.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0036,École nationale de l'aviation civile,public,Other,No,www.enac.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0037,Institut national polytechnique de Toulouse,public,Other,Yes,www.inp-toulouse.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0038,Université Toulouse 1 - Capitole,public,University,Yes,www.ut-capitole.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0039,Université Toulouse - Jean Jaurès,public,University,Yes,www.univ-tlse2.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0040,Université de Toulouse 3 - Paul Sabatier,public,University,Yes,www.univ-tlse3.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0041,Institut supérieur de l'aéronautique et de l'espace,public,Other,Yes,www.isae-supaero.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0042,École nationale supérieure d'architecture et de paysage de Bordeaux,public,Other,No,www.bordeaux.archi.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0043,École nationale supérieure des sciences agronomiques de Bordeaux Aquitaine,public,Other,No,www.agro-bordeaux.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0046,Université Bordeaux Montaigne,public,University,No,www.u-bordeaux3.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0047,École des beaux-arts de Bordeaux,public,Other,No,www.ebabx.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0048,École nationale de la magistrature,public,Other,No,www.enm.justice.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0050,Institut polytechnique de Bordeaux,public,Other,No,www.bordeaux-inp.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0051,École nationale supérieure de chimie de Montpellier,public,Other,No,www.enscm.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0052,École nationale supérieure d’architecture de Montpellier,public,Other,No,www.montpellier.archi.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0055,Université Montpellier 3 - Paul-Valéry,public,University,No,www.univ-montp3.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0056,Institut national d'études supérieures agronomiques de Montpellier,public,Other,No,www.montpellier-supagro.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0057,École nationale supérieure de chimie de Rennes,public,Other,No,www.ensc-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0058,École nationale supérieure d'architecture de Bretagne,public,Other,No,www.rennes.archi.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0061,Institut national des sciences appliquées de Rennes,public,Other,No,www.insa-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0062,Université de Rennes 1,public,University,Yes,www.univ-rennes1.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0063,Université Rennes 2,public,University,No,www.univ-rennes2.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0064,ECAM Rennes Louis de Broglie,private,Other,No,www.ecam-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0065,Institut catholique de Rennes,private,Other,No,www.icrennes.com,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0066,École des métiers de l'environnement,private,Other,No,www.ecole-eme.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0067,École des Avocats du Grand Ouest,private,Other,No,www.edago.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0068,École nationale de la statistique et de l'analyse de l'information,public,Other,No,www.ensai.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0069,"Institut supérieur des sciences agronomiques, agroalimentaires, horticoles et du paysage",public,Other,No,www.agrocampus-ouest.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0070,Université de Tours,public,University,No,www.univ-tours.fr,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB04,Indre-et-Loire,Indre-et-Loire
+FR0071,École nationale supérieure d'architecture de Grenoble,public,Other,No,www.grenoble.archi.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère
+FR0072,École supérieure d'art de Grenoble,public,Other,No,www.esad-gv.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère
+FR0076,Grenoble INP,public,Other,No,www.grenoble-inp.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère
+FR0080,École nationale d'ingénieurs de Saint-Étienne,public,Other,No,www.enise.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire
+FR0081,Telecom Saint-Étienne,public,Other,No,www.telecom-st-etienne.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire
+FR0082,Université Jean Monnet,public,University,Yes,www.univ-st-etienne.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire
+FR0083,École nationale supérieure d'architecture de Saint-Étienne,public,Other,No,www.st-etienne.archi.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK25,Loire,Loire
+FR0084,Ecole centrale de Nantes,public,Other,No,www.ec-nantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0085,École nationale supérieure d'architecture de Nantes,public,Other,No,www.nantes.archi.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0086,École supérieure des beaux-arts de Nantes Métropole,public,Other,No,www.beauxartsnantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0087,Université de Nantes,public,University,Yes,www.univ-nantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0088,Institut régional d'administration de Nantes,public,Other,No,www.ira-nantes.gouv.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0091,École supérieure du bois,private,Other,No,www.esb-campus.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0092,Université d'Orléans,public,University,Yes,www.univ-orleans.fr,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB06,Loiret,Loiret
+FR0093,École supérieure d'art et de design d'Orléans,public,Other,No,esadorleans.fr,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB06,Loiret,Loiret
+FR0094,École nationale d'administration pénitentiaire,public,Other,No,www.enap.justice.fr,FRI1,Aquitaine,Aquitaine,FRI14,Lot-et-Garonne,Lot-et-Garonne
+FR0095,École régionale des beaux-arts d'Angers,public,Other,No,angers.esba-talm.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0096,École supérieure d'agriculture d'Angers,private,Other,No,www.groupe-esa.com,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0097,École supérieure d'électronique de l'Ouest,private,Other,No,www.eseo.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0098,Facultés libres de l'Ouest,private,Other,No,www.uco.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0099,Université d'Angers,public,University,No,www.univ-angers.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0100,École supérieure angevine en informatique et productique,private,Other,No,www.esaip.org,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0102,Université de Reims Champagne-Ardenne,public,University,No,www.univ-reims.fr,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF23,Marne,Marne
+FR0103,École nationale supérieure d'architecture de Nancy,public,Other,No,www.nancy.archi.fr,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle ,Meurthe-et-Moselle
+FR0104,École nationale supérieure d'art de Nancy,public,Other,No,ensad-nancy.eu,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle ,Meurthe-et-Moselle
+FR0105,Université de Lorraine,public,Other,No,www.univ-lorraine.fr,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle ,Meurthe-et-Moselle
+FR0106,École spéciale militaire de Saint-Cyr,public,Other,No,www.st-cyr.terre.defense.gouv.fr,FRH0,Bretagne,Bretagne,FRH04,Morbihan,Morbihan
+FR0108,Université de Bretagne-Sud,public,University,No,www.univ-ubs.fr,FRH0,Bretagne,Bretagne,FRH04,Morbihan,Morbihan
+FR0110,Institut régional d'administration de Metz,public,Other,No,www.ira-metz.fr,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle
+FR0111,École supérieure d'ingénieurs des travaux de la construction de Metz,private,Other,No,www.esitc-metz.com,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle
+FR0112,École nationale supérieure de chimie de Lille,public,Other,No,www.ensc-lille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0113,École nationale supérieure d'architecture et de paysage de Lille,public,Other,No,www.lille.archi.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0114,École nationale supérieure des arts et industries textiles,public,Other,No,www.ensait.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0117,Groupe Institut supérieur d'agriculture de Lille,private,Other,No,www.isa-lille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0118,Institut catholique de Lille,private,Other,No,www.univ-catholille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0119,Institut supérieur de l'électronique et du numérique Lille,private,Other,No,www.isen-lille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0120,Hautes études d'ingénieur,private,Other,No,www.hei.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0121,Centrale Lille Institut,public,Other,No,centralelille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0122,Université Polytechnique Hauts-de-France,public,University,Yes,www.uphf.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0126,Institut régional d'administration de Lille,public,Other,No,www.ira-lille.gouv.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0127,Université du Littoral Côte d'Opale,public,University,No,www.univ-littoral.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0128,IXAD École des avocats de la région Nord-Ouest,private,Other,No,www.cfpa-online.com,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0130,Université de technologie de Compiègne,public,Other,No,www.utc.fr,FRE2,Picardie,Picardie,FRE22,Oise,Oise
+FR0131,École supérieure de chimie organique et minérale,private,Other,No,www.escom.fr,FRE2,Picardie,Picardie,FRE22,Oise,Oise
+FR0132,Université d'Artois,public,University,No,www.univ-artois.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE12,Pas-de-Calais,Pas-de-Calais
+FR0134,Ecole nationale des finances publiques,public,Other,No,www.impots.gouv.fr,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis ,Seine-Saint-Denis
+FR0136,École nationale supérieure d'architecture de Clermont-Ferrand,public,Other,No,www.clermont-fd.archi.fr,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme
+FR0140,Université de Pau et des Pays de l'Adour,public,University,Yes,www.univ-pau.fr,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques
+FR0142,École supérieure des technologies industrielles avancées,private,Other,No,www.estia.fr,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques
+FR0143,École nationale d'ingénieurs de Tarbes,public,Other,No,www.enit.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ26,Hautes-Pyrénées ,Hautes-Pyrénées
+FR0144,Université de Perpignan - Via Domitia,public,University,No,www.univ-perp.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ15,Pyrénées-Orientales,Pyrénées-Orientales
+FR0145,École nationale supérieure d'architecture de Strasbourg,public,Other,No,www.strasbourg.archi.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0147,École nationale du génie de l'eau et de l'environnement de Strasbourg,public,Other,No,engees.unistra.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0148,Institut national des sciences appliquées de Strasbourg,public,Other,No,www.insa-strasbourg.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0149,Université de Strasbourg,public,University,Yes,www.unistra.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0150,Université de Haute-Alsace,public,University,Yes,www.uha.fr,FRF1,Alsace,Alsace,FRF12,Haut-Rhin,Haut-Rhin
+FR0152,École nationale supérieure des beaux-arts de Lyon,public,Other,No,www.ensba-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0153,École centrale de Lyon,public,Other,Yes,www.ec-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0154,Institut national des sciences appliquées de Lyon,public,Other,Yes,www.insa-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0155,École catholique d'arts et métiers LaSalle,private,Other,No,www.ecam.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0156,Institut catholique de Lyon,private,Other,No,www.ucly.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0157,Université Claude Bernard - Lyon 1,public,University,Yes,www.univ-lyon1.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0158,Université Lumière - Lyon 2,public,University,Yes,www.univ-lyon2.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0159,Institut régional d'administration de Lyon,public,Other,No,www.ira-lyon.gouv.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0160,Institut supérieur d'agriculture et d'agroalimentaire Rhône-Alpes,private,Other,No,www.isara.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0161,Université Jean Moulin - Lyon 3,public,University,Yes,www.univ-lyon3.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0162,École nationale supérieure des sciences de l'information et des bibliothèques,public,Other,No,www.enssib.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0163,École nationale des travaux publics de l'État,public,Other,No,www.entpe.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0164,Conservatoire national supérieur musique et danse de Lyon,public,Other,No,www.cnsmd-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0165,Institut textile et chimique,private,Other,No,www.itech.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0166,École supérieure chimie physique électronique de Lyon,private,Other,No,www.cpe.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0167,École des avocats Rhône-Alpes,private,Other,No,www.edara.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0168,École normale supérieure de Lyon,public,Other,Yes,www.ens-lyon.eu,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0169,Le Mans Université,public,University,No,www.univ-lemans.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG04,Sarthe,Sarthe
+FR0170,Université de Savoie Mont Blanc,public,University,Yes,www.univ-smb.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK27,Savoie,Savoie
+FR0171,École d'ingénieur de la ville de Paris,public,Other,No,www.eivp-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0172,"Faculté Libre de Droit, d’Economie et de Gestion",private,Other,No,facoparis.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0173,Université Paris-Dauphine,public,Other,No,www.dauphine.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0174,Université Paris 1 - Panthéon Sorbonne,public,University,Yes,www.pantheonsorbonne.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0175,Université Panthéon-Assas,public,University,No,www.u-paris2.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0176,Université Sorbonne Nouvelle - Paris 3,public,University,No,www.univ-paris3.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0181,École nationale supérieure d'architecture de Paris-Malaquais,public,Other,No,paris-malaquais.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0182,École nationale supérieure d'architecture de Paris-La Villette,public,Other,No,www.paris-lavillette.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0183,École nationale supérieure d'architecture de Paris-Belleville,public,Other,No,www.paris-belleville.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0185,École nationale supérieure d'arts et métiers,public,Other,No,artsetmetiers.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0186,École nationale supérieure de chimie de Paris,public,Other,Yes,www.chimieparistech.psl.eu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0188,École supérieure de physique et de chimie industrielles de la ville de Paris,public,Other,No,www.espci.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0189,Institut d'études politiques de Paris,public,Other,Yes,www.sciencespo.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0190,École normale supérieure de Paris,public,Other,No,www.ens.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0191,Institut des sciences et industries du vivant et de l'environnement,public,Other,No,www.agroparistech.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0192,École nationale supérieure des arts décoratifs,public,Other,No,www.ensad.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0193,Conservatoire national des arts et métiers,public,Other,No,www.cnam.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0194,École nationale des Chartes,public,Other,No,www.chartes.psl.eu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0195,Collège de France,public,Other,No,www.college-de-france.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0196,École pratique des hautes études,public,Other,No,www.ephe.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0197,Institut national des langues et civilisations orientales,public,Other,No,www.inalco.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0198,École du Louvre,public,Other,No,www.ecoledulouvre.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0199,École nationale supérieure des mines de Paris,public,Other,Yes,www.minesparis.psl.eu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0200,Muséum national d'histoire naturelle,public,Other,No,www.mnhn.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0202,Observatoire de Paris,public,Other,No,www.obspm.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0203,Télécom Paris,public,Other,No,www.telecom-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0204,Institut Catholique de Paris,private,Other,No,www.icp.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0205,Institut supérieur d'électronique de Paris,private,Other,No,www.isep.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0206,"École supérieure d'informatique, électronique, automatique",private,Other,No,www.esiea.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0207,École nationale supérieure des beaux-arts,public,Other,No,www.beauxartsparis.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0208,École des hautes études en sciences sociales,public,Other,No,www.ehess.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0209,École centrale d'électronique,private,Other,No,www.ece.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0210,École nationale supérieure d'architecture de Paris-Val de Seine,public,Other,No,www.paris-valdeseine.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0211,École nationale supérieure de création industrielle,public,Other,No,www.ensci.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0213,Centre des études supérieures industrielles,private,Other,No,www.cesi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0214,Institut catholique d'arts et métiers,private,Other,No,www.icam.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0215,Pôle supérieur d’enseignement artistique Paris Boulogne-Billancourt,public,Other,No,www.pspbb.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0216,École nationale supérieure d'architecture de Normandie,public,Other,No,www.rouen.archi.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0217,Institut national des sciences appliquées de Rouen,public,Other,No,www.insa-rouen.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0218,Université de Rouen,public,University,No,www.univ-rouen.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0219,École supérieure d'ingénieurs en génie électrique,private,Other,No,www.esigelec.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0220,Université du Havre,public,University,No,www.univ-lehavre.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0221,École supérieure d’ingénieurs et de techniciens pour l’agriculture,private,Other,No,www.esitpa.org,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0223,Université Paris-Est Marne-la-Vallée,public,University,No,www.u-pem.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0224,École nationale des ponts et chaussées,public,Other,Yes,www.enpc.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0225,École d'architecture de la ville et des territoires à Marne-la-Vallée,public,Other,No,www.marnelavallee.archi.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0226,Université Paris-Est,public,University,No,www.paris-est-sup.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0227,École nationale supérieure d’architecture de Versailles,public,Other,No,www.versailles.archi.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0228,École des beaux-arts de Versailles,public,Other,No,www.versailles.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0229,Université de Versailles Saint-Quentin-en-Yvelines,public,University,No,www.uvsq.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0230,Université de Picardie Jules Verne,public,University,No,www.u-picardie.fr,FRE2,Picardie,Picardie,FRE23,Somme,Somme
+FR0231,École Supérieure d'Ingénieurs en Électronique et Électrotechnique Amiens,private,Other,No,www.esiee-amiens.fr,FRE2,Picardie,Picardie,FRE23,Somme,Somme
+FR0232,École nationale supérieure des mines d'Albi-Carmaux,public,Other,No,www.imt-mines-albi.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ27,Tarn,Tarn
+FR0233,Institut national universitaire Jean-François-Champollion,public,University,No,www.univ-jfc.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ27,Tarn,Tarn
+FR0234,Université de Toulon,public,University,No,www.univ-tln.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL05,Var,Var
+FR0236,Université d'Avignon,public,University,No,www.univ-avignon.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL06,Vaucluse,Vaucluse
+FR0237,Institut catholique d'études supérieures,private,Other,No,www.ices.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG05,Vendée,Vendée
+FR0238,École nationale supérieure de mécanique et d'aérotechnique de Poitiers,public,Other,No,www.ensma.fr,FRI3,Poitou-Charentes,Poitou-Charentes,FRI34,Vienne,Vienne
+FR0239,Université de Poitiers,public,University,Yes,www.univ-poitiers.fr,FRI3,Poitou-Charentes,Poitou-Charentes,FRI34,Vienne,Vienne
+FR0240,Université de Limoges,public,University,No,www.unilim.fr,FRI2,Limousin,Limousin,FRI23,Haute-Vienne,Haute-Vienne
+FR0242,Institut d'ingénierie informatique de Limoges,private,Other,No,www.3il-ingenieurs.fr,FRI2,Limousin,Limousin,FRI23,Haute-Vienne,Haute-Vienne
+FR0243,Université de technologie de Belfort-Montbéliard,public,Other,No,www.utbm.fr,FRC2,Franche-Comté,Franche-Comté,FRC24,Territoire de Belfort,Territoire de Belfort
+FR0247,École polytechnique,public,Other,No,www.polytechnique.edu,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0248,Télécom SudParis,public,Other,No,www.telecom-sudparis.eu,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0249,Université d'Évry-Val d'Essonne,public,University,No,www.univ-evry.fr,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0250,Institut Mines-Télécom Business School,public,Other,No,www.imt-bs.eu,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0251,École nationale supérieure d'informatique pour l'industrie et l'entreprise,public,Other,No,www.ensiie.fr,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0252,École nationale supérieure de techniques avancées,public,Other,No,www.ensta-paristech.fr,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0253,EPF - École d'ingénieurs,private,Other,No,www.epf.fr,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0254,École nationale supérieure du pétrole et des moteurs,public,Other,No,www.ifp-school.com,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0255,Université Paris Nanterre,public,University,Yes,www.parisnanterre.fr,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0257,École Nationale de la Statistique et de l’Administration Économique,public,Other,No,www.ensae.fr,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0258,École supérieure des techniques aéronautiques et de construction automobile,private,Other,No,www.estaca.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0259,École supérieure d'ingénieurs Léonard-de-Vinci,private,Other,No,www.esilv.fr,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0260,École nationale supérieure maritime,public,Other,No,www.supmaritime.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0261,Institut supérieur de mécanique de Paris,public,Other,No,www.supmeca.fr,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis ,Seine-Saint-Denis
+FR0262,Université Paris 13 - Paris Nord,public,University,No,www.univ-paris13.fr,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis ,Seine-Saint-Denis
+FR0263,Université Paris 8 - Vincennes - Saint-Denis,public,University,Yes,www.univ-paris8.fr,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis ,Seine-Saint-Denis
+FR0264,École Supérieure d'Ingénieurs en Électronique et Électrotechnique Paris,private,Other,No,www.esiee.fr,FR10,Ile-de-France,Ile-de-France,FR106,Seine-Saint-Denis ,Seine-Saint-Denis
+FR0266,Université Paris-Est Créteil Val-de-Marne,public,University,No,www.u-pec.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0267,École d'ingénieur généraliste en informatique et technologies du numérique,private,Other,No,www.efrei.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0268,ESME Sudria,private,Other,No,www.esme.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0269,École supérieure d'ingénieurs des travaux de la construction de Paris,private,Other,No,www.esitc-paris.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0270,École pour l'informatique et les techniques avancées,private,Other,No,www.epita.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0271,Institut polytechnique des sciences avancées,private,Other,No,www.ipsa.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0272,"École spéciale des travaux publics, du bâtiment et de l'industrie",private,Other,No,www.estp.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0273,École nationale supérieure de l'électronique et de ses applications de Cergy,public,Other,No,www.ensea.fr,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0276,École d'ingénieur d'agro-développement international,private,Other,No,www.istom.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0277,Institut libre d'éducation physique supérieur,private,Other,No,www.ileps.org,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0278,ECAM - EPMI Graduate School of Engineering,private,Other,No,www.ecam-epmi.fr,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0279,École de biologie industrielle,private,Other,No,ebi-edu.com,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0280,Institut régional d'administration de Bastia,public,Other,No,ira-bastia.gouv.fr,FRM0,Corse,Corse,FRM02,Haute-Corse,Haute-Corse
+FR0281,Université de Corse Pasquale Paoli,public,University,No,www.univ-corse.fr,FRM0,Corse,Corse,FRM02,Haute-Corse,Haute-Corse
+FR0282,Université des Antilles,public,University,No,www.univ-antilles.fr,FRY1,Guadeloupe,Guadeloupe,FRY10,Guadeloupe,Guadeloupe
+FR0283,Université de La Réunion,public,University,No,www.univ-reunion.fr,FRY4,La Réunion ,La Réunion ,FRY40,La Réunion,La Réunion
+FR0285,Université de la Nouvelle-Calédonie,public,University,No,unc.nc,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3
+FR0286,Université de la Polynésie Française,public,University,No,www.upf.pf,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3
+FR0287,Centre Universitaire de Mayotte,public,University,No,www.univ-mayotte.fr,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3
+FR0288,Université de Bordeaux,public,University,Yes,www.u-bordeaux.fr,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0319,Institut national des sciences appliquées Centre Val de Loire,public,Other,No,www.insa-centrevaldeloire.fr,FRB0,Centre — Val de Loire,Centre — Val de Loire,FRB01,Cher,Cher
+FR0320,École normale supérieure de Rennes,public,Other,No,www.ens-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0323,Université de Montpellier,public,University,Yes,www.umontpellier.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0327,Université de Guyane,public,University,No,www.univ-guyane.fr,FRY3,Guyane,Guyane,FRY30,Guyane,Guyane
+FR0328,VetAgro Sup Marcy-l'Étoile,public,Other,No,www.vetagro-sup.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0329,École nationale vétérinaire de Toulouse,public,Other,No,www.envt.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0330,École nationale vétérinaire d'Alfort,public,Other,No,www.vet-alfort.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0331,"École nationale vétérinaire, agroalimentaire et de l'alimentation, Nantes-Atlantique",public,Other,No,www.oniris-nantes.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0332,École nationale supérieure de paysage de Versailles,public,Other,No,www.ecole-paysage.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0333,École catholique d'arts et métiers Strasbourg-Europe,private,Other,No,www.icam.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0336,Facultés libres de philosophie et de psychologie,private,Other,No,ipc-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0338,École supérieure d'art Annecy Alpes,public,Other,No,www.esaaa.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK28,Haute-Savoie,Haute-Savoie
+FR0339,Centre Sèvres,private,Other,No,centresevres.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0340,Ecole nationale supérieure d'art Villa d'Arson,public,Other,No,www.villa-arson.org,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes
+FR0341,École supérieure d'art et de design d'Amiens,public,Other,No,www.esad-amiens.fr,FRE2,Picardie,Picardie,FRE23,Somme,Somme
+FR0342,Institut supérieur des beaux-arts de Besançon Franche-Comté,public,Other,No,www.isba-besancon.fr,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs
+FR0343,École des Mines Télécom Atlantique,public,University of applied sciences,No,www.imt-atlantique.fr,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0344,Université Lasalle,private,University of applied sciences,No,www.unilasalle.fr,FRE2,Picardie,Picardie,FRE22,Oise,Oise
+FR0345,École supérieure d'art du Nord-Pas de Calais / Dunkerque-Tourcoing,public,Other,No,www.esa-n.info,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0346,Université de Lille,public,University,No,www.univ-lille.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0347,Sorbonne Université,public,University,Yes,www.sorbonne-universite.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0355,Institut supérieur européen de formation par l'action,private,Other,No,www.isefac.org,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0356,Epitech,private,Other,No,www.epitech.eu,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0358,E-artsup,private,Other,No,www.e-artsup.net,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0364,Université Côte d'Azur,public,University,Yes,www.univ-cotedazur.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes
+FR0365,Université Paris Cité,public,University,Yes,u-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0366,CY Cergy Paris Université,public,University,Yes,www.cyu.fr,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0367,EPE université Grenoble Alpes,public,University,Yes,www.univ-grenoble-alpes.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère
+FR0369,Université Paris-saclay,public,University,Yes,www.universite-paris-saclay.fr,FR10,Ile-de-France,Ile-de-France,FR104,Essonne,Essonne
+FR0401,École des hautes études commerciales de Paris,private,Other,No,www.hec.fr,FR10,Ile-de-France,Ile-de-France,FR103,Yvelines ,Yvelines
+FR0402,Grenoble École de management,private,Other,No,www.grenoble-em.com,FRK2,Rhône-Alpes,Rhône-Alpes,FRK24,Isère,Isère
+FR0403,Audencia Nantes Ecole de management,private,Other,No,www.audencia.com,FRG0,Pays de la Loire,Pays de la Loire,FRG01,Loire-Atlantique,Loire-Atlantique
+FR0404,Institut d'Économie Scientifique et de Gestion,private,Other,No,www.ieseg.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0405,Neoma business school,private,Other,No,www.neoma-bs.fr,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0408,Kedge business school,private,Other,No,kedge.edu,FRI1,Aquitaine,Aquitaine,FRI12,Gironde,Gironde
+FR0411,École supérieure de commerce d’Amiens,private,Other,No,www.esc-amiens.com,FRE2,Picardie,Picardie,FRE23,Somme,Somme
+FR0412,École supérieure des technologies et des affaires de Belfort,private,Other,No,www.esta-groupe.fr,FRC2,Franche-Comté,Franche-Comté,FRC24,Territoire de Belfort,Territoire de Belfort
+FR0413,École de commerce européenne,private,Other,No,ece.inseec.com,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0414,École supérieure de commerce de Pau,private,Other,No,www.esc-pau.fr,FRI1,Aquitaine,Aquitaine,FRI15,Pyrénées-Atlantiques,Pyrénées-Atlantiques
+FR0415,Sud Management - EGC Agen,private,Other,No,www.sudmanagement.fr,FRI1,Aquitaine,Aquitaine,FRI14,Lot-et-Garonne,Lot-et-Garonne
+FR0416,École de gestion et de commerce de Normandie,private,Other,No,www.egcnormandie.fr,FRD1,Basse-Normandie ,Basse-Normandie ,FRD12,Manche ,Manche
+FR0417,École supérieure de commerce de Clermont-Ferrand,private,Other,No,www.esc-clermont.fr,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme
+FR0418,Institut Européen d'Administration des Affaires,private,Other,No,www.insead.edu,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0419,École supérieure de commerce de Dijon-Bourgogne,private,Other,No,www.bsb-education.com,FRC1,Bourgogne,Bourgogne,FRC11,Côte-d’Or,Côte-d’Or
+FR0420,École de gestion et de commerce de Valence,private,Other,No,ecole-commerce-valence.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK23,Drôme,Drôme
+FR0421,Ecole de gestion et de commerce de La Réunion,private,Other,No,www.egc-reunion.re,FRZZ,Extra-Regio NUTS 2,Extra-Regio NUTS 2,FRZZZ,Extra-Regio NUTS 3,Extra-Regio NUTS 3
+FR0422,École des hautes études commerciales du nord,private,Other,No,www.edhec.edu,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0423,SKEMA Business School,private,Other,No,www.skema.edu,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0424,"Ecole Supérieure de Commerce et Développement – Afrique, Amériques, Asie",private,Other,No,www.ecole3a.edu,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0426,Institut de recherche et d’action commerciale,private,Other,No,www.idrac-business-school.com,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0428,Montpellier Business School,private,Other,No,www.montpellier-bs.com,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0429,ICN Nancy-Metz Ecole de management,private,Other,No,www.icn-artem.com,FRF3,Lorraine,Lorraine,FRF31,Meurthe-et-Moselle ,Meurthe-et-Moselle
+FR0430,Ecole de gestion et de commerce de Vendée,private,Other,No,www.egc-vendee.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG05,Vendée,Vendée
+FR0431,Ecole supérieure des sciences commerciales d’Angers,private,Other,No,www.essca.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG02,Maine-et-Loire,Maine-et-Loire
+FR0434,Ecole européenne de management,private,Other,No,www.ebs-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0435,Ecole supérieure du commerce extérieur,private,Other,No,www.esce.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0437,Ecole Ferrandi Paris,private,Other,No,www.ferrandi-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0439,Institut des hautes études économiques et commerciales,private,Other,No,www.inseec-bs.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0440,Institut de préparation à l’administration et à la gestion,private,Other,No,www.ipag.edu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0442,Institut Superieur de Gestion,private,Other,No,www.isg.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0443,"Institut supérieur privé des sciences, techniques et économie commerciales",private,Other,No,istec.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0444,Institut Français de la Mode,private,Other,No,www.ifm-paris.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0445,PSB Paris School of Business,private,Other,No,www.psbedu.paris,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0446,Excelia Group,private,Other,No,www.excelia-group.com,FRI3,Poitou-Charentes,Poitou-Charentes,FRI32,Charente-Maritime,Charente-Maritime
+FR0447,Y Schools,private,Other,No,www.yschools.fr,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF22,Aube,Aube
+FR0448,Brest Business School,private,Other,No,international.brest-bs.com,FRH0,Bretagne,Bretagne,FRH02,Finistère,Finistère
+FR0449,Rennes School of Business,private,Other,No,www.rennes-sb.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0450,École de Management de Normandie,private,Other,No,www.em-normandie.com,FRD2,Haute-Normandie ,Haute-Normandie ,FRD22,Seine-Maritime,Seine-Maritime
+FR0452,Ecole de gestion et de commerce d’Occitanie,private,Other,No,www.egc-occitanie.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ22,Aveyron,Aveyron
+FR0454,Ecole des dirigeants et créateurs d'entreprise,private,Other,No,www.edcparis.edu,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0456,Ecole supérieure des sciences économiques et commerciales,private,Other,No,www.essec.edu,FR10,Ile-de-France,Ile-de-France,FR108,Val-d’Oise,Val-d’Oise
+FR0459,Institut polytechnique de Paris,public,Other,Yes,www.ip-paris.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0462,Eurecom,public,Other,No,www.eurecom.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes
+FR0463,Institut National des Sciences Appliquées Hauts-de-France,public,University of applied sciences,No,www.insa-hautsdefrance.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0465,Ecole Nationale des Sciences Géographiques,public,Other,No,www.ensg.eu,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0466,Institut national polytechnique Clermont-Auvergne,public,University of applied sciences,No,www.clermont-auvergne-inp.fr,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme
+FR0468,Université Paris sciences et lettres,public,University,No,psl.eu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0501,École de commerce spécialisée en marketing et management,private,Other,No,www.esgci.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0502,Ecole de Commmerce Montpellier,private,Other,No,www.esg.fr,FRJ1,Languedoc-Roussillon,Languedoc-Roussillon,FRJ13,Hérault,Hérault
+FR0504,Ecole de gestion et finance Paris,private,Other,No,www.esgf.com,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0506,Ecole de Gestion en Ressources Humaines,private,Other,No,www.esgrh.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0507,Ecole supérieure de Communication et de Publicité,private,Other,No,www.iscom.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0508,Sup Career Alternance,private,Other,No,www.supcareer.com,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0509,ESI Business School,private,Other,No,www.esi-business-school.com,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0510,École interarmées des sports,private,Other,No,www.terre.defense.gouv.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0514,Institut supérieur européen de gestion Paris,private,Other,No,www.iseg.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0515,Institut Paul Bocuse,private,Other,No,en.institutlyfe.com,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0516,ESLSCA Business School,private,Other,No,www.eslsca.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0809,Comue Université Bourgogne Franche-Comté,public,University,No,www.ubfc.fr,FRC2,Franche-Comté,Franche-Comté,FRC21,Doubs,Doubs
+FR0864,Institut d'études politiques de Lyon,public,University of applied sciences,Yes,www.sciencespo-lyon.fr,FRK2,Rhône-Alpes,Rhône-Alpes,FRK26,Rhône,Rhône
+FR0866,Institut d'études politiques de Lille,public,University of applied sciences,No,www.sciencespo-lille.eu,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0867,Université Gustave-Eiffel,public,University,No,www.univ-gustave-eiffel.fr,FR10,Ile-de-France,Ile-de-France,FR102,Seine-et-Marne ,Seine-et-Marne
+FR0877,Institut d'études politiques de Rennes,public,University of applied sciences,No,www.sciencespo-rennes.fr,FRH0,Bretagne,Bretagne,FRH03,Ille-et-Vilaine,Ille-et-Vilaine
+FR0883,Institut national des sciences et techniques nucléaires,public,Other,No,instn.cea.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0888,Institut National du Patrimoine,public,Other,No,www.inp.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0897,Institut supérieur des matériaux du Mans,private,Other,No,ismans.cesi.fr,FRG0,Pays de la Loire,Pays de la Loire,FRG04,Sarthe,Sarthe
+FR0906,Ecole pratique du service social,private,Other,No,epss.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0907,Institut national du service public,public,Other,No,insp.gouv.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0909,Institut Régional du Travail Social de Champagne Ardennes,private,Other,No,www.irtsca.fr,FRF2,Champagne-Ardenne,Champagne-Ardenne,FRF23,Marne,Marne
+FR0910,Ecole supérieure de réalisation audiovisuelle,private,Other,No,www.esra.edu,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0911,The sustainable design school,private,Other,No,www.the-sds.com,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL03,Alpes-Maritimes,Alpes-Maritimes
+FR0914,Toulouse Business School,private,Other,Yes,www.tbs-education.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0919,Institut national supérieur de formation et de recherche pour l’éducation des jeunes handicapés et les enseignements adaptés (INSHEA),public,University,No,www.inshea.fr,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0924,Conservatoire national supérieur d'Art dramatique,public,Other,No,www.cnsad.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0925,École nationale supérieure des métiers de l'image et du son,private,Other,No,www.femis.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris
+FR0943,ENS Mines-Telecom Nord Europe,private,Other,No,imt-nord-europe.fr,FRE1,Nord-Pas de Calais,Nord-Pas de Calais,FRE11,Nord,Nord
+FR0945,EPE-Université Clermont Auvergne,public,University,No,www.uca.fr,FRK1,Auvergne,Auvergne,FRK14,Puy-de-Dôme,Puy-de-Dôme
+FR0946,Haute École des arts du Rhin,public,Other,No,www.hear.fr,FRF1,Alsace,Alsace,FRF11,Bas-Rhin,Bas-Rhin
+FR0951,Institut supérieur du bâtiment et des travaux publics,private,Other,No,www.isba.fr,FRL0,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,FRL04,Bouches-du-Rhône,Bouches-du-Rhône
+FR0965,Ecole supérieure de fonderie et de forge,private,Other,No,www.esff.fr,FR10,Ile-de-France,Ile-de-France,FR105,Hauts-de-Seine ,Hauts-de-Seine
+FR0966,Ecole d'ingénieurs des sciences aérospatiales,private,Other,No,www.elisa-aerospace.fr,FR22,,,FR221,,
+FR0970,École nationale de la meteorologie,public,Other,No,www.enm-toulouse.fr,FRJ2,Midi-Pyrénées,Midi-Pyrénées,FRJ23,Haute-Garonne,Haute-Garonne
+FR0978,Institut supérieur des biotechnologies de Paris,private,Other,No,www.supbiotech.fr,FR10,Ile-de-France,Ile-de-France,FR107,Val-de-Marne,Val-de-Marne
+FR0980,Ecole supérieure du soudage et de ses applications,private,Other,No,www.essa-eaps.isgroupe.com,FRF3,Lorraine,Lorraine,FRF33,Moselle,Moselle

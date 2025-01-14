@@ -1,0 +1,209 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021
+IT0001,Università Politecnica delle MARCHE,public,University,No,www.univpm.it,ITI3,Marche,Marche,ITI32,Ancona,Ancona
+IT0002,Università della VALLE D'AOSTA,public,University,No,www.univda.it,ITC2,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,ITC20,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste
+IT0003,Università della CALABRIA,public,University,No,www.unical.it,ITF6,Calabria,Calabria,ITF61,Cosenza,Cosenza
+IT0004,Politecnico di BARI,public,University,No,www.poliba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0006,Università degli Studi del SANNIO di BENEVENTO,public,University,No,www.unisannio.it,ITF3,Campania,Campania,ITF32,Benevento,Benevento
+IT0007,"Università Telematica ""GIUSTINO FORTUNATO""",private,University,No,www.unifortunato.eu,ITF3,Campania,Campania,ITF32,Benevento,Benevento
+IT0008,Università degli Studi di BERGAMO,public,University,No,www.unibg.it,ITC4,Lombardia,Lombardia,ITC46,Bergamo,Bergamo
+IT0009,Università degli Studi di BOLOGNA,public,University,Yes,www.unibo.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna
+IT0010,Libera Università di BOLZANO,public,University,No,www.unibz.it,ITH1,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,ITH10,Bolzano-Bozen,Bolzano-Bozen
+IT0011,Università degli Studi di SCIENZE GASTRONOMICHE,private,University,No,www.unisg.it,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo
+IT0012,Università degli Studi di BRESCIA,public,University,No,www.unibs.it,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia
+IT0013,Università degli Studi di CAGLIARI,public,University,Yes,www.unica.it,ITG2,Sardegna,Sardegna,ITG2F,,Cagliari
+IT0014,Università degli Studi di CAMERINO,public,University,No,www.unicam.it,ITI3,Marche,Marche,ITI33,Macerata,Macerata
+IT0015,Università degli Studi del MOLISE,public,University,No,www.unimol.it,ITF2,Molise,Molise,ITF22,Campobasso,Campobasso
+IT0016,"Libera Università Mediterranea LUM ""Giuseppe Degennaro""",private,University,No,www.lum.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0017,Universita degli studi di Cassino e del Lazio Meridionale,public,University,No,www.unicas.it,ITI4,Lazio,Lazio,ITI45,Frosinone,Frosinone
+IT0018,"Università ""Carlo Cattaneo"" - LIUC",private,University,No,www.liuc.it,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese
+IT0019,Università degli Studi di CATANIA,public,University,Yes,www.unict.it,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania
+IT0020,"Università degli Studi ""Magna Graecia"" di CATANZARO",public,University,No,www.unicz.it,ITF6,Calabria,Calabria,ITF63,Catanzaro,Catanzaro
+IT0021,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",public,University,No,www.unich.it,ITF1,Abruzzo,Abruzzo,ITF14,Chieti,Chieti
+IT0022,UKE - Università Kore di ENNA,private,University,No,www.unikore.it,ITG1,Sicilia,Sicilia,ITG16,Enna,Enna
+IT0023,Università degli Studi di FERRARA,public,University,No,www.unife.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH56,Ferrara,Ferrara
+IT0025,Università degli Studi di FIRENZE,public,University,Yes,www.unifi.it,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze
+IT0026,"Università Telematica ""ITALIAN UNIVERSITY LINE"" - IUL",private,University,No,www.iuline.it,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze
+IT0027,Università degli Studi di FOGGIA,public,University,No,www.unifg.it,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia
+IT0028,Università degli Studi di GENOVA,public,University,Yes,www.unige.it,ITC3,Liguria,Liguria,ITC33,Genova,Genova
+IT0029,Università degli Studi de L'AQUILA,public,University,No,www.univaq.it,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila
+IT0030,Università del SALENTO,public,University,No,www.unile.it,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce
+IT0031,Scuola IMT Alti Studi di Lucca,public,University,No,www.imtlucca.it,ITI1,Toscana,Toscana,ITI12,Lucca,Lucca
+IT0032,Università degli Studi di MACERATA,public,University,No,www.unimc.it,ITI3,Marche,Marche,ITI33,Macerata,Macerata
+IT0033,Università degli Studi di MESSINA,public,University,No,www.unime.it,ITG1,Sicilia,Sicilia,ITG13,Messina,Messina
+IT0034,Libera Università di lingue e comunicazione IULM-MI,private,University,No,www.iulm.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0035,Politecnico di MILANO,public,University,Yes,www.polimi.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0036,Università Cattolica del Sacro Cuore,private,University,No,www.unicatt.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0037,"Università Commerciale ""Luigi Bocconi"" MILANO",private,University,Yes,www.unibocconi.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0038,Università degli Studi di MILANO,public,University,Yes,www.unimi.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0039,"Libera Università ""Vita Salute S.Raffaele"" MILANO",private,University,No,www.unisr.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0040,Università degli Studi di MILANO-BICOCCA,public,University,No,www.unimib.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0041,Università Telematica San Raffaele Roma,private,University,No,www.uniroma5.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0042,Università degli Studi di MODENA e REGGIO EMILIA,public,University,No,www.unimore.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH54,Modena,Modena
+IT0043,Università degli Studi Suor Orsola Benincasa - NAPOLI,private,University,No,www.unisob.na.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0044,Università degli Studi della Campania Luigi Vanvitelli,public,University,No,www.unina2.it,ITF3,Campania,Campania,ITF31,Caserta,Caserta
+IT0045,"Università degli Studi di NAPOLI ""Federico II""",public,University,Yes,www.unina.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0046,"Università degli Studi di NAPOLI ""L'Orientale""",public,University,No,www.unior.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0047,"Università degli Studi di NAPOLI ""Parthenope""",public,University,No,www.uniparthenope.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0048,Università Telematica PEGASO,private,University,No,www.unipegaso.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0049,"Università Telematica ""E-CAMPUS""",private,University,No,www.uniecampus.it,ITC4,Lombardia,Lombardia,ITC42,Como,Como
+IT0050,Università degli Studi di PADOVA,public,University,Yes,www.unipd.it,ITH3,Veneto,Veneto,ITH36,Padova,Padova
+IT0051,Università degli Studi di PALERMO,public,University,Yes,www.unipa.it,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo
+IT0052,Università degli Studi di PARMA,public,University,No,www.unipr.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH52,Parma,Parma
+IT0053,I.U.S.S. - Istituto Universitario di Studi Superiori - PAVIA,public,University,No,www.iusspavia.it,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia
+IT0054,Università degli Studi di PAVIA,public,University,Yes,www.unipv.it,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia
+IT0055,Università degli Studi di PERUGIA,public,University,No,www.unipg.it,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia
+IT0056,Università per Stranieri di PERUGIA,public,University,No,www.unistrapg.it,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia
+IT0057,Scuola Normale Superiore di PISA,public,University,Yes,www.sns.it,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa
+IT0058,Scuola Superiore di Studi Universitari e Perfezionamento Sant'Anna,public,University,Yes,www.santannapisa.it,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa
+IT0059,Università di PISA,public,University,No,www.unipi.it,ITI1,Toscana,Toscana,ITI17,Pisa,Pisa
+IT0060,Università degli Studi della BASILICATA,public,University,No,www.unibas.it,ITF5,Basilicata,Basilicata,ITF51,Potenza,Potenza
+IT0061,"Università degli Studi ""Mediterranea"" di REGGIO CALABRIA",public,University,No,www.unirc.it,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria
+IT0062,"Università per Stranieri ""Dante Alighieri"" di REGGIO CALABRIA",private,University,No,www.unistrada.it,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria
+IT0063,Università degli Studi ROMA TRE,public,University,No,www.uniroma3.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0064,Università degli Studi Internazionali di ROMA (UNINT),private,University,No,www.unint.eu,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0065,LUISS - Libera Università internazionale degli studi sociali Guido Carli di Roma,private,University,Yes,www.luiss.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0066,Libera Università Maria SS.Assunta - (LUMSA) di Roma,private,University,No,www.lumsa.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0067,"Università ""Campus Bio-Medico"" di ROMA",private,University,No,www.unicampus.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0068,"Università degli Studi di ROMA ""La Sapienza""",public,University,Yes,www.uniroma1.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0069,"Università degli Studi di ROMA ""Foro Italico""",public,University,No,www.uniroma4.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0070,"Università degli Studi di ROMA ""Tor Vergata""",public,University,Yes,www.uniroma2.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0071,Università degli Studi EUROPEA di ROMA,private,University,No,www.universitaeuropeadiroma.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0072,Università Telematica GUGLIELMO MARCONI,private,University,No,www.unimarconi.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0073,Università Telematica UNITELMA SAPIENZA,private,University,No,www.unitelmasapienza.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0074,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,private,University,Yes,www.unicusano.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0075,Università Telematica Internazionale UNINETTUNO,private,University,No,www.uninettunouniversity.net,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0076,"Università Telematica ""Universitas MERCATORUM""",private,University,No,www.unimercatorum.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0077,Università degli Studi di SALERNO,public,University,No,www.unisa.it,ITF3,Campania,Campania,ITF35,Salerno,Salerno
+IT0078,Università degli Studi di SASSARI,public,University,No,www.uniss.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari
+IT0079,Università degli Studi di SIENA,public,University,No,www.unisi.it,ITI1,Toscana,Toscana,ITI19,Siena,Siena
+IT0080,Università per Stranieri di SIENA,public,University,No,www.unistrasi.it,ITI1,Toscana,Toscana,ITI19,Siena,Siena
+IT0081,Università degli Studi di TERAMO,public,University,No,www.unite.it,ITF1,Abruzzo,Abruzzo,ITF12,Teramo,Teramo
+IT0082,Politecnico di TORINO,public,University,Yes,www.polito.it,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino
+IT0083,Università degli Studi di TORINO,public,University,Yes,www.unito.it,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino
+IT0084,"Università Telematica ""LEONARDO da VINCI""",private,University,No,www.unidav.it,ITF1,Abruzzo,Abruzzo,ITF14,Chieti,Chieti
+IT0085,Università degli Studi di TRENTO,public,University,Yes,www.unitn.it,ITH2,Provincia Autonoma di Trento,Provincia Autonoma di Trento,ITH20,Trento,Trento
+IT0086,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,public,University,No,www.sissa.it,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste
+IT0087,Università degli Studi di TRIESTE,public,University,Yes,www.units.it,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste
+IT0088,Università degli Studi di UDINE,public,University,No,www.uniud.it,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH42,Udine,Udine
+IT0089,"Università degli Studi di URBINO ""Carlo BO""",public,University,No,www.uniurb.it,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino
+IT0090,Università degli Studi INSUBRIA Varese-Como,public,University,No,www.uninsubria.it,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese
+IT0091,"Università ""Cà Foscari"" VENEZIA",public,University,No,www.unive.it,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia
+IT0092,Università IUAV di VENEZIA,public,University,No,www.iuav.it,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia
+IT0093,"Università degli Studi del PIEMONTE ORIENTALE ""Amedeo Avogadro""-Vercelli",public,University,No,www.uniupo.it,ITC1,Piemonte,Piemonte,ITC12,Vercelli,Vercelli
+IT0094,Università degli Studi di VERONA,public,University,No,www.univr.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona
+IT0095,Università degli Studi della TUSCIA,public,University,No,www.unitus.it,ITI4,Lazio,Lazio,ITI41,Viterbo,Viterbo
+IT0096,Accademia delle Belle Arti di Bari,public,Other,No,www.accademiabelleartiba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0097,Accademia delle Belle Arti di Bologna,public,Other,No,www.ababo.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna
+IT0098,Accademia delle Belle Arti di Carrara,public,Other,No,www.accademiacarrara.it,ITI1,Toscana,Toscana,ITI11,Massa-Carrara,Massa-Carrara
+IT0099,Accademia delle Belle Arti di Catania,public,Other,No,www.abacatania.it,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania
+IT0100,Accademia delle Belle Arti di Catanzaro,public,Other,No,www.abacatanzaro.it,ITF6,Calabria,Calabria,ITF63,Catanzaro,Catanzaro
+IT0101,Accademia delle Belle Arti di Firenze,public,Other,No,www.accademia.firenze.it,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze
+IT0102,Accademia delle Belle Arti di Foggia,public,Other,No,www.abafg.it,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia
+IT0103,Accademia delle Belle Arti di Frosinone,public,Other,No,www.accademiabellearti.fr.it,ITI4,Lazio,Lazio,ITI45,Frosinone,Frosinone
+IT0104,Accademia delle Belle Arti dell'Aquila,public,Other,No,www.abaq.it,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila
+IT0105,Accademia delle Belle Arti di Lecce,public,Other,No,www.accademiabelleartilecce.com,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce
+IT0106,Accademia delle Belle Arti di Macerata,public,Other,No,www.abamc.it,ITI3,Marche,Marche,ITI33,Macerata,Macerata
+IT0107,"Accademia delle Belle Arti di Milano ""Brera""",public,Other,No,www.accademiadibrera.milano.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0108,Accademia delle Belle Arti di Napoli,public,Other,No,www.abana.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0109,Accademia delle Belle Arti di Palermo,public,Other,No,www.accademiadipalermo.it,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo
+IT0110,Accademia delle Belle Arti di Reggio Calabria,public,Other,No,www.accademiabelleartirc.it,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria
+IT0111,Accademia delle Belle Arti di Roma,public,Other,Yes,www.accademiadellearti.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari
+IT0113,"Accademia delle Belle Arti di Torino ""Albertina""",public,Other,No,www.albertina.academy,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino
+IT0114,Accademia delle Belle Arti di Urbino,public,Other,No,www.accademiadiurbino.it,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino
+IT0115,Accademia delle Belle Arti di Venezia,public,Other,No,www.accademiavenezia.it,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia
+IT0118,"Accademia delle Belle Arti legalmente riconosciuta di BRESCIA ""Santagiulia""",private,Other,No,www.accademiasantagiulia.it,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia
+IT0119,"Accademia delle Belle Arti legalmente riconosciuta di BRESCIA ""LABA"" - libera accademia di belle arti",private,Other,No,www.laba.edu,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia
+IT0122,Accademia delle Belle Arti legalmente riconosciuta di CUNEO,private,Other,No,www.accademiabellearticuneo.it,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo
+IT0123,"Accademia delle Belle Arti legalmente riconosciuta di GENOVA ""Accademia Ligustica""",private,Other,No,www.accademialigustica.it,ITC3,Liguria,Liguria,ITC33,Genova,Genova
+IT0124,"Accademia delle Belle Arti legalmente riconosciuta di MILANO ""NABA"" - nuova accademia di belle arti",private,Other,No,www.naba.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0125,"Accademia delle Belle Arti legalmente riconosciuta di MILANO ""ACME""",private,Other,No,www.acmemilano.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0126,"Accademia delle Belle Arti legalmente riconosciuta di NOVARA ""ACME""",private,Other,No,www.acmenovara.it,ITC1,Piemonte,Piemonte,ITC15,Novara,Novara
+IT0128,"Accademia delle Belle Arti legalmente riconosciuta di PERUGIA ""Pietro Vannucci""",private,Other,No,www.abaperugia.org,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia
+IT0131,"Accademia delle Belle Arti legalmente riconosciuta di ROMA ""Rome University of Fine Arts""",private,Other,No,www.unirufa.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona
+IT0140,"Accademia Nazionale di Arte Drammatica di ROMA ""Silvio d'Amico""",public,Other,No,www.accademiasilviodamico.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0141,Accademia nazionale di danza di ROMA,public,Other,No,www.accademianazionaledanza.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0142,"Conservatorio di ADRIA (RO) ""Antonio Buzzolla""",public,Other,No,www.conservatorioadria.it,ITH3,Veneto,Veneto,ITH37,Rovigo,Rovigo
+IT0143,"Conservatorio di ALESSANDRIA ""Antonio Vivaldi""",public,Other,No,www.conservatoriovivaldi.it,ITC1,Piemonte,Piemonte,ITC18,Alessandria,Alessandria
+IT0144,"Conservatorio di AVELLINO ""Domenico Cimarosa""",public,Other,No,www.conservatoriocimarosa.org,ITF3,Campania,Campania,ITF34,Avellino,Avellino
+IT0145,"Conservatorio di BARI ""Niccolò Piccinni""",public,Other,No,www.conservatoriopiccinni.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0146,"Conservatorio di BENEVENTO ""Nicola Sala""",public,Other,No,www.conservatorio.bn.it,ITF3,Campania,Campania,ITF32,Benevento,Benevento
+IT0147,"Conservatorio di BOLOGNA ""Giovan B. Martini""",public,Other,No,www.consbo.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH55,Bologna,Bologna
+IT0148,"Conservatorio di BOLZANO ""Claudio Monteverdi""",public,Other,No,cons.bz.it,ITH1,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,ITH10,Bolzano-Bozen,Bolzano-Bozen
+IT0149,"Conservatorio di BRESCIA ""Luca Marenzio""",public,Other,No,www.consbs.it,ITC4,Lombardia,Lombardia,ITC47,Brescia,Brescia
+IT0150,"Conservatorio di CAGLIARI ""Pierluigi da Palestrina""",public,Other,No,www.conservatoriocagliari.it,ITG2,Sardegna,Sardegna,ITG2F,,Cagliari
+IT0151,"Conservatorio di CAMPOBASSO ""Lorenzo Perosi""",public,Other,No,www.conservatorioperosi.it,ITF2,Molise,Molise,ITF22,Campobasso,Campobasso
+IT0152,"Conservatorio di CASTELFRANCO VENETO (TV) ""Agostino Steffani""",public,Other,No,www.conscfv.it,ITH3,Veneto,Veneto,ITH34,Treviso,Treviso
+IT0153,"Conservatorio di CESENA (FC) ""Bruno Maderna""",public,Other,No,www.conservatoriomaderna.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH58,Forlì-Cesena,Forlì-Cesena
+IT0154,"Conservatorio di COMO ""Giuseppe Verdi""",public,Other,No,www.conservatoriocomo.it,ITC4,Lombardia,Lombardia,ITC42,Como,Como
+IT0155,"Conservatorio di COSENZA ""Stanislao Giacomantonio""",public,Other,No,www.conservatoriocosenza.it,ITF6,Calabria,Calabria,ITF61,Cosenza,Cosenza
+IT0156,"Conservatorio di CUNEO ""G.F. Ghedini""",public,Other,No,www.conservatoriocuneo.it,ITC1,Piemonte,Piemonte,ITC16,Cuneo,Cuneo
+IT0157,"Conservatorio di FERMO ""Giovambattista Pergolesi""",public,Other,No,www.conservatorio.net,ITI3,Marche,Marche,ITI35,Fermo,Fermo
+IT0158,"Conservatorio di FERRARA ""Girolamo Frescobaldi""",public,Other,No,www.conservatorioferrara.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH56,Ferrara,Ferrara
+IT0159,"Conservatorio di FIRENZE ""Luigi Cherubini""",public,Other,No,www.conservatorio.firenze.it,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze
+IT0160,"Conservatorio di FOGGIA ""Umberto Giordano""",public,Other,No,www.conservatoriofoggia.it,ITF4,Puglia,Puglia,ITF46,Foggia,Foggia
+IT0161,"Conservatorio di FROSINONE ""Licinio Refice""",public,Other,No,https://accademiabelleartiverona.it,ITI4,Lazio,Lazio,ITI45,Frosinone,Frosinone
+IT0162,"Conservatorio di GENOVA ""Nicolò Paganini""",public,Other,No,www.conspaganini.it,ITC3,Liguria,Liguria,ITC33,Genova,Genova
+IT0163,"Conservatorio di LA SPEZIA ""Giacomo Puccini""",public,Other,No,www.conssp.it,ITC3,Liguria,Liguria,ITC34,La Spezia,La Spezia
+IT0164,"Conservatorio di L'AQUILA ""Alfredo Casella""",public,Other,No,www.consaq.it,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila
+IT0165,"Conservatorio di LATINA ""Ottorino Respighi""",public,Other,No,www.conslatina.it,ITI4,Lazio,Lazio,ITI44,Latina,Latina
+IT0166,"Conservatorio di LECCE ""Tito Schipa""",public,Other,No,www.conservatoriolecce.it,ITF4,Puglia,Puglia,ITF45,Lecce,Lecce
+IT0167,"Conservatorio di MANTOVA ""Lucio Campiani""",public,Other,No,www.conservatoriomantova.com,ITC4,Lombardia,Lombardia,ITC4B,Mantova,Mantova
+IT0168,"Conservatorio di MATERA ""Egidio R. Duni""",public,Other,No,www.conservatoriomatera.it,ITF5,Basilicata,Basilicata,ITF52,Matera,Matera
+IT0169,"Conservatorio di MESSINA ""Arcangelo Corelli""",public,Other,No,www.consme.it,ITG1,Sicilia,Sicilia,ITG13,Messina,Messina
+IT0170,"Conservatorio di MILANO ""Giuseppe Verdi""",public,Other,No,www.consmilano.it,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0171,"Conservatorio di MONOPOLI (BA) ""Nino Rota""",public,Other,No,www.conservatoriodimonopoli.org,ITF4,Puglia,Puglia,ITF47,Bari,Bari
+IT0172,"Conservatorio di NAPOLI ""S. Pietro a Majella""",public,Other,No,www.sanpietroamajella.it,ITF3,Campania,Campania,ITF33,Napoli,Napoli
+IT0173,"Conservatorio di NOVARA ""Guido Cantelli""",public,Other,No,consno.it,ITC1,Piemonte,Piemonte,ITC15,Novara,Novara
+IT0174,"Conservatorio di PADOVA ""Cesare Pollini""",public,Other,No,www.conservatoriopollini.it,ITH3,Veneto,Veneto,ITH36,Padova,Padova
+IT0175,"Conservatorio di PALERMO ""Vincenzo Bellini""",public,Other,No,www.conservatoriobellini.it,ITG1,Sicilia,Sicilia,ITG12,Palermo,Palermo
+IT0176,"Conservatorio di PARMA ""Arrigo Boito""",public,Other,No,www.conservatorio.pr.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH52,Parma,Parma
+IT0177,"Conservatorio di PERUGIA ""Francesco Morlacchi""",public,Other,No,www.conservatorioperugia.it,ITI2,Umbria,Umbria,ITI21,Perugia,Perugia
+IT0178,"Conservatorio di PESARO ""Gioacchino Rossini""",public,Other,No,www.conservatoriorossini.it,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino
+IT0179,"Conservatorio di PESCARA ""Luisa d’Annunzio""",public,Other,No,www.conservatoriopescara.it,ITF1,Abruzzo,Abruzzo,ITF13,Pescara,Pescara
+IT0180,"Conservatorio di PIACENZA ""Giuseppe Nicolini""",public,Other,No,www.conservatorionicolini.com,ITH5,Emilia-Romagna,Emilia-Romagna,ITH51,Piacenza,Piacenza
+IT0181,"Conservatorio di POTENZA ""Gesualdo da Venosa""",public,Other,No,www.conservatoriopotenza.it,ITF5,Basilicata,Basilicata,ITF51,Potenza,Potenza
+IT0182,"Conservatorio di REGGIO CALABRIA ""Francesco Cilea""",public,Other,No,www.conservatoriocilea.it,ITF6,Calabria,Calabria,ITF65,Reggio di Calabria,Reggio di Calabria
+IT0183,"Conservatorio di ROMA ""Santa Cecilia""",public,Other,No,www.conservatoriosantacecilia.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0184,"Conservatorio di ROVIGO ""Francesco Venezze""",public,Other,No,www.conservatoriorovigo.it,ITH3,Veneto,Veneto,ITH37,Rovigo,Rovigo
+IT0185,"Conservatorio di SALERNO ""G. Martucci""",public,Other,No,www.consalerno.it,ITF3,Campania,Campania,ITF35,Salerno,Salerno
+IT0186,"Conservatorio di SASSARI ""Luigi Canepa""",public,Other,No,www.conservatorio.sassari.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari
+IT0187,"Conservatorio di TORINO ""Giuseppe Verdi""",public,Other,No,www.conservatoriotorino.eu,ITC1,Piemonte,Piemonte,ITC11,Torino,Torino
+IT0188,"Conservatorio di TRAPANI ""Antonio Scontrino""",public,Other,No,www.constp.it,ITG1,Sicilia,Sicilia,ITG11,Trapani,Trapani
+IT0189,"Conservatorio di TRENTO ""Francesco A. Bonporti""",public,Other,No,www.conservatorio.tn.it,ITH2,Provincia Autonoma di Trento,Provincia Autonoma di Trento,ITH20,Trento,Trento
+IT0190,"Conservatorio di TRIESTE ""Giuseppe Tartini""",public,Other,No,www.conservatorio.trieste.it,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH44,Trieste,Trieste
+IT0191,"Conservatorio di UDINE ""Jacopo Tomadini""",public,Other,No,www.conservatorio.udine.it,ITH4,Friuli-Venezia Giulia,Friuli-Venezia Giulia,ITH42,Udine,Udine
+IT0192,"Conservatorio di VENEZIA ""Benedetto Marcello"" - palazzo pisani",public,Other,No,www.conservatoriovenezia.eu,ITH3,Veneto,Veneto,ITH35,Venezia,Venezia
+IT0193,"Conservatorio di VERONA ""E. F. dall’Abaco""",public,Other,No,www.conservatorioverona.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona
+IT0194,"Conservatorio di VIBO VALENTIA ""Fausto Torrefranca""",public,Other,No,consvv.it,ITF6,Calabria,Calabria,ITF64,Vibo Valentia,Vibo Valentia
+IT0195,"Conservatorio di VICENZA ""Arrigo Pedrollo""",public,Other,No,www.consvi.it,ITH3,Veneto,Veneto,ITH32,Vicenza,Vicenza
+IT0197,Istituto Superiore di Studi Musicali di AOSTA della Valle d'Aosta,private,Other,No,www.consaosta.it,ITC2,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,ITC20,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste
+IT0198,"Istituto Superiore di Studi Musicali di BERGAMO ""Gaetano Donizetti""",private,Other,No,www.consbg.it,ITC4,Lombardia,Lombardia,ITC46,Bergamo,Bergamo
+IT0199,"Istituto Superiore di Studi Musicali di CALTANISSETTA ""Vincenzo Bellini""",private,Other,No,www.issmbellini.cl.it,ITG1,Sicilia,Sicilia,ITG15,Caltanissetta,Caltanissetta
+IT0202,"Istituto Superiore di Studi Musicali di CATANIA ""Vincenzo Bellini""",private,Other,No,www.istitutobellini.it,ITG1,Sicilia,Sicilia,ITG17,Catania,Catania
+IT0203,"Istituto Superiore di Studi Musicali di CREMONA ""Claudio Monteverdi""",private,Other,No,www.conscremona.it,ITC4,Lombardia,Lombardia,ITC4A,Cremona,Cremona
+IT0204,"Istituto Superiore di Studi Musicali di GALLARATE (VA) ""Giacomo Puccini""",private,Other,No,www.issmpuccinigallarate.it,ITC4,Lombardia,Lombardia,ITC41,Varese,Varese
+IT0205,"Istituto Superiore di Studi Musicali di LIVORNO ""Pietro Mascagni""",private,Other,No,www.consli.it,ITI1,Toscana,Toscana,ITI16,Livorno,Livorno
+IT0206,"Istituto Superiore di Studi Musicali di LUCCA ""Luigi Boccherini""",private,Other,No,www.boccherini.it,ITI1,Toscana,Toscana,ITI12,Lucca,Lucca
+IT0208,"Istituto Superiore di Studi Musicali di NOCERA TERINESE (CZ) ""P.I. Tchaikovsky""",private,Other,No,www.conscz.it,ITF6,Calabria,Calabria,ITF63,Catanzaro,Catanzaro
+IT0209,"Istituto Superiore di Studi Musicali di PAVIA ""Franco Vittadini""",private,Other,No,conspv.it,ITC4,Lombardia,Lombardia,ITC48,Pavia,Pavia
+IT0210,"Istituto Superiore di Studi Musicali di RAVENNA ""Giuseppe Verdi""",private,Other,No,www.verdiravenna.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH57,Ravenna,Ravenna
+IT0212,"Istituto Superiore di Studi Musicali di RIMINI ""G. Lettimi""",private,Other,No,www.istitutolettimi.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH59,Rimini,Rimini
+IT0213,"Istituto Superiore di Studi Musicali di SIENA ""Rinaldo Franci""",private,Other,No,www.istitutofranci.com,ITI1,Toscana,Toscana,ITI19,Siena,Siena
+IT0214,"Istituto Superiore di Studi Musicali di TARANTO ""Giovanni Paisiello""",private,Other,No,www.paisiello.it,ITF4,Puglia,Puglia,ITF43,Taranto,Taranto
+IT0215,"Conservatorio di TERAMO ""Gaetano Braga""",public,Other,No,www.istitutobraga.it,ITF1,Abruzzo,Abruzzo,ITF12,Teramo,Teramo
+IT0216,"Istituto Superiore di Studi Musicali di TERNI ""Giulio Briccialdi""",private,Other,No,www.briccialditerni.it,ITI2,Umbria,Umbria,ITI22,Terni,Terni
+IT0217,Istituto Superiore per le Industrie Artistiche (ISIA) di FAENZA (RA),public,Other,No,www.isiafaenza.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH57,Ravenna,Ravenna
+IT0218,Istituto Superiore per le Industrie Artistiche (ISIA) di FIRENZE,public,Other,No,www.isiadesign.fi.it,ITI1,Toscana,Toscana,ITI14,Firenze,Firenze
+IT0219,Istituto Superiore per le Industrie Artistiche (ISIA) di ROMA,public,Other,No,www.isiaroma.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0220,Istituto Superiore per le Industrie Artistiche (ISIA) di URBINO (PU),public,Other,No,isiaurbino.net,ITI3,Marche,Marche,ITI31,Pesaro e Urbino,Pesaro e Urbino
+IT0244,LINK CAMPUS University,private,University,No,www.unilink.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma
+IT0245,"Istituto Superiore di Studi Musicali di MODENA e CARPI ""Orazio Vecchi - Antonio Tonelli""",private,Other,No,www.vecchitonelli.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH54,Modena,Modena
+IT0246,"Istituto Superiore di Studi Musicali di REGGIO EMILIA e CASTELNOVO NE' MONTI ""Achille Peri e Merulo""",private,Other,No,peri-merulo.it,ITH5,Emilia-Romagna,Emilia-Romagna,ITH53,Reggio nell’Emilia,Reggio nell’Emilia
+IT0247,"Istituto Superiore di Studi Musicali di RIBERA (AG) ""Arturo Toscanini""",private,Other,No,www.istitutotoscanini.it,ITG1,Sicilia,Sicilia,ITG14,Agrigento,Agrigento
+IT0248,Humanitas University,private,University,No,www.hunimed.eu,ITC4,Lombardia,Lombardia,ITC4C,Milano,Milano
+IT0249,Gran Sasso Science Institute,public,University,No,cs.gssi.it,ITF1,Abruzzo,Abruzzo,ITF11,L’Aquila,L’Aquila
+IT0250,Istituto Superiore per le Industrie Artistiche (ISIA) di PESCARA,public,Other,No,www.isiadesign.pe.it,ITF1,Abruzzo,Abruzzo,ITF13,Pescara,Pescara
+IT0251,UniCamillus - Saint Camillus International University of Health Sciences,private,University,No,www.unicamillus.org,ITI4,Lazio,Lazio,ITI43,Roma,Roma

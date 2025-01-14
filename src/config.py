@@ -80,7 +80,7 @@ config = {
         "X-XSS-Protection": 0.8,
     },
     "timeout": 60,
-    "max_threads": 5,
-    "daily_assessments": 1,
+    "max_threads": 2,
+    "daily_assessments": 5,
     "basic_point_unit": 10,
 }

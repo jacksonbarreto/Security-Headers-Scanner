@@ -1,0 +1,8 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021
+DE0008,Eberhard Karls Universität Tübingen,public,University,Yes,www.uni-tuebingen.de,DE14,Tübingen,Tübingen,DE142,"Tübingen, Landkreis","Tübingen, Landkreis"
+DE0001,Albert-Ludwigs-Universität Freiburg,public,University,Yes,www.uni-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0021,Ludwig-Maximilians-Universität München,public,University,Yes,www.uni-muenchen.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0029,Technische Universität Berlin,public,University,Yes,www.tu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0033,"European School of Management and Technology, Berlin (Priv. H)",private,University,No,www.esmt.org,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0002,Ruprecht-Karls-Universität Heidelberg,public,University,Yes,www.uni-heidelberg.de,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0003,Universität Hohenheim,public,University,No,www.uni-hohenheim.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"

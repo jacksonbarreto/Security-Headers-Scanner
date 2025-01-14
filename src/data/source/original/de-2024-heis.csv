@@ -1,0 +1,401 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021
+DE0001,Albert-Ludwigs-Universität Freiburg,public,University,Yes,www.uni-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0002,Ruprecht-Karls-Universität Heidelberg,public,University,Yes,www.uni-heidelberg.de,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0003,Universität Hohenheim,public,University,No,www.uni-hohenheim.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0004,Karlsruher Institut für Technologie (KIT) - Bereich Hochschule,public,University,Yes,www.kit.edu,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0005,Universität Konstanz,public,University,Yes,www.uni-konstanz.de,DE13,Freiburg,Freiburg,DE138,Konstanz,Konstanz
+DE0006,Universität Mannheim,public,University,Yes,www.uni-mannheim.de,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis"
+DE0007,Universität Stuttgart,public,University,No,www.uni-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0008,Eberhard Karls Universität Tübingen,public,University,Yes,www.uni-tuebingen.de,DE14,Tübingen,Tübingen,DE142,"Tübingen, Landkreis","Tübingen, Landkreis"
+DE0009,Universität Ulm,public,University,No,www.uni-ulm.de,DE14,Tübingen,Tübingen,DE144,"Ulm, Stadtkreis","Ulm, Stadtkreis"
+DE0012,Zeppelin Universität Friedrichshafen (Priv. H),private,University,No,www.zeppelin-university.com,DE14,Tübingen,Tübingen,DE147,Bodenseekreis,Bodenseekreis
+DE0013,Allensbach Hochschule,private,University of applied sciences,No,www.allensbach-hochschule.de,DE13,Freiburg,Freiburg,DE138,Konstanz,Konstanz
+DE0014,"Freie Hochschule Stuttgart, Seminar für Waldorfpädagogik",private,University,No,www.freie-hochschule-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0015,Hochschule für jüdische Studien Heidelberg,private,University,No,www.hfjs.eu,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt"
+DE0017,Otto-Friedrich-Universität Bamberg,public,University,No,www.uni-bamberg.de,DE24,Oberfranken,Oberfranken,DE241,"Bamberg, Kreisfreie Stadt","Bamberg, Kreisfreie Stadt"
+DE0018,Universität Bayreuth,public,University,No,www.uni-bayreuth.de,DE24,Oberfranken,Oberfranken,DE242,"Bayreuth, Kreisfreie Stadt","Bayreuth, Kreisfreie Stadt"
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt
+DE0020,Friedrich-Alexander-Universität Erlangen-Nürnberg,public,University,Yes,www.fau.eu,DE25,Mittelfranken,Mittelfranken,DE252,"Erlangen, Kreisfreie Stadt","Erlangen, Kreisfreie Stadt"
+DE0021,Ludwig-Maximilians-Universität München,public,University,Yes,www.uni-muenchen.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0022,Technische Universität München,public,University,Yes,www.tum.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0023,Universität der Bundeswehr München,public,University,No,www.unibw.de,DE21,Oberbayern,Oberbayern,DE21H,"München, Landkreis","München, Landkreis"
+DE0024,Hochschule für Politik München,public,University,No,www.hfp.tum.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0025,Universität Passau,public,University,No,www.uni-passau.de,DE22,Niederbayern,Niederbayern,DE222,"Passau, Kreisfreie Stadt","Passau, Kreisfreie Stadt"
+DE0026,Universität Regensburg,public,University,No,www.uni-regensburg.de,DE23,Oberpfalz,Oberpfalz,DE232,"Regensburg, Kreisfreie Stadt","Regensburg, Kreisfreie Stadt"
+DE0027,Julius-Maximilians-Universität Würzburg,public,University,No,www.uni-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt"
+DE0028,Freie Universität Berlin,public,University,Yes,www.fu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0029,Technische Universität Berlin,public,University,Yes,www.tu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0030,Charité - Universitätsmedizin Berlin,public,Other,No,www.charite.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0031,Humboldt-Universität zu Berlin,public,University,Yes,www.hu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0032,ESCP-EAP Europäische Wirtschaftshochschule Berlin,private,University,No,www.escpeurope.eu,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0033,"European School of Management and Technology, Berlin (Priv. H)",private,University,No,www.esmt.org,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0034,Hertie School of Governance Berlin (Priv. wiss. H),private,University,Yes,www.hertie-school.org,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0035,Steinbeis-Hochschule Berlin (Priv. H),private,University,No,www.steinbeis-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0038,Europa-Universität Viadrina Frankfurt (Oder),public,University,No,www.europa-uni.de,DE40,Brandenburg,Brandenburg,DE403,"Frankfurt (Oder), Kreisfreie Stadt","Frankfurt (Oder), Kreisfreie Stadt"
+DE0039,Universität Potsdam,public,University,Yes,www.uni-potsdam.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0040,Universität Bremen,public,University,Yes,www.uni-bremen.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0041,Jacobs University Bremen (Priv. H),private,University,No,www.jacobs-university.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0042,Universität Hamburg,public,University,No,www.uni-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0043,Technische Universität Hamburg-Harburg,public,University,Yes,www.tuhh.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0044,Hafencity Universität Hamburg,public,University,No,www.hcu-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0045,Helmut-Schmidt-Universität Hamburg,public,University,No,www.hsu-hh.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0046,Bucerius Law School Hamburg (Priv. H),private,University,No,www.law-school.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0047,Technische Universität Darmstadt,public,University,Yes,www.tu-darmstadt.de,DE71,Darmstadt,Darmstadt,DE711,"Darmstadt, Kreisfreie Stadt","Darmstadt, Kreisfreie Stadt"
+DE0048,Johann Wolfgang Goethe-Universität Frankfurt am Main,public,University,No,www.goethe-university-frankfurt.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0049,Justus-Liebig-Universität Gießen,public,University,No,www.uni-giessen.de,DE72,Gießen,Gießen,DE721,"Gießen, Landkreis","Gießen, Landkreis"
+DE0051,Universität Kassel,public,University,No,www.uni-kassel.de,DE73,Kassel,Kassel,DE731,"Kassel, Kreisfreie Stadt","Kassel, Kreisfreie Stadt"
+DE0052,Philipps-Universität Marburg,public,University,No,www.uni-marburg.de,DE72,Gießen,Gießen,DE724,Marburg-Biedenkopf,Marburg-Biedenkopf
+DE0053,Frankfurt School of Finance & Management-HfB (Priv. H),private,University,No,www.frankfurt-school.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0054,EBS Universität für Wirtschaft und Recht (Priv.),private,University,No,www.ebs.edu,DE71,Darmstadt,Darmstadt,DE71D,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis
+DE0055,Universität Greifswald,public,University,No,www.uni-greifswald.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80N,Vorpommern-Greifswald,Vorpommern-Greifswald
+DE0056,Universität Rostock,public,University,No,www.uni-rostock.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE803,"Rostock, Kreisfreie Stadt","Rostock, Kreisfreie Stadt"
+DE0058,Technische Universität Carolo-Wilhelmina zu Braunschweig,public,University,No,www.tu-braunschweig.de,DE91,Braunschweig,Braunschweig,DE911,"Braunschweig, Kreisfreie Stadt","Braunschweig, Kreisfreie Stadt"
+DE0059,Technische Universität Clausthal,public,University,No,www.tu-clausthal.de,DE91,Braunschweig,Braunschweig,DE916,Goslar,Goslar
+DE0060,Georg-August-Universität Göttingen,public,University,Yes,www.uni-goettingen.de,DE91,Braunschweig,Braunschweig,DE91C,Göttingen,Göttingen
+DE0061,Gottfried Wilhelm Leibniz Universität Hannover,public,University,No,www.uni-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0062,Medizinische Hochschule Hannover,public,University,No,www.mh-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0063,Tierärztliche Hochschule Hannover,public,University,No,www.tiho-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0064,Stiftung Universität Hildesheim,public,University,No,www.uni-hildesheim.de,DE92,Hannover,Hannover,DE925,Hildesheim,Hildesheim
+DE0065,Leuphana Universität Lüneburg,public,University,No,www.leuphana.de,DE93,Lüneburg,Lüneburg,DE935,"Lüneburg, Landkreis","Lüneburg, Landkreis"
+DE0066,Carl von Ossietzky Universität Oldenburg,public,University,No,uol.de,DE94,Weser-Ems,Weser-Ems,DE943,"Oldenburg (Oldenburg), Kreisfreie Stadt","Oldenburg (Oldenburg), Kreisfreie Stadt"
+DE0067,Universität Osnabrück,public,University,No,www.uni-osnabrueck.de,DE94,Weser-Ems,Weser-Ems,DE944,"Osnabrück, Kreisfreie Stadt","Osnabrück, Kreisfreie Stadt"
+DE0068,Universität Vechta,public,University,No,www.uni-vechta.de,DE94,Weser-Ems,Weser-Ems,DE94F,Vechta,Vechta
+DE0069,RWTH Aachen,public,University,Yes,www.rwth-aachen.de,DEA2,Köln,Köln,DEA2D,Städteregion Aachen,Städteregion Aachen
+DE0070,Universität Bielefeld,public,University,No,www.uni-bielefeld.de,DEA4,Detmold,Detmold,DEA41,"Bielefeld, Kreisfreie Stadt","Bielefeld, Kreisfreie Stadt"
+DE0071,Ruhr-Universität Bochum,public,University,Yes,www.ruhr-uni-bochum.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0072,Rheinische Friedrich-Wilhelms-Universität Bonn,public,University,Yes,www.uni-bonn.de,DEA2,Köln,Köln,DEA22,"Bonn, Kreisfreie Stadt","Bonn, Kreisfreie Stadt"
+DE0073,Technische Universität Dortmund,public,University,No,www.tu-dortmund.de,DEA5,Arnsberg,Arnsberg,DEA52,"Dortmund, Kreisfreie Stadt","Dortmund, Kreisfreie Stadt"
+DE0074,Heinrich-Heine-Universität Düsseldorf,public,University,Yes,www.uni-duesseldorf.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0075,Universität Duisburg-Essen,public,University,Yes,www.uni-due.de,DEA1,Düsseldorf,Düsseldorf,DEA13,"Essen, Kreisfreie Stadt","Essen, Kreisfreie Stadt"
+DE0076,Fernuniversität in Hagen,public,University,No,www.fernuni-hagen.de,DEA5,Arnsberg,Arnsberg,DEA53,"Hagen, Kreisfreie Stadt","Hagen, Kreisfreie Stadt"
+DE0077,Universität zu Köln,public,University,Yes,www.uni-koeln.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0078,Deutsche Sporthochschule Köln,public,University,No,www.dshs-koeln.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0079,Westfälische Wilhelms-Universität Münster,public,University,No,www.uni-muenster.de,DEA3,Münster,Münster,DEA33,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt"
+DE0080,Universität Paderborn,public,University,No,www.uni-paderborn.de,DEA4,Detmold,Detmold,DEA47,Paderborn,Paderborn
+DE0081,Universität Siegen,public,University,Yes,www.uni-siegen.de,DEA5,Arnsberg,Arnsberg,DEA5A,Siegen-Wittgenstein,Siegen-Wittgenstein
+DE0082,Bergische Universität Wuppertal,public,University,No,www.uni-wuppertal.de,DEA1,Düsseldorf,Düsseldorf,DEA1A,"Wuppertal, Kreisfreie Stadt","Wuppertal, Kreisfreie Stadt"
+DE0083,Universität Witten/Herdecke,private,University,No,www.uni-wh.de,DEA5,Arnsberg,Arnsberg,DEA56,Ennepe-Ruhr-Kreis,Ennepe-Ruhr-Kreis
+DE0084,"Deutsche Hochschule der Polizei, Münster",public,University,No,www.dhpol.de,DEA3,Münster,Münster,DEA33,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt"
+DE0085,Technische Universität Kaiserslautern,public,University,No,www.uni-kl.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB32,"Kaiserslautern, Kreisfreie Stadt","Kaiserslautern, Kreisfreie Stadt"
+DE0086,Universität Koblenz-Landau,public,University,No,www.uni-koblenz-landau.de,DEB1,Koblenz,Koblenz,DEB11,"Koblenz, Kreisfreie Stadt","Koblenz, Kreisfreie Stadt"
+DE0087,Johannes Gutenberg-Universität Mainz,public,University,Yes,www.uni-mainz.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB35,"Mainz, Kreisfreie Stadt","Mainz, Kreisfreie Stadt"
+DE0089,Deutsche Universität für Verwaltungswissenschaften Speyer,public,University,No,www.uni-speyer.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB38,"Speyer, Kreisfreie Stadt","Speyer, Kreisfreie Stadt"
+DE0090,Universität Trier,public,University,No,www.uni-trier.de,DEB2,Trier,Trier,DEB21,"Trier, Kreisfreie Stadt","Trier, Kreisfreie Stadt"
+DE0091,WHU – Otto Beisheim School of Management,private,University,No,www.whu.edu,DEB1,Koblenz,Koblenz,DEB17,Mayen-Koblenz,Mayen-Koblenz
+DE0092,Universität des Saarlandes Saarbrücken,public,University,Yes,www.uni-saarland.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0093,Technische Universität Chemnitz,public,University,No,www.tu-chemnitz.de,DED4,Chemnitz,Chemnitz,DED41,"Chemnitz, Kreisfreie Stadt","Chemnitz, Kreisfreie Stadt"
+DE0094,Technische Universität Dresden,public,University,No,www.tu-dresden.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0096,Technische Universität Bergakademie Freiberg,public,University,Yes,www.tu-freiberg.de,DED4,Chemnitz,Chemnitz,DED43,Mittelsachsen,Mittelsachsen
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0100,DIU-Dresden Intern. University GmbH Dresden (Priv. H),private,University,No,www.di-uni.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0101,HHL Leipzig Graduate School of Management,private,University,No,www.hhl.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0102,Martin-Luther-Universität Halle-Wittenberg,public,University,No,www.uni-halle.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE02,"Halle (Saale), Kreisfreie Stadt","Halle (Saale), Kreisfreie Stadt"
+DE0103,Otto-von-Guericke-Universität Magdeburg,public,University,No,www.ovgu.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE03,"Magdeburg, Kreisfreie Stadt","Magdeburg, Kreisfreie Stadt"
+DE0104,Europa-Universität Flensburg,public,University,No,www.uni-flensburg.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF01,"Flensburg, Kreisfreie Stadt","Flensburg, Kreisfreie Stadt"
+DE0105,Christian-Albrechts-Universität zu Kiel,public,University,Yes,www.uni-kiel.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF02,"Kiel, Kreisfreie Stadt","Kiel, Kreisfreie Stadt"
+DE0106,Universität Lübeck,public,University,No,www.uni-lübeck.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF03,"Lübeck, Kreisfreie Stadt","Lübeck, Kreisfreie Stadt"
+DE0108,Universität Erfurt,public,University,No,www.uni-erfurt.de,DEG0,Thüringen,Thüringen,DEG01,"Erfurt, Kreisfreie Stadt","Erfurt, Kreisfreie Stadt"
+DE0109,Technische Universität Ilmenau,public,University,No,www.tu-ilmenau.de,DEG0,Thüringen,Thüringen,DEG0F,Ilm-Kreis,Ilm-Kreis
+DE0110,Friedrich-Schiller-Universität Jena,public,University,Yes,www.uni-jena.de,DEG0,Thüringen,Thüringen,DEG03,"Jena, Kreisfreie Stadt","Jena, Kreisfreie Stadt"
+DE0111,Bauhaus-Universität Weimar,public,University,No,www.uni-weimar.de,DEG0,Thüringen,Thüringen,DEG05,"Weimar, Kreisfreie Stadt","Weimar, Kreisfreie Stadt"
+DE0112,Pädagogische Hochschule Freiburg i.Br.,public,Other,No,www.ph-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0113,Pädagogische Hochschule Heidelberg,public,Other,No,www.ph-heidelberg.de,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0114,Pädagogische Hochschule Karlsruhe,public,Other,No,www.ph-karlsruhe.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0115,Pädagogische Hochschule Ludwigsburg,public,Other,No,www.ph-ludwigsburg.de,DE11,Stuttgart,Stuttgart,DE115,Ludwigsburg,Ludwigsburg
+DE0116,Pädagogische Hochschule Schwäbisch Gmünd,public,Other,No,www.ph-gmuend.de,DE11,Stuttgart,Stuttgart,DE11D,Ostalbkreis,Ostalbkreis
+DE0117,Pädagogische Hochschule Weingarten,public,Other,No,www.ph-weingarten.de,DE14,Tübingen,Tübingen,DE148,Ravensburg,Ravensburg
+DE0119,Hochschule für Philosophie München (rk),private,Other,No,www.hfph.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0120,Augustana-Hochschule Neuendettelsau (ev),private,Other,No,www.augustana.de,DE25,Mittelfranken,Mittelfranken,DE256,"Ansbach, Landkreis","Ansbach, Landkreis"
+DE0121,Philosophisch-Theologische Hochschule Frankfurt a.M. (rk),private,Other,No,www.sankt-georgen.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0122,Theologische Fakultät Fulda (rk),private,Other,No,www.thf-fulda.de,DE73,Kassel,Kassel,DE732,Fulda,Fulda
+DE0127,Theologische Fakultät Paderborn (rk),private,Other,No,www.thf-paderborn.de,DEA4,Detmold,Detmold,DEA47,Paderborn,Paderborn
+DE0128,Kölner Hochschule für Katholische Theologie,private,Other,No,www.khkt.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0129,Kirchliche Hochschule Wuppertal / Bethel (ev),private,Other,No,kiho-wuppertal.de,DEA1,Düsseldorf,Düsseldorf,DEA1A,"Wuppertal, Kreisfreie Stadt","Wuppertal, Kreisfreie Stadt"
+DE0130,Theologische Fakultät Trier,private,Other,No,www.uni-trier.de,DEB2,Trier,Trier,DEB21,"Trier, Kreisfreie Stadt","Trier, Kreisfreie Stadt"
+DE0131,Theologische Hochschule Vallendar,private,Other,No,vp-uni.de,DEB1,Koblenz,Koblenz,DEB17,Mayen-Koblenz,Mayen-Koblenz
+DE0133,Staatliche Hochschule für Musik Freiburg i.Br.,public,Other,No,www.mh-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0134,Staatliche Akademie der Bildenden Künste Karlsruhe,public,Other,No,www.kunstakademie-karlsruhe.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0135,Staatliche Hochschule für Gestaltung Karlsruhe,public,Other,No,www.hfg-karlsruhe.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0136,Staatliche Hochschule für Musik Karlsruhe,public,Other,No,www.hfm-karlsruhe.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0137,Staatliche Hochschule für Musik und Darstellende Kunst Mannheim,public,Other,No,www.muho-mannheim.de,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis"
+DE0138,Staatliche Akademie der Bildenden Künste Stuttgart,public,Other,No,www.abk-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0139,Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart,public,Other,No,www.hmdk-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0140,Staatliche Hochschule für Musik Trossingen,public,Other,No,www.mh-trossingen.de,DE13,Freiburg,Freiburg,DE137,Tuttlingen,Tuttlingen
+DE0141,Akademie der Bildenden Künste München,public,Other,No,www.adbk.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0142,Hochschule für Fernsehen und Film München,public,Other,No,www.hff-muc.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0143,Hochschule für Musik und Theater München,public,Other,No,hmtm.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0144,Akademie der Bildenden Künste Nürnberg,public,Other,No,www.adbk-nuernberg.de,DE25,Mittelfranken,Mittelfranken,DE254,"Nürnberg, Kreisfreie Stadt","Nürnberg, Kreisfreie Stadt"
+DE0145,Hochschule für Musik Nürnberg,public,Other,No,www.hfm-nuernberg.de,DE25,Mittelfranken,Mittelfranken,DE254,"Nürnberg, Kreisfreie Stadt","Nürnberg, Kreisfreie Stadt"
+DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt"
+DE0149,Universität der Künste Berlin,public,Other,No,www.udk-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0150,Weißensee Kunsthochschule Berlin,public,Other,No,www.kh-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0151,Hochschule für Musik Hanns Eisler Berlin,public,Other,No,www.hfm-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0152,"Hochschule für Schauspielkunst ""Ernst Busch"" Berlin",public,Other,No,www.hfs-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0153,Filmuniversität Babelsberg Konrad Wolf,public,University,No,www.filmuniversitaet.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0154,Hochschule für Künste Bremen,public,Other,No,www.hfk-bremen.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0155,Hochschule für Bildende Künste Hamburg,public,Other,No,www.hfbk-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0156,Hochschule für Musik und Theater Hamburg,public,Other,No,www.hfmt-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0157,Staatliche Hochschule für Bildende Künste Frankfurt a.M. (Städelschule),public,Other,No,www.staedelschule.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0158,Hochschule für Musik und Darstellende Kunst Frankfurt a.M.,public,Other,No,www.hfmdk-frankfurt.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0159,Hochschule für Gestaltung Offenbach,public,Other,No,www.hfg-offenbach.de,DE71,Darmstadt,Darmstadt,DE713,"Offenbach am Main, Kreisfreie Stadt","Offenbach am Main, Kreisfreie Stadt"
+DE0160,"Hochschule für Musik und Theater, Rostock",public,Other,No,www.hmt-rostock.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE803,"Rostock, Kreisfreie Stadt","Rostock, Kreisfreie Stadt"
+DE0161,Hochschule für Bildende Künste Braunschweig,public,Other,No,www.hbk-bs.de,DE91,Braunschweig,Braunschweig,DE911,"Braunschweig, Kreisfreie Stadt","Braunschweig, Kreisfreie Stadt"
+DE0162,"Hochschule für Musik, Theater und Medien Hannover",public,Other,No,www.hmtm-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0163,Hochschule für Musik Detmold,public,Other,No,www.hfm-detmold.de,DEA4,Detmold,Detmold,DEA45,Lippe,Lippe
+DE0164,Kunstakademie Düsseldorf,public,Other,No,www.kunstakademie-duesseldorf.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0165,Robert-Schumann-Hochschule Düsseldorf,public,Other,No,www.rsh-duesseldorf.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0166,Folkwang Universität der Künste,public,Other,No,www.folkwang-uni.de,DEA1,Düsseldorf,Düsseldorf,DEA13,"Essen, Kreisfreie Stadt","Essen, Kreisfreie Stadt"
+DE0167,Kunsthochschule für Medien Köln,public,Other,No,www.khm.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0168,Hochschule für Musik und Tanz Köln,public,Other,No,www.hfmt-koeln.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0169,Kunstakademie Münster,public,Other,No,www.kunstakademie-muenster.de,DEA3,Münster,Münster,DEA33,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt"
+DE0170,Alanus Hochschule Alfter (Priv. H),private,Other,No,www.alanus.edu,DEA2,Köln,Köln,DEA2C,Rhein-Sieg-Kreis,Rhein-Sieg-Kreis
+DE0171,Hochschule der Bildenden Künste Saarbrücken,public,Other,No,www.hbksaar.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0172,"Hochschule für Musik, Saarbrücken",public,Other,No,www.hfm.saarland.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0173,Hochschule für Bildende Künste Dresden,public,Other,Yes,www.hfbk-dresden.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0175,Hochschule für Musik Carla Maria von Weber Dresden,public,Other,No,www.hfmdd.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0176,Palucca Hochschule für Tanz Dresden,public,Other,No,www.palucca.eu,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0177,Hochschule für Graphik und Buchkunst Leipzig,public,Other,No,www.hgb-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0178,Hochschule für Musik und Theater Leipzig,public,Other,No,www.hmt-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0180,Burg Giebichenstein Kunsthochschule Halle,public,Other,No,www.burg-halle.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE02,"Halle (Saale), Kreisfreie Stadt","Halle (Saale), Kreisfreie Stadt"
+DE0182,Muthesius Kunsthochschule Kiel,public,Other,No,www.muthesius-kunsthochschule.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF02,"Kiel, Kreisfreie Stadt","Kiel, Kreisfreie Stadt"
+DE0183,Musikhochschule Lübeck,public,Other,No,www.mh-luebeck.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF03,"Lübeck, Kreisfreie Stadt","Lübeck, Kreisfreie Stadt"
+DE0184,Hochschule für Musik Franz Liszt Weimar,public,Other,No,www.hfm-weimar.de,DEG0,Thüringen,Thüringen,DEG05,"Weimar, Kreisfreie Stadt","Weimar, Kreisfreie Stadt"
+DE0185,Hochschule Aalen - Technik und Wirtschaft,public,University of applied sciences,No,www.hs-aalen.de,DE11,Stuttgart,Stuttgart,DE11D,Ostalbkreis,Ostalbkreis
+DE0186,Hochschule Albstadt-Sigmaringen (FH),public,University of applied sciences,No,www.hs-albsig.de,DE14,Tübingen,Tübingen,DE143,Zollernalbkreis,Zollernalbkreis
+DE0187,Fachhochschule Biberach a. d. Riss,public,University of applied sciences,No,www.hochschule-biberach.de,DE14,Tübingen,Tübingen,DE146,Biberach,Biberach
+DE0188,Hochschule Esslingen (FH),public,University of applied sciences,No,www.hs-esslingen.de,DE11,Stuttgart,Stuttgart,DE113,Esslingen,Esslingen
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis
+DE0190,Hochschule Heilbronn,public,University of applied sciences,No,www.hs-heilbronn.de,DE11,Stuttgart,Stuttgart,DE117,"Heilbronn, Stadtkreis","Heilbronn, Stadtkreis"
+DE0191,Hochschule Karsruhe - Technik und Wirtschaft,public,University of applied sciences,No,www.hs-karlsruhe.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0192,"Hochschule Konstanz - Technik, Wirtschaft und Gestaltung",public,University of applied sciences,No,www.htwg-konstanz.de,DE13,Freiburg,Freiburg,DE138,Konstanz,Konstanz
+DE0193,Hochschule der Bundesagentur für Arbeit,public,University of applied sciences,No,www.hdba.de,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis"
+DE0194,Hochschule Mannheim (FH),public,University of applied sciences,No,www.hs-mannheim.de,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis"
+DE0195,Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen,public,University of applied sciences,No,www.hfwu.de,DE11,Stuttgart,Stuttgart,DE114,Göppingen,Göppingen
+DE0196,Hochschule Offenburg,public,University of applied sciences,No,www.fh-offenburg.de,DE13,Freiburg,Freiburg,DE134,Ortenaukreis,Ortenaukreis
+DE0197,"Hochschule Pforzheim - Gestaltung, Technik, Wirtschaft und Recht",public,University of applied sciences,No,www.hs-pforzheim.de,DE12,Karlsruhe,Karlsruhe,DE129,"Pforzheim, Stadtkreis","Pforzheim, Stadtkreis"
+DE0198,"Duale Hochschule Baden Württemberg, Stuttgart (FH)",public,University of applied sciences,No,www.dhbw.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0199,Hochschule Ravensburg-Weingarten,public,University of applied sciences,No,www.hs-weingarten.de,DE14,Tübingen,Tübingen,DE148,Ravensburg,Ravensburg
+DE0200,Hochschule Reutlingen,public,University of applied sciences,No,www.reutlingen-university.de,DE14,Tübingen,Tübingen,DE141,Reutlingen,Reutlingen
+DE0201,Hochschule für Forstwirtschaft Rottenburg (FH),public,University of applied sciences,No,www.hs-rottenburg.net,DE14,Tübingen,Tübingen,DE142,"Tübingen, Landkreis","Tübingen, Landkreis"
+DE0202,Hochschule für Gestaltung Schwäbisch Gmünd,public,University of applied sciences,No,www.hfg-gmuend.de,DE11,Stuttgart,Stuttgart,DE11D,Ostalbkreis,Ostalbkreis
+DE0203,"Fachhochschule Stuttgart, Hochschule der Medien",public,University of applied sciences,No,www.hdm-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0204,Hochschule für Technik Stuttgart,public,University of applied sciences,No,www.hft-stuttgart.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0205,Hochschule Ulm,public,University of applied sciences,No,www.hs-ulm.de,DE14,Tübingen,Tübingen,DE144,"Ulm, Stadtkreis","Ulm, Stadtkreis"
+DE0208,SRH Hochschule Heidelberg (Priv. FH),private,University of applied sciences,No,www.hochschule-heidelberg.de,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0209,German Graduate School of Management and Law,private,University of applied sciences,No,www.ggs.de,DE11,Stuttgart,Stuttgart,DE117,"Heilbronn, Stadtkreis","Heilbronn, Stadtkreis"
+DE0211,"Karlshochschule International University, Karlsruhe (Priv. FH)",private,University of applied sciences,No,www.karlshochschule.de,DE12,Karlsruhe,Karlsruhe,DE122,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis"
+DE0213,SRH Fernhochschule Riedlingen,private,University of applied sciences,No,www.mobile-university.de,DE14,Tübingen,Tübingen,DE146,Biberach,Biberach
+DE0215,"AKAD, Fachhochschule Stuttgart (Priv. Fern-FH für Berufstätige)",private,University of applied sciences,No,www.akad.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0216,"Merz Akademie Hochschule für Gestaltung, Kunst und Medien, Stuttgart (Priv. FH)",private,University of applied sciences,No,www.merz-akademie.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0217,Evang. Hochschule Freiburg (FH),private,University of applied sciences,No,www.eh-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0219,Evangelische Hochschule Ludwigsburg,private,University of applied sciences,No,www.efh-ludwigsburg.de,DE11,Stuttgart,Stuttgart,DE115,Ludwigsburg,Ludwigsburg
+DE0220,Katholische Hochschule Freiburg i.Br.,private,University of applied sciences,No,www.kh-freiburg.de,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0221,Ostbayerische Technische Hochschule Amberg-Weiden,public,University of applied sciences,No,www.oth-aw.de,DE23,Oberpfalz,Oberpfalz,DE233,"Weiden i. d. Opf, Kreisfreie Stadt","Weiden i. d. Opf, Kreisfreie Stadt"
+DE0222,Hochschule für angewandte Wissenschaften Ansbach,public,University of applied sciences,No,www.hs-ansbach.de,DE25,Mittelfranken,Mittelfranken,DE251,"Ansbach, Kreisfreie Stadt","Ansbach, Kreisfreie Stadt"
+DE0223,Hochschule für angewandte Wissenschaften Aschaffenburg,public,University of applied sciences,No,www.th-ab.de,DE26,Unterfranken,Unterfranken,DE261,"Aschaffenburg, Kreisfreie Stadt","Aschaffenburg, Kreisfreie Stadt"
+DE0224,Hochschule für angewandte Wissenschaften Augsburg,public,University of applied sciences,No,www.hs-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt"
+DE0225,Hochschule für angewandte Wissenschaften Coburg,public,University of applied sciences,No,www.hs-coburg.de,DE24,Oberfranken,Oberfranken,DE243,"Coburg, Kreisfreie Stadt","Coburg, Kreisfreie Stadt"
+DE0226,Technische Hochschule Deggendorf,public,University of applied sciences,No,www.th-deg.de,DE22,Niederbayern,Niederbayern,DE224,Deggendorf,Deggendorf
+DE0227,Hochschule für Angewandte Wissenschaften Hof,public,University of applied sciences,No,www.hof-university.de,DE24,Oberfranken,Oberfranken,DE244,"Hof, Kreisfreie Stadt","Hof, Kreisfreie Stadt"
+DE0228,Technische Hochschule Ingolstadt,public,University of applied sciences,No,www.thi.de,DE21,Oberbayern,Oberbayern,DE211,"Ingolstadt, Kreisfreie Stadt","Ingolstadt, Kreisfreie Stadt"
+DE0229,Hochschule für angewandte Wissenschaften Kempten,public,University of applied sciences,No,www.hochschule-kempten.de,DE27,Schwaben,Schwaben,DE273,"Kempten (Allgäu), Kreisfreie Stadt","Kempten (Allgäu), Kreisfreie Stadt"
+DE0230,Hochschule für angewandte Wissenschaften Landshut,public,University of applied sciences,No,www.haw-landshut.de,DE22,Niederbayern,Niederbayern,DE221,"Landshut, Kreisfreie Stadt","Landshut, Kreisfreie Stadt"
+DE0231,Hochschule für angewandte Wissenschaften München,public,University of applied sciences,No,www.hm.edu,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0232,Hochschule für angewandte Wissenschaften Neu-Ulm,public,University of applied sciences,No,www.hs-neu-ulm.de,DE27,Schwaben,Schwaben,DE279,Neu-Ulm,Neu-Ulm
+DE0233,Technische Hochschule Nürnberg Georg Simon Ohm,public,University of applied sciences,No,www.th-nuernberg.de,DE25,Mittelfranken,Mittelfranken,DE254,"Nürnberg, Kreisfreie Stadt","Nürnberg, Kreisfreie Stadt"
+DE0234,Ostbayerische Technische Hochschule Regensburg,public,University of applied sciences,No,www.oth-regensburg.de,DE23,Oberpfalz,Oberpfalz,DE232,"Regensburg, Kreisfreie Stadt","Regensburg, Kreisfreie Stadt"
+DE0235,Hochschule für angewandte Wissenschaften Rosenheim,public,University of applied sciences,No,www.th-rosenheim.de,DE21,Oberbayern,Oberbayern,DE213,"Rosenheim, Kreisfreie Stadt","Rosenheim, Kreisfreie Stadt"
+DE0236,Hochschule für angewandte Wissenschafte Weihenstephan-Triesdorf,public,University of applied sciences,No,www.hswt.de,DE21,Oberbayern,Oberbayern,DE21B,Freising,Freising
+DE0237,Hochschule für angewandte Wissenschafte Würzburg-Schweinfurt,public,University of applied sciences,No,www.fhws.de,DE26,Unterfranken,Unterfranken,DE262,"Schweinfurt, Kreisfreie Stadt","Schweinfurt, Kreisfreie Stadt"
+DE0239,Hochschule für angewandtes Management-Fachhochschule,private,University of applied sciences,No,www.fham.de,DE21,Oberbayern,Oberbayern,DE21A,Erding,Erding
+DE0240,"Hochschule für angewandte Sprachen, München, SDI (Priv. FH)",private,University of applied sciences,No,www.sdi-muenchen.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0241,Hochschule Macromedia,private,University of applied sciences,No,www.macromedia-fachhochschule.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0242,Munich Business School München (Priv. FH),private,University of applied sciences,No,www.munich-business-school.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0244,Evangelische Hochschule Nürnberg (FH),private,University of applied sciences,No,www.evhn.de,DE25,Mittelfranken,Mittelfranken,DE254,"Nürnberg, Kreisfreie Stadt","Nürnberg, Kreisfreie Stadt"
+DE0245,Katholische Stiftungsfachhochschule München,private,University of applied sciences,No,www.ksh-muenchen.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0246,Alice Salomon Hochschule Berlin,public,University of applied sciences,No,www.ash-berlin.eu,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0247,Beuth Hochschule für Technik Berlin,public,University of applied sciences,No,www.beuth-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0248,Hochschule für Technik und Wirtschaft Berlin,public,University of applied sciences,No,www.htw-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0249,Hochschule für Wirtschaft und Recht (HWR) Berlin,public,University of applied sciences,No,www.hwr-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0251,bbw Hochschule Berlin (Priv. FH),private,University of applied sciences,No,www.bbw-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0254,Hochschule für Gesundheit und Sport Berlin (Priv. FH),private,University of applied sciences,No,www.dhgs-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0255,IB-Hochschule Berlin (Priv. FH),private,University of applied sciences,No,www.ib-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0257,Mediadesign Hochschule Berlin (Priv. FH),private,University of applied sciences,No,www.mediadesign.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0258,SRH Hochschule Berlin (Priv. FH),private,University of applied sciences,No,www.srh-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0262,Evangelische Hochschule Berlin (FH),private,University of applied sciences,No,www.eh-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0263,Katholische Hochschule für Sozialwesen Berlin (FH),private,University of applied sciences,No,www.khsb-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0264,Technische Hochschule Brandenburg,public,University of applied sciences,No,www.th-brandenburg.de,DE40,Brandenburg,Brandenburg,DE401,"Brandenburg an der Havel, Kreisfreie Stadt","Brandenburg an der Havel, Kreisfreie Stadt"
+DE0265,Hochschule für nachhaltige Entwicklung Eberswalde (FH),public,University of applied sciences,No,www.hnee.de,DE40,Brandenburg,Brandenburg,DE405,Barnim,Barnim
+DE0267,Fachhochschule Potsdam,public,University of applied sciences,No,www.fh-potsdam.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0268,Technische Hochschule Wildau (FH),public,University of applied sciences,No,en.th-wildau.de,DE40,Brandenburg,Brandenburg,DE406,Dahme-Spreewald,Dahme-Spreewald
+DE0271,Hochschule Bremen,public,University of applied sciences,No,www.hs-bremen.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0272,Hochschule Bremerhaven,public,University of applied sciences,No,www.hs-bremerhaven.de,DE50,Bremen,Bremen,DE502,"Bremerhaven, Kreisfreie Stadt","Bremerhaven, Kreisfreie Stadt"
+DE0273,APOLLON Hochschule der Gesundheitswirtschaft Bremen (Priv. FH),private,University of applied sciences,No,www.apollon-hochschule.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0274,Hochschule für Angewandte Wissenschaften Hamburg,public,University of applied sciences,No,www.haw-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0276,Europäische Fernhochschule Hamburg GmbH Hamburg (Priv. FH),private,University of applied sciences,No,www.euro-fh.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0277,HFH Hamburger Fern-Hochschule (Priv. FH),private,University of applied sciences,No,www.hfh-fernstudium.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0278,HSBA Hamburg School of Business Administration (Priv. FH),private,University of applied sciences,No,www.hsba.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0279,"Evangelische Hochschule für Soziale Arbeit und Diakonie, Hamburg (FH)",private,University of applied sciences,No,www.ev-hochschule-hh.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0280,EBC Hochschule Hamburg,private,University of applied sciences,No,www.eso.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0282,h_da - Hochschule Darmstadt (FH),public,University of applied sciences,Yes,www.h-da.de,DE71,Darmstadt,Darmstadt,DE711,"Darmstadt, Kreisfreie Stadt","Darmstadt, Kreisfreie Stadt"
+DE0283,Frankfurt University of Applied Sciences,public,University of applied sciences,No,www.frankfurt-university.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0284,Hochschule Fulda,public,University of applied sciences,No,www.hs-fulda.de,DE73,Kassel,Kassel,DE732,Fulda,Fulda
+DE0285,Technische Hochschule Mittelhessen,public,University of applied sciences,No,www.thm.de,DE72,Gießen,Gießen,DE721,"Gießen, Landkreis","Gießen, Landkreis"
+DE0286,Hochschule RheinMain,public,University of applied sciences,No,www.hs-rm.de,DE71,Darmstadt,Darmstadt,DE714,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt"
+DE0287,"Hochschule der Deutschen Gesetzl. Unfallversicherung, Bad Hersfeld (Priv. FH)",private,University of applied sciences,No,www.dguv.de,DE73,Kassel,Kassel,DE733,Hersfeld-Rotenburg,Hersfeld-Rotenburg
+DE0288,accadis Hochschule Bad Homburg (Priv. FH),private,University of applied sciences,No,www.accadis.com,DE71,Darmstadt,Darmstadt,DE718,Hochtaunuskreis,Hochtaunuskreis
+DE0289,Wilhelm Büchner Hochschule Darmstadt (Priv. Fern-FH),private,University of applied sciences,No,www.wb-fernstudium.de,DE71,Darmstadt,Darmstadt,DE716,Darmstadt-Dieburg,Darmstadt-Dieburg
+DE0290,"Provadis School of International Management and Technology, Frankfurt a.M. (Priv. FH)",private,University of applied sciences,No,www.provadis-hochschule.de,DE71,Darmstadt,Darmstadt,DE712,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt"
+DE0291,Hochschule Fresenius Idstein (Priv. FH),private,University of applied sciences,No,www.hs-fresenius.de,DE71,Darmstadt,Darmstadt,DE71D,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis
+DE0292,DIPLOMA Hochschule,private,University of applied sciences,No,diploma.de,DE92,Hannover,Hannover,DE928,Schaumburg,Schaumburg
+DE0293,"Evangelische Hochschule Darmstadt (EHD), FH",private,University of applied sciences,No,www.eh-darmstadt.de,DE71,Darmstadt,Darmstadt,DE711,"Darmstadt, Kreisfreie Stadt","Darmstadt, Kreisfreie Stadt"
+DE0294,Hochschule Neubrandenburg,public,University of applied sciences,No,www.hs-nb.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80J,Mecklenburgische Seenplatte,Mecklenburgische Seenplatte
+DE0295,Hochschule Stralsund,public,University of applied sciences,No,www.hochschule-stralsund.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80L,Vorpommern-Rügen,Vorpommern-Rügen
+DE0296,Hochschule Wismar,public,University of applied sciences,No,www.hs-wismar.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80M,Nordwestmecklenburg,Nordwestmecklenburg
+DE0298,Ostfalia Hochschule für angewandte Wissenschaften,public,University of applied sciences,No,ostfalia.de,DE91,Braunschweig,Braunschweig,DE91B,Wolfenbüttel,Wolfenbüttel
+DE0299,Hochschule Hannover (FH),public,University of applied sciences,No,www.hs-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0300,HAWK Hochschule für Angewandte Wissenschaften und Kunst Hildesheim/Holzminden/Göttingen,public,University of applied sciences,No,www.hawk.de,DE92,Hannover,Hannover,DE925,Hildesheim,Hildesheim
+DE0302,Hochschule Osnabrück (FH),public,University of applied sciences,No,www.hs-osnabrueck.de,DE94,Weser-Ems,Weser-Ems,DE944,"Osnabrück, Kreisfreie Stadt","Osnabrück, Kreisfreie Stadt"
+DE0303,"Hochschule 21, Buxtehude (Priv. FH)",private,University of applied sciences,No,www.hs21.de,DE93,Lüneburg,Lüneburg,DE939,Stade,Stade
+DE0304,PFH - Private Hochschule Göttingen,private,University of applied sciences,No,www.pfh-university.com,DE91,Braunschweig,Braunschweig,DE91C,Göttingen,Göttingen
+DE0305,Private Fachhochschule der Wirtschaft Hannover,private,University of applied sciences,No,www.fhdw-hannover.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0306,Hochschule für Künste im Sozialen,private,University of applied sciences,No,www.hks-ottersberg.de,DE93,Lüneburg,Lüneburg,DE93B,Verden,Verden
+DE0307,Private Hochschule für Wirtschaft und Technik Vechta/Diepholz/Oldenburg,private,University of applied sciences,No,www.phwt.de,DE94,Weser-Ems,Weser-Ems,DE94F,Vechta,Vechta
+DE0308,Fachhochschule Aachen,public,University of applied sciences,No,www.fh-aachen.de,DEA2,Köln,Köln,DEA2D,Städteregion Aachen,Städteregion Aachen
+DE0309,Fachhochschule Bielefeld,public,University of applied sciences,No,www.fh-bielefeld.de,DEA4,Detmold,Detmold,DEA41,"Bielefeld, Kreisfreie Stadt","Bielefeld, Kreisfreie Stadt"
+DE0310,Hochschule Bochum,public,University of applied sciences,No,www.hochschule-bochum.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0311,Hochschule Bonn-Rhein-Sieg,public,University of applied sciences,No,www.h-brs.de,DEA2,Köln,Köln,DEA2C,Rhein-Sieg-Kreis,Rhein-Sieg-Kreis
+DE0312,Fachhochschule Dortmund,public,University of applied sciences,No,www.fh-dortmund.de,DEA5,Arnsberg,Arnsberg,DEA52,"Dortmund, Kreisfreie Stadt","Dortmund, Kreisfreie Stadt"
+DE0313,Hochschule Düsseldorf,public,University of applied sciences,No,www.hs-duesseldorf.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0314,Westfälische Hochschule Gelsenkirchen Bocholt Recklinghausen,public,University of applied sciences,No,www.w-hs.de,DEA3,Münster,Münster,DEA32,"Gelsenkirchen, Kreisfreie Stadt","Gelsenkirchen, Kreisfreie Stadt"
+DE0315,Technische Hochschule Köln,public,University of applied sciences,No,www.th-koeln.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0316,Hochschule Ostewestfalen-Lippe,public,University of applied sciences,No,www.hs-owl.de,DEA4,Detmold,Detmold,DEA45,Lippe,Lippe
+DE0317,Fachhochschule Münster,public,University of applied sciences,No,www.fh-muenster.de,DEA3,Münster,Münster,DEA33,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt"
+DE0318,Hochschule Niederrhein,public,University of applied sciences,No,www.hs-niederrhein.de,DEA1,Düsseldorf,Düsseldorf,DEA15,"Mönchengladbach, Kreisfreie Stadt","Mönchengladbach, Kreisfreie Stadt"
+DE0319,Fachhochschule Südwestfalen,public,University of applied sciences,No,www.fh-swf.de,DEA5,Arnsberg,Arnsberg,DEA53,"Hagen, Kreisfreie Stadt","Hagen, Kreisfreie Stadt"
+DE0320,IU Internationale Hochschule,private,University of applied sciences,No,www.iubh.de,DEA2,Köln,Köln,DEA2C,Rhein-Sieg-Kreis,Rhein-Sieg-Kreis
+DE0321,Fachhochschule des Mittelstandes Bielefeld (Priv. FH),private,University of applied sciences,No,www.fh-mittelstand.de,DEA4,Detmold,Detmold,DEA41,"Bielefeld, Kreisfreie Stadt","Bielefeld, Kreisfreie Stadt"
+DE0322,Technische FH (TFH) Georg Agricola zu Bochum (Priv. FH),private,University of applied sciences,No,www.thga.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0323,EBZ Business School Bochum (Priv. FH),private,University of applied sciences,No,www.ebz-business-school.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0324,Hochschule der Sparkassen-Finanzgruppe Bonn (Priv. FH),private,University of applied sciences,No,www.s-hochschule.de,DEA2,Köln,Köln,DEA22,"Bonn, Kreisfreie Stadt","Bonn, Kreisfreie Stadt"
+DE0325,Europäische FH (EUFH) Rhein/Erft (Priv.),private,University of applied sciences,No,www.eufh.de,DEA2,Köln,Köln,DEA27,Rhein-Erft-Kreis,Rhein-Erft-Kreis
+DE0326,"Private Fachhochschule International School of Management, Dortmund",private,University of applied sciences,No,www.ism.de,DEA5,Arnsberg,Arnsberg,DEA52,"Dortmund, Kreisfreie Stadt","Dortmund, Kreisfreie Stadt"
+DE0327,Private Fachhochschule für Ökonomie und Management Essen,private,University of applied sciences,No,www.fom.de,DEA1,Düsseldorf,Düsseldorf,DEA13,"Essen, Kreisfreie Stadt","Essen, Kreisfreie Stadt"
+DE0328,SRH Hochschule für Logistik und Wirtschaft Hamm (Priv. FH),private,University of applied sciences,No,www.srh-hochschule-nrw.de,DEA5,Arnsberg,Arnsberg,DEA54,"Hamm, Kreisfreie Stadt","Hamm, Kreisfreie Stadt"
+DE0329,University of Europe for Applied Sciences,private,University of applied sciences,No,www.ue-germany.com,DEA5,Arnsberg,Arnsberg,DEA58,Märkischer Kreis,Märkischer Kreis
+DE0331,Private Rheinische Fachhochschule Köln,private,University of applied sciences,No,www.rfh-koeln.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0332,Private Fachhochschule der Wirtschaft Paderborn,private,University of applied sciences,No,www.fhdw.de,DEA4,Detmold,Detmold,DEA47,Paderborn,Paderborn
+DE0333,Fachhochschule der Diakonie Bielefeld-Bethel,private,University of applied sciences,No,www.fh-diakonie.de,DEA4,Detmold,Detmold,DEA41,"Bielefeld, Kreisfreie Stadt","Bielefeld, Kreisfreie Stadt"
+DE0334,Evangelische Hochschule Rheinland-Westfalen-Lippe,private,University of applied sciences,No,www.evh-bochum.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0335,Katholische Hochschule Nordrhein-Westfalen,private,University of applied sciences,No,www.katho-nrw.de,DEA3,Münster,Münster,DEA33,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt"
+DE0336,Technische Hochschule Bingen,public,University of applied sciences,No,www.th-bingen.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3J,Mainz-Bingen,Mainz-Bingen
+DE0337,Hochschule Kaiserslautern,public,University of applied sciences,No,www.hs-kl-offline.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB32,"Kaiserslautern, Kreisfreie Stadt","Kaiserslautern, Kreisfreie Stadt"
+DE0338,Hochschule Koblenz,public,University of applied sciences,No,www.hs-koblenz.de,DEB1,Koblenz,Koblenz,DEB11,"Koblenz, Kreisfreie Stadt","Koblenz, Kreisfreie Stadt"
+DE0339,Hochschule Ludwigshafen am Rhein (FH),public,University of applied sciences,No,www.hs-lu.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB34,"Ludwigshafen am Rhein, Kreisfreie Stadt","Ludwigshafen am Rhein, Kreisfreie Stadt"
+DE0340,Hochschule Mainz,public,University of applied sciences,No,www.hs-mainz.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB35,"Mainz, Kreisfreie Stadt","Mainz, Kreisfreie Stadt"
+DE0341,Hochschule Trier,public,University of applied sciences,No,www.hochschule-trier.de,DEB2,Trier,Trier,DEB21,"Trier, Kreisfreie Stadt","Trier, Kreisfreie Stadt"
+DE0342,Hochschule Worms,public,University of applied sciences,No,www.hs-worms.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB39,"Worms, Kreisfreie Stadt","Worms, Kreisfreie Stadt"
+DE0343,Katholische Hochschule Mainz,private,University of applied sciences,No,www.kh-mz.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB35,"Mainz, Kreisfreie Stadt","Mainz, Kreisfreie Stadt"
+DE0344,Hochschule für Technik und Wirtschaft des Saarlandes Saarbrücken,public,University of applied sciences,No,www.htwsaar.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0346,"Deutsche Hochschule für Prävention und Gesundheitsmanagement, Saarbrücken (Priv. FH)",private,University of applied sciences,No,www.dhfpg.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0347,Hochschule für Technik und Wirtschaft Dresden,public,University of applied sciences,No,www.htw-dresden.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0348,"Hochschule für Technik, Wirtschaft und Kultur Leipzig",public,University of applied sciences,No,www.htwk-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0349,Hochschule Mittweida (University of Applied Sciences),public,University of applied sciences,Yes,www.hs-mittweida.de,DED4,Chemnitz,Chemnitz,DED43,Mittelsachsen,Mittelsachsen
+DE0350,Hochschule Zittau/Görlitz (FH),public,University of applied sciences,No,www.hszg.de,DED2,Dresden,Dresden,DED2D,Görlitz,Görlitz
+DE0351,Westsächsische Hochschule Zwickau,public,University of applied sciences,No,www.fh-zwickau.de,DED4,Chemnitz,Chemnitz,DED45,Zwickau,Zwickau
+DE0353,"Deutsche Telekom Hochschule für Telekommunikation, Leipzig (Priv. FH)",private,University of applied sciences,No,www.hft-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt"
+DE0356,"Evangelische Hochschule für Soziale Arbeit, Dresden (FH)",private,University of applied sciences,No,www.ehs-dresden.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0358,Hochschule Anhalt (FH),public,University of applied sciences,No,www.hs-anhalt.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE05,Anhalt-Bitterfeld,Anhalt-Bitterfeld
+DE0359,Hochschule Harz (FH),public,University of applied sciences,No,www.hs-harz.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE09,Harz,Harz
+DE0360,Hochschule Magdeburg-Stendal (FH),public,University of applied sciences,No,www.hs-magdeburg.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE03,"Magdeburg, Kreisfreie Stadt","Magdeburg, Kreisfreie Stadt"
+DE0361,Hochschule Merseburg (FH),public,University of applied sciences,No,www.hs-merseburg.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE0B,Saalekreis,Saalekreis
+DE0363,Hochschule Flensburg,public,University of applied sciences,No,www.fh-flensburg.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF01,"Flensburg, Kreisfreie Stadt","Flensburg, Kreisfreie Stadt"
+DE0364,"Fachhochschule Westküste, Heide",public,University of applied sciences,No,www.fh-westkueste.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF05,Dithmarschen,Dithmarschen
+DE0365,Fachhochschule Kiel,public,University of applied sciences,No,www.fh-kiel.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF02,"Kiel, Kreisfreie Stadt","Kiel, Kreisfreie Stadt"
+DE0366,Technische Hochschule Lübeck,public,University of applied sciences,No,www.th-luebeck.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF03,"Lübeck, Kreisfreie Stadt","Lübeck, Kreisfreie Stadt"
+DE0367,NORDAKADEMIE Hochschule der Wirtschaft,private,University of applied sciences,No,www.nordakademie.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF09,Pinneberg,Pinneberg
+DE0369,Private Fachhochschule Wedel,private,University of applied sciences,No,www.fh-wedel.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF09,Pinneberg,Pinneberg
+DE0370,Fachhochschule Erfurt,public,University of applied sciences,No,www.fh-erfurt.de,DEG0,Thüringen,Thüringen,DEG01,"Erfurt, Kreisfreie Stadt","Erfurt, Kreisfreie Stadt"
+DE0371,Ernst-Ebbe-Hochschule Jena,public,University of applied sciences,No,www.eah-jena.de,DEG0,Thüringen,Thüringen,DEG03,"Jena, Kreisfreie Stadt","Jena, Kreisfreie Stadt"
+DE0372,Hochschule Nordhausen,public,University of applied sciences,No,www.hs-nordhausen.de,DEG0,Thüringen,Thüringen,DEG07,Nordhausen,Nordhausen
+DE0373,Hochschule Schmmalkalden,public,University of applied sciences,No,www.hs-schmalkalden.de,DEG0,Thüringen,Thüringen,DEG0B,Schmalkalden-Meiningen,Schmalkalden-Meiningen
+DE0376,SRH Hochschule für Gesundheit Gera (Priv. FH),private,University of applied sciences,No,www.gesundheitshochschule.de,DEG0,Thüringen,Thüringen,DEG02,"Gera, Kreisfreie Stadt","Gera, Kreisfreie Stadt"
+DE0377,Hochschule für öffentliche Verwaltung Kehl,public,Other,No,www.hs-kehl.de,DE13,Freiburg,Freiburg,DE134,Ortenaukreis,Ortenaukreis
+DE0378,Hochschule Ludwigsburg für öffentliche Verwaltung und Finanzen,public,Other,No,www.hs-ludwigsburg.de,DE11,Stuttgart,Stuttgart,DE115,Ludwigsburg,Ludwigsburg
+DE0379,Fachhochschule für Rechtspflege Schwetzingen,public,Other,No,www.hfr-bw.de,DE12,Karlsruhe,Karlsruhe,DE128,Rhein-Neckar-Kreis,Rhein-Neckar-Kreis
+DE0380,Hochschule der Polizei Baden-Württemberg,public,Other,No,www.hfpol-bw.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis
+DE0382,Hochschule für den öffentlichen Dienst in Bayern,public,Other,No,www.fhvr.bayern.de,DE21,Oberbayern,Oberbayern,DE21C,Fürstenfeldbruck,Fürstenfeldbruck
+DE0385,FH der Polizei Brandenburg (VerwFH) in Oranienburg,public,Other,No,hpolbb.de,DE40,Brandenburg,Brandenburg,DE40A,Oberhavel,Oberhavel
+DE0386,Fachhochschule für Finanzen Brandenburg in Königs Wusterhausen,public,Other,No,fhf.brandenburg.de,DE40,Brandenburg,Brandenburg,DE406,Dahme-Spreewald,Dahme-Spreewald
+DE0387,Hochschule für öffentliche Verwaltung Bremen,public,Other,No,www.hfoev.bremen.de,DE50,Bremen,Bremen,DE501,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt"
+DE0389,Norddeutsche Akademie für Finanzen und Steuerrecht Hamburg,public,Other,No,www.hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0391,Hessische Hochschule für Finanzen und Rechtspflege,public,Other,No,www.studienzentrum-rotenburg.de,DE73,Kassel,Kassel,DE733,Hersfeld-Rotenburg,Hersfeld-Rotenburg
+DE0392,Hessische Hochschule für Polizei und Verwaltung,public,Other,No,www.hfpv.de,DE71,Darmstadt,Darmstadt,DE714,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt"
+DE0394,Verwaltungs-Fachhochschule Güstrow,public,Other,No,www.fh-guestrow.de,DE80,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,DE80K,Landkreis Rostock,Landkreis Rostock
+DE0395,"Norddeutsche Hochschule für Rechtspflege, Hildesheim",public,Other,No,hr-nord.niedersachsen.de,DE92,Hannover,Hannover,DE925,Hildesheim,Hildesheim
+DE0396,Kommunale Hochschule für Verwaltung in Niedersachsen,private,Other,No,www.nsi-hsvn.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0397,"Fachhochschule für Rechtspflege NW, Bad Münstereifel",public,Other,No,www.fhr.nrw.de,DEA2,Köln,Köln,DEA28,Euskirchen,Euskirchen
+DE0398,Fachhochschule für Finanzen NRW,public,Other,No,www.finanzverwaltung.nrw.de,DEA3,Münster,Münster,DEA35,Coesfeld,Coesfeld
+DE0399,Fachhochschule für öffentliche Verwaltung Nordrhein-Westfalen,public,Other,No,www.fhoev.nrw.de,DEA3,Münster,Münster,DEA32,"Gelsenkirchen, Kreisfreie Stadt","Gelsenkirchen, Kreisfreie Stadt"
+DE0400,Hochschule des Bundes für öffentliche Verwaltung,public,Other,No,www.hsbund.de,DEA2,Köln,Köln,DEA27,Rhein-Erft-Kreis,Rhein-Erft-Kreis
+DE0401,Hochschule für Finanzen Rheinland-Pfalz,public,Other,No,landesfinanzschule-edenkoben.fin-rlp.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3H,Südliche Weinstraße,Südliche Weinstraße
+DE0402,Hochschule der Deutschen Bundesbank Hachenburg,public,Other,No,www.hochschule-bundesbank.de,DEB1,Koblenz,Koblenz,DEB1B,Westerwaldkreis,Westerwaldkreis
+DE0403,Hochschule für öffentliche Verwaltung Rheinland-Pfalz,public,Other,No,hoev-rlp.de,DEB1,Koblenz,Koblenz,DEB17,Mayen-Koblenz,Mayen-Koblenz
+DE0404,Fachhochschule für Verwaltung Saarbrücken,public,Other,No,www.saarland.de,DEC0,Saarland,Saarland,DEC01,Regionalverband Saarbrücken,Regionalverband Saarbrücken
+DE0405,Hochschule für öffentliche Verwaltung und Rechtspflege Meißen (FH),public,Other,No,www.hsf.sachsen.de,DED2,Dresden,Dresden,DED2E,Meißen,Meißen
+DE0406,"Hochschule der Sächsischen Polizei, Rothenburg/OL. (FH)",public,Other,No,www.polizei.sachsen.de,DED2,Dresden,Dresden,DED2D,Görlitz,Görlitz
+DE0407,"Fachhochschule Polizei Sachsen-Anhalt, Aschersleben",public,Other,No,www.polizei.sachsen-anhalt.de,DEE0,Sachsen-Anhalt,Sachsen-Anhalt,DEE0C,Salzlandkreis,Salzlandkreis
+DE0408,Fachhochschule für Verwaltung und Dienstleistung Altenholz,public,Other,No,fhvd-sh.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF0B,Rendsburg-Eckernförde,Rendsburg-Eckernförde
+DE0410,Thüringer Fachhochschule für öffentliche Verwaltung Gotha,public,Other,No,www.thueringen.de,DEG0,Thüringen,Thüringen,DEG0C,Gotha,Gotha
+DE0411,"Hochschule für Medien, Kommunikation und Wirtschaft (HMKW)",private,University of applied sciences,No,www.hmkw.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0412,"Hochschule für Wirtschaft, Technik und Kultur Berlin (HWTK)",private,University of applied sciences,No,www.hwtk.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0413,International Psychoanalytic University Berlin,private,University,No,www.ipu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0414,Hochschule Emden/Leer,public,University of applied sciences,No,www.hs-emden-leer.de,DE94,Weser-Ems,Weser-Ems,DE942,"Emden, Kreisfreie Stadt","Emden, Kreisfreie Stadt"
+DE0415,Brand Academy - Hochschule für Design und Kommunikation,private,University of applied sciences,No,www.brand-university.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0416,KLU Kühne Logistics University (Priv.),private,University,No,www.the-klu.org,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0417,MSH Medical School Hamburg,private,University of applied sciences,No,www.medicalschool-hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0418,Hochschule Hamm-Lippstadt,public,University of applied sciences,No,www.hshl.de,DEA5,Arnsberg,Arnsberg,DEA54,"Hamm, Kreisfreie Stadt","Hamm, Kreisfreie Stadt"
+DE0419,Hochschule Rhein-Waal,public,University of applied sciences,No,www.hochschule-rhein-waal.de,DEA1,Düsseldorf,Düsseldorf,DEA1B,Kleve,Kleve
+DE0420,Cologne Business School (CBS) - European University of Applied Sciences (Priv. FH),private,University of applied sciences,No,www.cbs.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0421,Hochschule der Wirtschaft für Management (HdWM) Mannheim (Priv. FH),private,University of applied sciences,No,www.hdwm.net,DE12,Karlsruhe,Karlsruhe,DE126,"Mannheim, Stadtkreis","Mannheim, Stadtkreis"
+DE0422,Hochschule Ruhr West (HRW),public,University of applied sciences,No,www.hochschule-ruhr-west.de,DEA1,Düsseldorf,Düsseldorf,DEA16,"Mülheim an der Ruhr, Kreisfreie Stadt","Mülheim an der Ruhr, Kreisfreie Stadt"
+DE0423,Psychologische Hochschule Berlin (Priv. U),private,University,No,www.psychologische-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0424,Bard College Berlin,private,Other,No,berlin.bard.edu,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0427,Internationale Hochschule Liebenzell,private,University of applied sciences,No,www.ihl.eu,DE12,Karlsruhe,Karlsruhe,DE12A,Calw,Calw
+DE0430,Akkon HS Berlin (Priv. FH),private,University of applied sciences,No,www.akkon-hochschule.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0431,DEKRA Hochschule für Medien,private,University of applied sciences,No,www.srh-university.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0434,Fachhochschule für Sport und Management Potsdam (Priv.),private,University of applied sciences,No,www.fhsmp.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0435,BSP Business and Law School – Hochschule für Management und Recht,private,University of applied sciences,No,www.businessschool-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0437,CVJM-Hochschule Kassel (Priv. FH),private,University of applied sciences,No,www.cvjm-hochschule.de,DE73,Kassel,Kassel,DE731,"Kassel, Kreisfreie Stadt","Kassel, Kreisfreie Stadt"
+DE0438,"Hochschule Weserbergland (HSW), Hameln (Priv.FH)",private,University of applied sciences,No,www.hsw-hameln.de,DE92,Hannover,Hannover,DE923,Hameln-Pyrmont,Hameln-Pyrmont
+DE0439,Leibniz - Fachhochschule Hannover (Priv. FH),private,University of applied sciences,No,www.leibniz-fh.de,DE92,Hannover,Hannover,DE929,Region Hannover,Region Hannover
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt"
+DE0441,Fliedner Fachhochschule Düsseldorf (Priv. ),private,University of applied sciences,No,www.fliedner-fachhochschule.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0445,Fachhochschule Dresden (Priv. FH),private,University of applied sciences,No,www.fh-dresden.eu,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt"
+DE0448,Jade Hochschule,public,University of applied sciences,No,www.jade-hs.de,DE94,Weser-Ems,Weser-Ems,DE945,"Wilhelmshaven, Kreisfreie Stadt","Wilhelmshaven, Kreisfreie Stadt"
+DE0451,SRH Wilhelm Löhe Hochschule,private,University of applied sciences,No,www.srh-hochschule-fuerth.de,DE25,Mittelfranken,Mittelfranken,DE258,"Fürth, Landkreis","Fürth, Landkreis"
+DE0452,"Medical School Berlin, Hochschule für Gesundheit und Medizin (Priv. FH)",private,University of applied sciences,No,www.medicalschool-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0455,Brandenburgische Technische Universität Cottbus-Senftenberg,public,University,Yes,www.b-tu.de,DE40,Brandenburg,Brandenburg,DE402,"Cottbus, Kreisfreie Stadt","Cottbus, Kreisfreie Stadt"
+DE0457,VWA-Hochschule für berufsbegleitendes Studium Stuttgart (Priv.FH),private,University of applied sciences,No,http://www.vwa-hochschule.de/,DE13,Freiburg,Freiburg,DE131,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis"
+DE0458,Hochschule Geisenheim University (FH),private,University of applied sciences,No,www.hs-geisenheim.de,DE71,Darmstadt,Darmstadt,DE71D,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis
+DE0460,IST-Hochschule für Management Düsseldorf (Priv. FH),private,University of applied sciences,No,www.ist-hochschule.de,DEA1,Düsseldorf,Düsseldorf,DEA11,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt"
+DE0461,Medizinische Hochschule Brandenburg in Neuruppin (Priv. U),private,University,No,www.mhb-fontane.de,DE40,Brandenburg,Brandenburg,DE401,"Brandenburg an der Havel, Kreisfreie Stadt","Brandenburg an der Havel, Kreisfreie Stadt"
+DE0463,Hochschule für Kommunikation und Gestaltung (Priv. FH),private,University of applied sciences,No,www.hfk-bw.de,DE11,Stuttgart,Stuttgart,DE111,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis"
+DE0464,HDBW Hochschule der Bayerischen Wirtschaft für angewandte Wissenschaften (Priv. FH),private,University of applied sciences,No,www.hdbw-hochschule.de,DE21,Oberbayern,Oberbayern,DE212,"München, Kreisfreie Stadt","München, Kreisfreie Stadt"
+DE0468,Berlin International University of Applied Sciences,private,University of applied sciences,No,www.berlin-international.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0469,NBS Northern Business School Hamburg (Priv. FH),private,University of applied sciences,No,www.nbs.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0470,praxisHochschule Köln (Priv. FH),private,University of applied sciences,No,www.eufh.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0471,HSD Hochschule Döpfer Köln (Priv. FH),private,University of applied sciences,No,www.hs-doepfer.de,DEA2,Köln,Köln,DEA23,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt"
+DE0473,Hochschule der Polizei Rheinland-Pfalz in Büchenbeuren,public,University of applied sciences,No,www.polizei.rlp.de,DEB1,Koblenz,Koblenz,DEB15,Birkenfeld,Birkenfeld
+DE0475,Akademie der Polizei Hamburg,public,Other,No,akademie-der-polizei.hamburg.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg
+DE0478,Fachhochschule Clara Hoffbauer Potsdam (Priv. FH),private,University of applied sciences,No,www.fhchp.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0479,Duale Hochschule Gera-Eisenach (FH),public,University of applied sciences,No,www.dhge.de,DEG0,Thüringen,Thüringen,DEG02,"Gera, Kreisfreie Stadt","Gera, Kreisfreie Stadt"
+DE0480,Hochschule Fresenius Heidelberg (Priv. FH),private,University of applied sciences,No,www.hs-fresenius.de,DE12,Karlsruhe,Karlsruhe,DE125,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis"
+DE0484,German International University,public,University,No,www.giu-berlin.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0838,Hochschule für angewandte Pädagogik,private,University of applied sciences,No,www.hsap.de,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0841,CODE University of Applied Sciences,private,University of applied sciences,No,code.berlin,DE30,Berlin,Berlin,DE300,Berlin,Berlin
+DE0883,Duale Hochschule Schleswig-Holstein,private,University of applied sciences,No,www.dhsh.de,DEF0,Schleswig-Holstein,Schleswig-Holstein,DEF01,"Flensburg, Kreisfreie Stadt","Flensburg, Kreisfreie Stadt"
+DE0892,Evangelische Hochschule Tabor,private,Other,No,www.eh-tabor.de,DE72,Gießen,Gießen,DE724,Marburg-Biedenkopf,Marburg-Biedenkopf
+DE0902,Health and Medical University Potsdam,private,University,No,www.health-and-medical-university.de,DE40,Brandenburg,Brandenburg,DE404,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt"
+DE0904,Hochschule für Katholische Kirchenmusik und Musikpädagogik,private,Other,No,www.hfkm-regensburg.de,DE23,Oberpfalz,Oberpfalz,DE232,"Regensburg, Kreisfreie Stadt","Regensburg, Kreisfreie Stadt"
