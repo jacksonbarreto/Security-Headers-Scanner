@@ -25,7 +25,7 @@ def main():
     for i in range(daily_assessments):
         for file in files:
             file_path = os.path.join(input_directory, file)
-            print(f"({i}/{daily_assessments}) - Scanning file: {file}")
+            print(f"({i+1}/{daily_assessments}) - Scanning file: {file}")
             try:
                 run_scan(file_path)
             except Exception as e:
