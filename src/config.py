@@ -1,3 +1,9 @@
+EXPECTED_HEADERS = "expected_headers"
+DEPRECATED_HEADERS = "deprecated_headers"
+HEADERS_MULTIPLIERS = "header_multipliers"
+CRITICAL_HEADERS = "critical_headers"
+BASIC_POINT_UNIT = "basic_point_unit"
+
 config = {
     "user_agents": [
         {
@@ -10,7 +16,7 @@ config = {
         {"fr": "fr;en;q=0.6"},
         {"it": "it;en;q=0.6"},
     ],
-    "expected_headers": {
+    EXPECTED_HEADERS: {
         "X-XSS-Protection": lambda value: "Strong" if "1; mode=block" in value.lower() else "Weak",
         "X-Frame-Options": lambda value: "Strong" if value.lower() in ["deny", "sameorigin"] else "Weak",
         "X-Content-Type-Options": lambda value: "Strong" if value.lower() == "nosniff" else "Weak",
@@ -68,9 +74,9 @@ config = {
             ) else "Weak"
         ),
     },
-    "deprecated_headers": ["X-XSS-Protection", "X-Frame-Options"],
-    "critical_headers": ["Strict-Transport-Security", "Content-Security-Policy"],
-    "header_multipliers": {
+    DEPRECATED_HEADERS: ["X-XSS-Protection", "X-Frame-Options"],
+    CRITICAL_HEADERS: ["Strict-Transport-Security", "Content-Security-Policy"],
+    HEADERS_MULTIPLIERS: {
         "Strict-Transport-Security": 2,
         "Content-Security-Policy": 1.8,
         "cross-origin-embedder-policy": 1.5,

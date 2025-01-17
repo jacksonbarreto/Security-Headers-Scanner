@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+from src.analyzer.headers_calc import HEADER_COMPONENT_SCORE_COL
 from src.config import config
 
 input_directory = os.path.join('.', 'src', 'data', 'results', 'final_scores.csv')
@@ -15,7 +16,7 @@ def get_data(dataframe):
     # Aplicar a lógica diretamente no apply
     selected_data = dataframe.groupby(["country", "platform", "ETER_ID"]).apply(
         lambda group: group.loc[
-            group["total_header_score"] == group["total_header_score"].median()
+            group[HEADER_COMPONENT_SCORE_COL] == group[HEADER_COMPONENT_SCORE_COL].median()
             ].iloc[0]
     )
 

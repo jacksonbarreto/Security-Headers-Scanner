@@ -1,8 +1,8 @@
 import pandas as pd
 
-from src.config import config
+from src.config import config, BASIC_POINT_UNIT
 
-UB = config.get("basic_point_unit", 10)
+UB = config.get(BASIC_POINT_UNIT, 10)
 HTTPS_PRESENCE = 2 * UB
 HTTPS_NOT_DETECTED = -5 * UB
 HTTP_V2 = UB
