@@ -1,201 +1,810 @@
 ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,platform,error
-DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"invalid literal for int() with base 10: '15768000, '"
-DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '31536000, '"
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,desktop,invalid literal for int() with base 10: '63072000\x93'
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,mobile,invalid literal for int() with base 10: '63072000\x93'
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.806
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5558db2ee7ca <unknown>
+#1 0x5558dade62f0 <unknown>
+#2 0x5558dadce5a7 <unknown>
+#3 0x5558dadce2b2 <unknown>
+#4 0x5558dadcc23f <unknown>
+#5 0x5558dadcca2f <unknown>
+#6 0x5558daddc357 <unknown>
+#7 0x5558dadf35a4 <unknown>
+#8 0x5558dadf94bb <unknown>
+#9 0x5558dadcd137 <unknown>
+#10 0x5558dadf3404 <unknown>
+#11 0x5558dae79749 <unknown>
+#12 0x5558dae5a753 <unknown>
+#13 0x5558dae27baa <unknown>
+#14 0x5558dae28dfe <unknown>
+#15 0x5558db2b938b <unknown>
+#16 0x5558db2bd307 <unknown>
+#17 0x5558db2a5e7c <unknown>
+#18 0x5558db2bdec7 <unknown>
+#19 0x5558db28a24f <unknown>
+#20 0x5558db2dd2f8 <unknown>
+#21 0x5558db2dd4c0 <unknown>
+#22 0x5558db2ed646 <unknown>
+#23 0x7faec95d8ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.846
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55e4341467ca <unknown>
+#1 0x55e433c3e2f0 <unknown>
+#2 0x55e433c265a7 <unknown>
+#3 0x55e433c262b2 <unknown>
+#4 0x55e433c2423f <unknown>
+#5 0x55e433c24a2f <unknown>
+#6 0x55e433c34357 <unknown>
+#7 0x55e433c4b5a4 <unknown>
+#8 0x55e433c514bb <unknown>
+#9 0x55e433c25137 <unknown>
+#10 0x55e433c4b404 <unknown>
+#11 0x55e433cd1749 <unknown>
+#12 0x55e433cb2753 <unknown>
+#13 0x55e433c7fbaa <unknown>
+#14 0x55e433c80dfe <unknown>
+#15 0x55e43411138b <unknown>
+#16 0x55e434115307 <unknown>
+#17 0x55e4340fde7c <unknown>
+#18 0x55e434115ec7 <unknown>
+#19 0x55e4340e224f <unknown>
+#20 0x55e4341352f8 <unknown>
+#21 0x55e4341354c0 <unknown>
+#22 0x55e434145646 <unknown>
+#23 0x7f9135e4dac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.009
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55afa7e027ca <unknown>
+#1 0x55afa78fa2f0 <unknown>
+#2 0x55afa78e25a7 <unknown>
+#3 0x55afa78e22b2 <unknown>
+#4 0x55afa78e023f <unknown>
+#5 0x55afa78e0a2f <unknown>
+#6 0x55afa78f0357 <unknown>
+#7 0x55afa79075a4 <unknown>
+#8 0x55afa790d4bb <unknown>
+#9 0x55afa78e1137 <unknown>
+#10 0x55afa7907404 <unknown>
+#11 0x55afa798d282 <unknown>
+#12 0x55afa796e753 <unknown>
+#13 0x55afa793bbaa <unknown>
+#14 0x55afa793cdfe <unknown>
+#15 0x55afa7dcd38b <unknown>
+#16 0x55afa7dd1307 <unknown>
+#17 0x55afa7db9e7c <unknown>
+#18 0x55afa7dd1ec7 <unknown>
+#19 0x55afa7d9e24f <unknown>
+#20 0x55afa7df12f8 <unknown>
+#21 0x55afa7df14c0 <unknown>
+#22 0x55afa7e01646 <unknown>
+#23 0x7ff183507ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.012
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555924b717ca <unknown>
+#1 0x5559246692f0 <unknown>
+#2 0x5559246515a7 <unknown>
+#3 0x5559246512b2 <unknown>
+#4 0x55592464f23f <unknown>
+#5 0x55592464fa2f <unknown>
+#6 0x55592465f357 <unknown>
+#7 0x5559246765a4 <unknown>
+#8 0x55592467c4bb <unknown>
+#9 0x555924650137 <unknown>
+#10 0x555924676404 <unknown>
+#11 0x5559246fc282 <unknown>
+#12 0x5559246dd753 <unknown>
+#13 0x5559246aabaa <unknown>
+#14 0x5559246abdfe <unknown>
+#15 0x555924b3c38b <unknown>
+#16 0x555924b40307 <unknown>
+#17 0x555924b28e7c <unknown>
+#18 0x555924b40ec7 <unknown>
+#19 0x555924b0d24f <unknown>
+#20 0x555924b602f8 <unknown>
+#21 0x555924b604c0 <unknown>
+#22 0x555924b70646 <unknown>
+#23 0x7f1807055ac3 <unknown>
+"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
-DE0080,Universität Paderborn,public,University,No,www.uni-paderborn.de,DEA4,Detmold,Detmold,DEA47,Paderborn,Paderborn,desktop,"Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=131.0.6778.265)
+DE0175,Hochschule für Musik Carla Maria von Weber Dresden,public,Other,No,www.hfmdd.de,DED2,Dresden,Dresden,DED21,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.009
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A79A3061]
-	(No symbol) [0x00007FF6A7993BD9]
-	(No symbol) [0x00007FF6A799592F]
-	(No symbol) [0x00007FF6A7993E9F]
-	(No symbol) [0x00007FF6A799371D]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991B1C]
-	(No symbol) [0x00007FF6A79A89DA]
-	(No symbol) [0x00007FF6A7A4038E]
-	(No symbol) [0x00007FF6A7A1F36A]
-	(No symbol) [0x00007FF6A7A3F584]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x55e34d3897ca <unknown>
+#1 0x55e34ce812f0 <unknown>
+#2 0x55e34ce695a7 <unknown>
+#3 0x55e34ce692b2 <unknown>
+#4 0x55e34ce6723f <unknown>
+#5 0x55e34ce67a2f <unknown>
+#6 0x55e34ce77357 <unknown>
+#7 0x55e34ce8e5a4 <unknown>
+#8 0x55e34ce944bb <unknown>
+#9 0x55e34ce68137 <unknown>
+#10 0x55e34ce8e404 <unknown>
+#11 0x55e34cf14282 <unknown>
+#12 0x55e34cef5753 <unknown>
+#13 0x55e34cec2baa <unknown>
+#14 0x55e34cec3dfe <unknown>
+#15 0x55e34d35438b <unknown>
+#16 0x55e34d358307 <unknown>
+#17 0x55e34d340e7c <unknown>
+#18 0x55e34d358ec7 <unknown>
+#19 0x55e34d32524f <unknown>
+#20 0x55e34d3782f8 <unknown>
+#21 0x55e34d3784c0 <unknown>
+#22 0x55e34d388646 <unknown>
+#23 0x7f9a3aa73ac3 <unknown>
 "
-DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.694
-  (Session info: chrome=131.0.6778.265)
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A7993972]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991CFF]
-	(No symbol) [0x00007FF6A79A09CE]
-	(No symbol) [0x00007FF6A79B4A9D]
-	(No symbol) [0x00007FF6A79BB26A]
-	(No symbol) [0x00007FF6A7992464]
-	(No symbol) [0x00007FF6A79B48C3]
-	(No symbol) [0x00007FF6A7A3F8CB]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x55e2922a47ca <unknown>
+#1 0x55e291d9c2f0 <unknown>
+#2 0x55e291d94504 <unknown>
+#3 0x55e291d848a9 <unknown>
+#4 0x55e291d865b4 <unknown>
+#5 0x55e291d84b5d <unknown>
+#6 0x55e291d845d5 <unknown>
+#7 0x55e291d842b2 <unknown>
+#8 0x55e291d8223f <unknown>
+#9 0x55e291d828ba <unknown>
+#10 0x55e291d9ec69 <unknown>
+#11 0x55e291e30075 <unknown>
+#12 0x55e291e109b2 <unknown>
+#13 0x55e291e2f3b3 <unknown>
+#14 0x55e291e10753 <unknown>
+#15 0x55e291dddbaa <unknown>
+#16 0x55e291ddedfe <unknown>
+#17 0x55e29226f38b <unknown>
+#18 0x55e292273307 <unknown>
+#19 0x55e29225be7c <unknown>
+#20 0x55e292273ec7 <unknown>
+#21 0x55e29224024f <unknown>
+#22 0x55e2922932f8 <unknown>
+#23 0x55e2922934c0 <unknown>
+#24 0x55e2922a3646 <unknown>
+#25 0x7fe7daffaac3 <unknown>
+"
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55fc3d5b27ca <unknown>
+#1 0x55fc3d0aa2f0 <unknown>
+#2 0x55fc3d0a2504 <unknown>
+#3 0x55fc3d0928a9 <unknown>
+#4 0x55fc3d0945b4 <unknown>
+#5 0x55fc3d092b5d <unknown>
+#6 0x55fc3d0925d5 <unknown>
+#7 0x55fc3d0922b2 <unknown>
+#8 0x55fc3d09023f <unknown>
+#9 0x55fc3d0908ba <unknown>
+#10 0x55fc3d0acc69 <unknown>
+#11 0x55fc3d13e075 <unknown>
+#12 0x55fc3d11e9b2 <unknown>
+#13 0x55fc3d13d3b3 <unknown>
+#14 0x55fc3d11e753 <unknown>
+#15 0x55fc3d0ebbaa <unknown>
+#16 0x55fc3d0ecdfe <unknown>
+#17 0x55fc3d57d38b <unknown>
+#18 0x55fc3d581307 <unknown>
+#19 0x55fc3d569e7c <unknown>
+#20 0x55fc3d581ec7 <unknown>
+#21 0x55fc3d54e24f <unknown>
+#22 0x55fc3d5a12f8 <unknown>
+#23 0x55fc3d5a14c0 <unknown>
+#24 0x55fc3d5b1646 <unknown>
+#25 0x7f1af092bac3 <unknown>
+"
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,desktop,invalid literal for int() with base 10: '63072000\x93'
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,mobile,invalid literal for int() with base 10: '63072000\x93'
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.798
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55e2296147ca <unknown>
+#1 0x55e22910c2f0 <unknown>
+#2 0x55e2290f45a7 <unknown>
+#3 0x55e2290f42b2 <unknown>
+#4 0x55e2290f223f <unknown>
+#5 0x55e2290f2a2f <unknown>
+#6 0x55e229102357 <unknown>
+#7 0x55e2291195a4 <unknown>
+#8 0x55e22911f4bb <unknown>
+#9 0x55e2290f3137 <unknown>
+#10 0x55e229119404 <unknown>
+#11 0x55e22919f749 <unknown>
+#12 0x55e229180753 <unknown>
+#13 0x55e22914dbaa <unknown>
+#14 0x55e22914edfe <unknown>
+#15 0x55e2295df38b <unknown>
+#16 0x55e2295e3307 <unknown>
+#17 0x55e2295cbe7c <unknown>
+#18 0x55e2295e3ec7 <unknown>
+#19 0x55e2295b024f <unknown>
+#20 0x55e2296032f8 <unknown>
+#21 0x55e2296034c0 <unknown>
+#22 0x55e229613646 <unknown>
+#23 0x7fa6a0997ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.866
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x562317b557ca <unknown>
+#1 0x56231764d2f0 <unknown>
+#2 0x5623176355a7 <unknown>
+#3 0x5623176352b2 <unknown>
+#4 0x56231763323f <unknown>
+#5 0x562317633a2f <unknown>
+#6 0x562317643357 <unknown>
+#7 0x56231765a5a4 <unknown>
+#8 0x5623176604bb <unknown>
+#9 0x562317634137 <unknown>
+#10 0x56231765a404 <unknown>
+#11 0x5623176e0749 <unknown>
+#12 0x5623176c1753 <unknown>
+#13 0x56231768ebaa <unknown>
+#14 0x56231768fdfe <unknown>
+#15 0x562317b2038b <unknown>
+#16 0x562317b24307 <unknown>
+#17 0x562317b0ce7c <unknown>
+#18 0x562317b24ec7 <unknown>
+#19 0x562317af124f <unknown>
+#20 0x562317b442f8 <unknown>
+#21 0x562317b444c0 <unknown>
+#22 0x562317b54646 <unknown>
+#23 0x7f291b83cac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.011
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x562884dd17ca <unknown>
+#1 0x5628848c92f0 <unknown>
+#2 0x5628848b15a7 <unknown>
+#3 0x5628848b12b2 <unknown>
+#4 0x5628848af23f <unknown>
+#5 0x5628848afa2f <unknown>
+#6 0x5628848bf357 <unknown>
+#7 0x5628848d65a4 <unknown>
+#8 0x5628848dc4bb <unknown>
+#9 0x5628848b0137 <unknown>
+#10 0x5628848d6404 <unknown>
+#11 0x56288495c282 <unknown>
+#12 0x56288493d753 <unknown>
+#13 0x56288490abaa <unknown>
+#14 0x56288490bdfe <unknown>
+#15 0x562884d9c38b <unknown>
+#16 0x562884da0307 <unknown>
+#17 0x562884d88e7c <unknown>
+#18 0x562884da0ec7 <unknown>
+#19 0x562884d6d24f <unknown>
+#20 0x562884dc02f8 <unknown>
+#21 0x562884dc04c0 <unknown>
+#22 0x562884dd0646 <unknown>
+#23 0x7f131c882ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.046
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x557d123837ca <unknown>
+#1 0x557d11e7b2f0 <unknown>
+#2 0x557d11e635a7 <unknown>
+#3 0x557d11e632b2 <unknown>
+#4 0x557d11e6123f <unknown>
+#5 0x557d11e61a2f <unknown>
+#6 0x557d11e71357 <unknown>
+#7 0x557d11e885a4 <unknown>
+#8 0x557d11e8e4bb <unknown>
+#9 0x557d11e62137 <unknown>
+#10 0x557d11e88404 <unknown>
+#11 0x557d11f0e282 <unknown>
+#12 0x557d11eef753 <unknown>
+#13 0x557d11ebcbaa <unknown>
+#14 0x557d11ebddfe <unknown>
+#15 0x557d1234e38b <unknown>
+#16 0x557d12352307 <unknown>
+#17 0x557d1233ae7c <unknown>
+#18 0x557d12352ec7 <unknown>
+#19 0x557d1231f24f <unknown>
+#20 0x557d123722f8 <unknown>
+#21 0x557d123724c0 <unknown>
+#22 0x557d12382646 <unknown>
+#23 0x7f1e98468ac3 <unknown>
 "
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
-DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '31536000, '"
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55ec349167ca <unknown>
+#1 0x55ec3440e2f0 <unknown>
+#2 0x55ec34406504 <unknown>
+#3 0x55ec343f68a9 <unknown>
+#4 0x55ec343f85b4 <unknown>
+#5 0x55ec343f6b5d <unknown>
+#6 0x55ec343f65d5 <unknown>
+#7 0x55ec343f62b2 <unknown>
+#8 0x55ec343f423f <unknown>
+#9 0x55ec343f48ba <unknown>
+#10 0x55ec34410c69 <unknown>
+#11 0x55ec344a2075 <unknown>
+#12 0x55ec344829b2 <unknown>
+#13 0x55ec344a13b3 <unknown>
+#14 0x55ec34482753 <unknown>
+#15 0x55ec3444fbaa <unknown>
+#16 0x55ec34450dfe <unknown>
+#17 0x55ec348e138b <unknown>
+#18 0x55ec348e5307 <unknown>
+#19 0x55ec348cde7c <unknown>
+#20 0x55ec348e5ec7 <unknown>
+#21 0x55ec348b224f <unknown>
+#22 0x55ec349052f8 <unknown>
+#23 0x55ec349054c0 <unknown>
+#24 0x55ec34915646 <unknown>
+#25 0x7f21ce473ac3 <unknown>
+"
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5591b9f877ca <unknown>
+#1 0x5591b9a7f2f0 <unknown>
+#2 0x5591b9a77504 <unknown>
+#3 0x5591b9a678a9 <unknown>
+#4 0x5591b9a695b4 <unknown>
+#5 0x5591b9a67b5d <unknown>
+#6 0x5591b9a675d5 <unknown>
+#7 0x5591b9a672b2 <unknown>
+#8 0x5591b9a6523f <unknown>
+#9 0x5591b9a658ba <unknown>
+#10 0x5591b9a81c69 <unknown>
+#11 0x5591b9b13075 <unknown>
+#12 0x5591b9af39b2 <unknown>
+#13 0x5591b9b123b3 <unknown>
+#14 0x5591b9af3753 <unknown>
+#15 0x5591b9ac0baa <unknown>
+#16 0x5591b9ac1dfe <unknown>
+#17 0x5591b9f5238b <unknown>
+#18 0x5591b9f56307 <unknown>
+#19 0x5591b9f3ee7c <unknown>
+#20 0x5591b9f56ec7 <unknown>
+#21 0x5591b9f2324f <unknown>
+#22 0x5591b9f762f8 <unknown>
+#23 0x5591b9f764c0 <unknown>
+#24 0x5591b9f86646 <unknown>
+#25 0x7fe2f1f51ac3 <unknown>
+"
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,desktop,invalid literal for int() with base 10: '63072000\x93'
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,mobile,invalid literal for int() with base 10: '63072000\x93'
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.782
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563404d477ca <unknown>
+#1 0x56340483f2f0 <unknown>
+#2 0x5634048263b8 <unknown>
+#3 0x56340484c101 <unknown>
+#4 0x5634048d2749 <unknown>
+#5 0x5634048b3753 <unknown>
+#6 0x563404880baa <unknown>
+#7 0x563404881dfe <unknown>
+#8 0x563404d1238b <unknown>
+#9 0x563404d16307 <unknown>
+#10 0x563404cfee7c <unknown>
+#11 0x563404d16ec7 <unknown>
+#12 0x563404ce324f <unknown>
+#13 0x563404d362f8 <unknown>
+#14 0x563404d364c0 <unknown>
+#15 0x563404d46646 <unknown>
+#16 0x7f2d57b79ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.714
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x561f3d5117ca <unknown>
+#1 0x561f3d0092f0 <unknown>
+#2 0x561f3cff15a7 <unknown>
+#3 0x561f3cff12b2 <unknown>
+#4 0x561f3cfef23f <unknown>
+#5 0x561f3cfefa2f <unknown>
+#6 0x561f3cfff357 <unknown>
+#7 0x561f3d0165a4 <unknown>
+#8 0x561f3d01c4bb <unknown>
+#9 0x561f3cff0137 <unknown>
+#10 0x561f3d016404 <unknown>
+#11 0x561f3d09c749 <unknown>
+#12 0x561f3d07d753 <unknown>
+#13 0x561f3d04abaa <unknown>
+#14 0x561f3d04bdfe <unknown>
+#15 0x561f3d4dc38b <unknown>
+#16 0x561f3d4e0307 <unknown>
+#17 0x561f3d4c8e7c <unknown>
+#18 0x561f3d4e0ec7 <unknown>
+#19 0x561f3d4ad24f <unknown>
+#20 0x561f3d5002f8 <unknown>
+#21 0x561f3d5004c0 <unknown>
+#22 0x561f3d510646 <unknown>
+#23 0x7f9009842ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.031
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x56209137c7ca <unknown>
+#1 0x562090e742f0 <unknown>
+#2 0x562090e5c5a7 <unknown>
+#3 0x562090e5c2b2 <unknown>
+#4 0x562090e5a23f <unknown>
+#5 0x562090e5aa2f <unknown>
+#6 0x562090e6a357 <unknown>
+#7 0x562090e815a4 <unknown>
+#8 0x562090e874bb <unknown>
+#9 0x562090e5b137 <unknown>
+#10 0x562090e81404 <unknown>
+#11 0x562090f07282 <unknown>
+#12 0x562090ee8753 <unknown>
+#13 0x562090eb5baa <unknown>
+#14 0x562090eb6dfe <unknown>
+#15 0x56209134738b <unknown>
+#16 0x56209134b307 <unknown>
+#17 0x562091333e7c <unknown>
+#18 0x56209134bec7 <unknown>
+#19 0x56209131824f <unknown>
+#20 0x56209136b2f8 <unknown>
+#21 0x56209136b4c0 <unknown>
+#22 0x56209137b646 <unknown>
+#23 0x7fbc67185ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.006
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5577732477ca <unknown>
+#1 0x557772d3f2f0 <unknown>
+#2 0x557772d275a7 <unknown>
+#3 0x557772d272b2 <unknown>
+#4 0x557772d2523f <unknown>
+#5 0x557772d25a2f <unknown>
+#6 0x557772d35357 <unknown>
+#7 0x557772d4c5a4 <unknown>
+#8 0x557772d524bb <unknown>
+#9 0x557772d26137 <unknown>
+#10 0x557772d4c404 <unknown>
+#11 0x557772dd2282 <unknown>
+#12 0x557772db3753 <unknown>
+#13 0x557772d80baa <unknown>
+#14 0x557772d81dfe <unknown>
+#15 0x55777321238b <unknown>
+#16 0x557773216307 <unknown>
+#17 0x5577731fee7c <unknown>
+#18 0x557773216ec7 <unknown>
+#19 0x5577731e324f <unknown>
+#20 0x5577732362f8 <unknown>
+#21 0x5577732364c0 <unknown>
+#22 0x557773246646 <unknown>
+#23 0x7f67423ffac3 <unknown>
+"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
-DE0336,Technische Hochschule Bingen,public,University of applied sciences,No,www.th-bingen.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3J,Mainz-Bingen,Mainz-Bingen,desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=131.0.6778.265)
+DE0323,EBZ Business School Bochum (Priv. FH),private,University of applied sciences,No,www.ebz-business-school.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.688
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A79A3061]
-	(No symbol) [0x00007FF6A7993BD9]
-	(No symbol) [0x00007FF6A799592F]
-	(No symbol) [0x00007FF6A7993E9F]
-	(No symbol) [0x00007FF6A799371D]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991B1C]
-	(No symbol) [0x00007FF6A79A89DA]
-	(No symbol) [0x00007FF6A7A4038E]
-	(No symbol) [0x00007FF6A7A1F36A]
-	(No symbol) [0x00007FF6A7A3F584]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x564e902607ca <unknown>
+#1 0x564e8fd582f0 <unknown>
+#2 0x564e8fd405a7 <unknown>
+#3 0x564e8fd402b2 <unknown>
+#4 0x564e8fd3e23f <unknown>
+#5 0x564e8fd3ea2f <unknown>
+#6 0x564e8fd4e357 <unknown>
+#7 0x564e8fd655a4 <unknown>
+#8 0x564e8fd6b4bb <unknown>
+#9 0x564e8fd3f137 <unknown>
+#10 0x564e8fd65404 <unknown>
+#11 0x564e8fdeb749 <unknown>
+#12 0x564e8fdcc753 <unknown>
+#13 0x564e8fd99baa <unknown>
+#14 0x564e8fd9adfe <unknown>
+#15 0x564e9022b38b <unknown>
+#16 0x564e9022f307 <unknown>
+#17 0x564e90217e7c <unknown>
+#18 0x564e9022fec7 <unknown>
+#19 0x564e901fc24f <unknown>
+#20 0x564e9024f2f8 <unknown>
+#21 0x564e9024f4c0 <unknown>
+#22 0x564e9025f646 <unknown>
+#23 0x7fee89f88ac3 <unknown>
 "
-DE0336,Technische Hochschule Bingen,public,University of applied sciences,No,www.th-bingen.de,DEB3,Rheinhessen-Pfalz,Rheinhessen-Pfalz,DEB3J,Mainz-Bingen,Mainz-Bingen,mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=131.0.6778.265)
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,desktop,invalid literal for int() with base 10: '63072000\x93'
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,mobile,invalid literal for int() with base 10: '63072000\x93'
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.869
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A79A3061]
-	(No symbol) [0x00007FF6A7993BD9]
-	(No symbol) [0x00007FF6A799592F]
-	(No symbol) [0x00007FF6A7993E9F]
-	(No symbol) [0x00007FF6A799371D]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991B1C]
-	(No symbol) [0x00007FF6A79A89DA]
-	(No symbol) [0x00007FF6A7A4038E]
-	(No symbol) [0x00007FF6A7A1F36A]
-	(No symbol) [0x00007FF6A7A3F584]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x5556975547ca <unknown>
+#1 0x55569704c2f0 <unknown>
+#2 0x5556970345a7 <unknown>
+#3 0x5556970342b2 <unknown>
+#4 0x55569703223f <unknown>
+#5 0x555697032a2f <unknown>
+#6 0x555697042357 <unknown>
+#7 0x5556970595a4 <unknown>
+#8 0x55569705f4bb <unknown>
+#9 0x555697033137 <unknown>
+#10 0x555697059404 <unknown>
+#11 0x5556970df749 <unknown>
+#12 0x5556970c0753 <unknown>
+#13 0x55569708dbaa <unknown>
+#14 0x55569708edfe <unknown>
+#15 0x55569751f38b <unknown>
+#16 0x555697523307 <unknown>
+#17 0x55569750be7c <unknown>
+#18 0x555697523ec7 <unknown>
+#19 0x5556974f024f <unknown>
+#20 0x5556975432f8 <unknown>
+#21 0x5556975434c0 <unknown>
+#22 0x555697553646 <unknown>
+#23 0x7f3dd2769ac3 <unknown>
 "
-DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '15768000, '"
-DE0146,Hochschule für Musik Würzburg,public,Other,No,www.hfm-wuerzburg.de,DE26,Unterfranken,Unterfranken,DE263,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",mobile,"invalid literal for int() with base 10: '31536000, '"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.814
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563edface7ca <unknown>
+#1 0x563edf5c62f0 <unknown>
+#2 0x563edf5ae5a7 <unknown>
+#3 0x563edf5ae2b2 <unknown>
+#4 0x563edf5ac23f <unknown>
+#5 0x563edf5aca2f <unknown>
+#6 0x563edf5bc357 <unknown>
+#7 0x563edf5d35a4 <unknown>
+#8 0x563edf5d94bb <unknown>
+#9 0x563edf5ad137 <unknown>
+#10 0x563edf5d3404 <unknown>
+#11 0x563edf659749 <unknown>
+#12 0x563edf63a753 <unknown>
+#13 0x563edf607baa <unknown>
+#14 0x563edf608dfe <unknown>
+#15 0x563edfa9938b <unknown>
+#16 0x563edfa9d307 <unknown>
+#17 0x563edfa85e7c <unknown>
+#18 0x563edfa9dec7 <unknown>
+#19 0x563edfa6a24f <unknown>
+#20 0x563edfabd2f8 <unknown>
+#21 0x563edfabd4c0 <unknown>
+#22 0x563edfacd646 <unknown>
+#23 0x7f3cdccf3ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.027
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x56249e92b7ca <unknown>
+#1 0x56249e4232f0 <unknown>
+#2 0x56249e40b5a7 <unknown>
+#3 0x56249e40b2b2 <unknown>
+#4 0x56249e40923f <unknown>
+#5 0x56249e409a2f <unknown>
+#6 0x56249e419357 <unknown>
+#7 0x56249e4305a4 <unknown>
+#8 0x56249e4364bb <unknown>
+#9 0x56249e40a137 <unknown>
+#10 0x56249e430404 <unknown>
+#11 0x56249e4b6282 <unknown>
+#12 0x56249e497753 <unknown>
+#13 0x56249e464baa <unknown>
+#14 0x56249e465dfe <unknown>
+#15 0x56249e8f638b <unknown>
+#16 0x56249e8fa307 <unknown>
+#17 0x56249e8e2e7c <unknown>
+#18 0x56249e8faec7 <unknown>
+#19 0x56249e8c724f <unknown>
+#20 0x56249e91a2f8 <unknown>
+#21 0x56249e91a4c0 <unknown>
+#22 0x56249e92a646 <unknown>
+#23 0x7f44a8d84ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.008
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55a678c9e7ca <unknown>
+#1 0x55a6787962f0 <unknown>
+#2 0x55a67877e5a7 <unknown>
+#3 0x55a67877e2b2 <unknown>
+#4 0x55a67877c23f <unknown>
+#5 0x55a67877ca2f <unknown>
+#6 0x55a67878c357 <unknown>
+#7 0x55a6787a35a4 <unknown>
+#8 0x55a6787a94bb <unknown>
+#9 0x55a67877d137 <unknown>
+#10 0x55a6787a3404 <unknown>
+#11 0x55a678829282 <unknown>
+#12 0x55a67880a753 <unknown>
+#13 0x55a6787d7baa <unknown>
+#14 0x55a6787d8dfe <unknown>
+#15 0x55a678c6938b <unknown>
+#16 0x55a678c6d307 <unknown>
+#17 0x55a678c55e7c <unknown>
+#18 0x55a678c6dec7 <unknown>
+#19 0x55a678c3a24f <unknown>
+#20 0x55a678c8d2f8 <unknown>
+#21 0x55a678c8d4c0 <unknown>
+#22 0x55a678c9d646 <unknown>
+#23 0x7f25ebd70ac3 <unknown>
+"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
 DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
-DE0277,HFH Hamburger Fern-Hochschule (Priv. FH),private,University of applied sciences,No,www.hfh-fernstudium.de,DE60,Hamburg,Hamburg,DE600,Hamburg,Hamburg,desktop,"invalid literal for int() with base 10: '7200, '"
-DE0392,Hessische Hochschule für Polizei und Verwaltung,public,Other,No,www.hfpv.de,DE71,Darmstadt,Darmstadt,DE714,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.011
-  (Session info: chrome=131.0.6778.265)
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A7993972]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991CFF]
-	(No symbol) [0x00007FF6A79A09CE]
-	(No symbol) [0x00007FF6A79B4A9D]
-	(No symbol) [0x00007FF6A79BB26A]
-	(No symbol) [0x00007FF6A7992464]
-	(No symbol) [0x00007FF6A79B48C3]
-	(No symbol) [0x00007FF6A7A3F467]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x55cd454e17ca <unknown>
+#1 0x55cd44fd92f0 <unknown>
+#2 0x55cd44fd1504 <unknown>
+#3 0x55cd44fc18a9 <unknown>
+#4 0x55cd44fc35b4 <unknown>
+#5 0x55cd44fc1b5d <unknown>
+#6 0x55cd44fc15d5 <unknown>
+#7 0x55cd44fc12b2 <unknown>
+#8 0x55cd44fbf23f <unknown>
+#9 0x55cd44fbf8ba <unknown>
+#10 0x55cd44fdbc69 <unknown>
+#11 0x55cd4506d075 <unknown>
+#12 0x55cd4504d9b2 <unknown>
+#13 0x55cd4506c3b3 <unknown>
+#14 0x55cd4504d753 <unknown>
+#15 0x55cd4501abaa <unknown>
+#16 0x55cd4501bdfe <unknown>
+#17 0x55cd454ac38b <unknown>
+#18 0x55cd454b0307 <unknown>
+#19 0x55cd45498e7c <unknown>
+#20 0x55cd454b0ec7 <unknown>
+#21 0x55cd4547d24f <unknown>
+#22 0x55cd454d02f8 <unknown>
+#23 0x55cd454d04c0 <unknown>
+#24 0x55cd454e0646 <unknown>
+#25 0x7f6f91fdcac3 <unknown>
 "
-DE0392,Hessische Hochschule für Polizei und Verwaltung,public,Other,No,www.hfpv.de,DE71,Darmstadt,Darmstadt,DE714,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.000
-  (Session info: chrome=131.0.6778.265)
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6A7E780D5+2992373]
-	(No symbol) [0x00007FF6A7B0BFD0]
-	(No symbol) [0x00007FF6A79A590A]
-	(No symbol) [0x00007FF6A7993972]
-	(No symbol) [0x00007FF6A799363A]
-	(No symbol) [0x00007FF6A7991251]
-	(No symbol) [0x00007FF6A7991CFF]
-	(No symbol) [0x00007FF6A79A09CE]
-	(No symbol) [0x00007FF6A79B4A9D]
-	(No symbol) [0x00007FF6A79BB26A]
-	(No symbol) [0x00007FF6A7992464]
-	(No symbol) [0x00007FF6A79B48C3]
-	(No symbol) [0x00007FF6A7A3F467]
-	(No symbol) [0x00007FF6A7A1F113]
-	(No symbol) [0x00007FF6A79EA918]
-	(No symbol) [0x00007FF6A79EBA81]
-	GetHandleVerifier [0x00007FF6A7ED6A2D+3379789]
-	GetHandleVerifier [0x00007FF6A7EEC32D+3468109]
-	GetHandleVerifier [0x00007FF6A7EE0043+3418211]
-	GetHandleVerifier [0x00007FF6A7C6C78B+847787]
-	(No symbol) [0x00007FF6A7B1757F]
-	(No symbol) [0x00007FF6A7B12FC4]
-	(No symbol) [0x00007FF6A7B1315D]
-	(No symbol) [0x00007FF6A7B02979]
-	BaseThreadInitThunk [0x00007FFD73617374+20]
-	RtlUserThreadStart [0x00007FFD753FCC91+33]
+#0 0x55ba7a6ab7ca <unknown>
+#1 0x55ba7a1a32f0 <unknown>
+#2 0x55ba7a19b504 <unknown>
+#3 0x55ba7a18b8a9 <unknown>
+#4 0x55ba7a18d5b4 <unknown>
+#5 0x55ba7a18bb5d <unknown>
+#6 0x55ba7a18b5d5 <unknown>
+#7 0x55ba7a18b2b2 <unknown>
+#8 0x55ba7a18923f <unknown>
+#9 0x55ba7a1898ba <unknown>
+#10 0x55ba7a1a5c69 <unknown>
+#11 0x55ba7a237075 <unknown>
+#12 0x55ba7a2179b2 <unknown>
+#13 0x55ba7a2363b3 <unknown>
+#14 0x55ba7a217753 <unknown>
+#15 0x55ba7a1e4baa <unknown>
+#16 0x55ba7a1e5dfe <unknown>
+#17 0x55ba7a67638b <unknown>
+#18 0x55ba7a67a307 <unknown>
+#19 0x55ba7a662e7c <unknown>
+#20 0x55ba7a67aec7 <unknown>
+#21 0x55ba7a64724f <unknown>
+#22 0x55ba7a69a2f8 <unknown>
+#23 0x55ba7a69a4c0 <unknown>
+#24 0x55ba7a6aa646 <unknown>
+#25 0x7f5a2ec84ac3 <unknown>
 "
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,desktop,invalid literal for int() with base 10: '63072000\x93'
+DE0019,Katholische Universität Eichstätt-Ingolstadt (KU),private,University,No,www.ku.de,DE21,Oberbayern,Oberbayern,DE219,Eichstätt,Eichstätt,mobile,invalid literal for int() with base 10: '63072000\x93'
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.785
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x56420c6c67ca <unknown>
+#1 0x56420c1be2f0 <unknown>
+#2 0x56420c1a65a7 <unknown>
+#3 0x56420c1a62b2 <unknown>
+#4 0x56420c1a423f <unknown>
+#5 0x56420c1a4a2f <unknown>
+#6 0x56420c1b4357 <unknown>
+#7 0x56420c1cb5a4 <unknown>
+#8 0x56420c1d14bb <unknown>
+#9 0x56420c1a5137 <unknown>
+#10 0x56420c1cb404 <unknown>
+#11 0x56420c251749 <unknown>
+#12 0x56420c232753 <unknown>
+#13 0x56420c1ffbaa <unknown>
+#14 0x56420c200dfe <unknown>
+#15 0x56420c69138b <unknown>
+#16 0x56420c695307 <unknown>
+#17 0x56420c67de7c <unknown>
+#18 0x56420c695ec7 <unknown>
+#19 0x56420c66224f <unknown>
+#20 0x56420c6b52f8 <unknown>
+#21 0x56420c6b54c0 <unknown>
+#22 0x56420c6c5646 <unknown>
+#23 0x7f5e27251ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.817
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5611d79ac7ca <unknown>
+#1 0x5611d74a42f0 <unknown>
+#2 0x5611d748c5a7 <unknown>
+#3 0x5611d748c2b2 <unknown>
+#4 0x5611d748a23f <unknown>
+#5 0x5611d748aa2f <unknown>
+#6 0x5611d749a357 <unknown>
+#7 0x5611d74b15a4 <unknown>
+#8 0x5611d74b74bb <unknown>
+#9 0x5611d748b137 <unknown>
+#10 0x5611d74b1404 <unknown>
+#11 0x5611d7537749 <unknown>
+#12 0x5611d7518753 <unknown>
+#13 0x5611d74e5baa <unknown>
+#14 0x5611d74e6dfe <unknown>
+#15 0x5611d797738b <unknown>
+#16 0x5611d797b307 <unknown>
+#17 0x5611d7963e7c <unknown>
+#18 0x5611d797bec7 <unknown>
+#19 0x5611d794824f <unknown>
+#20 0x5611d799b2f8 <unknown>
+#21 0x5611d799b4c0 <unknown>
+#22 0x5611d79ab646 <unknown>
+#23 0x7fe2fcf45ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.020
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55e0c8d817ca <unknown>
+#1 0x55e0c88792f0 <unknown>
+#2 0x55e0c88615a7 <unknown>
+#3 0x55e0c88612b2 <unknown>
+#4 0x55e0c885f23f <unknown>
+#5 0x55e0c885fa2f <unknown>
+#6 0x55e0c886f357 <unknown>
+#7 0x55e0c88865a4 <unknown>
+#8 0x55e0c888c4bb <unknown>
+#9 0x55e0c8860137 <unknown>
+#10 0x55e0c8886404 <unknown>
+#11 0x55e0c890c282 <unknown>
+#12 0x55e0c88ed753 <unknown>
+#13 0x55e0c88babaa <unknown>
+#14 0x55e0c88bbdfe <unknown>
+#15 0x55e0c8d4c38b <unknown>
+#16 0x55e0c8d50307 <unknown>
+#17 0x55e0c8d38e7c <unknown>
+#18 0x55e0c8d50ec7 <unknown>
+#19 0x55e0c8d1d24f <unknown>
+#20 0x55e0c8d702f8 <unknown>
+#21 0x55e0c8d704c0 <unknown>
+#22 0x55e0c8d80646 <unknown>
+#23 0x7f1e85b69ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.008
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x556d2cc697ca <unknown>
+#1 0x556d2c7612f0 <unknown>
+#2 0x556d2c7495a7 <unknown>
+#3 0x556d2c7492b2 <unknown>
+#4 0x556d2c74723f <unknown>
+#5 0x556d2c747a2f <unknown>
+#6 0x556d2c757357 <unknown>
+#7 0x556d2c76e5a4 <unknown>
+#8 0x556d2c7744bb <unknown>
+#9 0x556d2c748137 <unknown>
+#10 0x556d2c76e404 <unknown>
+#11 0x556d2c7f4282 <unknown>
+#12 0x556d2c7d5753 <unknown>
+#13 0x556d2c7a2baa <unknown>
+#14 0x556d2c7a3dfe <unknown>
+#15 0x556d2cc3438b <unknown>
+#16 0x556d2cc38307 <unknown>
+#17 0x556d2cc20e7c <unknown>
+#18 0x556d2cc38ec7 <unknown>
+#19 0x556d2cc0524f <unknown>
+#20 0x556d2cc582f8 <unknown>
+#21 0x556d2cc584c0 <unknown>
+#22 0x556d2cc68646 <unknown>
+#23 0x7f2b9066fac3 <unknown>
+"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,desktop,"invalid literal for int() with base 10: '63072000, '"
+DE0189,Hochuschule Furtwangen (FH),public,University of applied sciences,No,www.hs-furtwangen.de,DE13,Freiburg,Freiburg,DE136,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,mobile,"invalid literal for int() with base 10: '63072000, '"
