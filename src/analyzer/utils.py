@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import os
 
+
 def extract_country_and_platform(filename):
     parts = filename.replace('.csv', '').split('_')
     if len(parts) < 2:

@@ -1,8 +1,8 @@
 import pandas as pd
 
 from src.analyzer.headers_calc import calculate_header_scores, HEADER_COMPONENT_SCORE_COL
-from src.analyzer.http import calculate_http_scores
-from src.analyzer.redirect import calculate_redirect_scores
+from src.analyzer.http import calculate_http_scores, HTTP_COMPONENT_SCORE_COL
+from src.analyzer.redirect import calculate_redirect_scores, REDIRECT_COMPONENT_SCORE_COL
 
 WEIGHT_HEADERS = 0.4
 WEIGHT_HTTP = 0.4
@@ -18,9 +18,9 @@ def calculate_final_scores(dataframe):
     dataframe = calculate_redirect_scores(dataframe)
 
     dataframe["final_score"] = (
-            dataframe[HEADER_COMPONENT_SCORE_COL] * WEIGHT_HEADERS +
-            dataframe["total_http_score"] * WEIGHT_HTTP +
-            dataframe["total_redirect_score"] * WEIGHT_REDIRECT
+        (dataframe[HEADER_COMPONENT_SCORE_COL] * WEIGHT_HEADERS +
+         dataframe[HTTP_COMPONENT_SCORE_COL] * WEIGHT_HTTP +
+         dataframe[REDIRECT_COMPONENT_SCORE_COL] * WEIGHT_REDIRECT).round(2)
     )
 
     dataframe["grade"] = dataframe["final_score"].apply(
@@ -29,4 +29,3 @@ def calculate_final_scores(dataframe):
     )
 
     return dataframe
-

@@ -3,6 +3,7 @@ import signal
 import sys
 
 import pandas as pd
+
 from src.scanner.browser import get_webdriver, get_scan_result
 from src.config import config
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -16,18 +17,22 @@ results_by_platform = {list(device.keys())[0]: [] for device in config['user_age
 errors = []
 HTTP = "http://"
 HTTPS = "https://"
-active_webdrivers = []
+active_web_drivers = []
+
 
 def signal_handler(sig, frame):
+    global active_web_drivers
     print("\nInterruption received. Ending active WebDrivers...")
-    for driver in active_webdrivers:
+    for driver in active_web_drivers:
         try:
             driver.quit()
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"Error quitting WebDriver: {e}")
     sys.exit(0)
 
+
 signal.signal(signal.SIGINT, signal_handler)
+
 
 def run_scan(input_file):
     global results_by_platform
@@ -61,7 +66,7 @@ def run_scan(input_file):
 
 
 def process_scan(row, url_column_name, language):
-    global active_webdrivers
+    global active_web_drivers
     process_result_by_platform = {}
     process_error = []
     base_url = sanitize_url(row[url_column_name])
@@ -86,7 +91,7 @@ def process_scan(row, url_column_name, language):
         }
 
         web_driver = get_webdriver(user_agent, language)
-        active_webdrivers.append(web_driver)
+        active_web_drivers.append(web_driver)
         try:
             print(f"Scanning HTTP: {base_url} - {platform}")
             web_driver.get(http_url)
@@ -102,9 +107,9 @@ def process_scan(row, url_column_name, language):
             if not result["redirected_to_https"]:
                 print(f"Scanning HTTPS: {https_url}")
                 web_driver.quit()
-                active_webdrivers.remove(web_driver)
+                active_web_drivers.remove(web_driver)
                 web_driver = get_webdriver(user_agent, language)
-                active_webdrivers.append(web_driver)
+                active_web_drivers.append(web_driver)
                 web_driver.get(https_url)
                 scan_result = get_scan_result(web_driver)
                 result["https_status_code"] = scan_result.final_status
@@ -123,7 +128,7 @@ def process_scan(row, url_column_name, language):
             process_error.append(error_result)
         finally:
             web_driver.quit()
-            active_webdrivers.remove(web_driver)
+            active_web_drivers.remove(web_driver)
 
     with lock:
         for platform, result in process_result_by_platform.items():

@@ -1,78 +1,73 @@
-import pandas as pd
+HTTP_V2_POINTS = 1.1
+HTTP_V3_POINTS = 1.3
+HTTPS_PRESENCE = 100 / HTTP_V3_POINTS
+PENALTY_SAME_PLATFORM = 0.05
+PENALTY_BETWEEN_PLATFORMS = 0.1
+HTTP_DAILY_SCORE_COL = "daily_http_score"
+DAILY_SCORE_BY_PLATFORM_COL = "daily_http_score_by_platform"
+DAILY_SCORE_INTER_PLATFORMS_COL = "daily_http_score_inter_platforms"
+HTTP_COMPONENT_SCORE_COL = "http_component_score"
 
-from src.config import config, BASIC_POINT_UNIT
-
-UB = config.get(BASIC_POINT_UNIT, 10)
-HTTPS_PRESENCE = 2 * UB
-HTTPS_NOT_DETECTED = -5 * UB
-HTTP_V2 = UB
-HTTP_V3 = 1.5 * UB
-PENALTY_SAME_PLATFORM = -1 * UB
-PENALTY_BETWEEN_PLATFORMS = -2 * UB
 
 def calculate_http_scores(dataframe):
     platform_counts = dataframe["platform"].nunique()
-    dataframe["http_score"] = 0
-    dataframe["total_http_score"] = 0
+    dataframe[HTTP_DAILY_SCORE_COL] = 0
+    dataframe[HTTP_COMPONENT_SCORE_COL] = 0
 
-    dataframe["http_score"] += dataframe["protocol_http"].apply(
-        lambda x: HTTP_V2 if str(x).lower() == "h2" else HTTP_V3 if str(x).lower() == "h3" else 0)
-    dataframe["http_score"] += dataframe["final_url"].apply(
-        lambda x: HTTPS_PRESENCE if str(x).lower().startswith("https://") else HTTPS_NOT_DETECTED)
+    dataframe[HTTP_DAILY_SCORE_COL] = dataframe.apply(calculate_http_presence_and_version, axis=1)
 
-    check_https_inconsistencies(dataframe)
+    dataframe[DAILY_SCORE_BY_PLATFORM_COL] = dataframe.groupby(
+        ["ETER_ID", "assessment_date", "platform"]
+    )[HTTP_DAILY_SCORE_COL].transform("median")
 
-    # Calcula a mediana diária para cada plataforma
-    median_rows = (
-        dataframe.groupby(["ETER_ID", "assessment_date", "platform"])["http_score"]
-        .apply(lambda x: x.idxmax() if len(x) == 1 else x.sort_values().iloc[len(x) // 2:].index[0])  # Mediana
-        .reset_index(name="median_index")
-    )
+    dataframe[DAILY_SCORE_INTER_PLATFORMS_COL] = dataframe.groupby(
+        ["ETER_ID", "assessment_date"]
+    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean")
 
-    # Soma as medianas de todos os dias
-    daily_medians = dataframe.loc[median_rows["median_index"]].groupby(["ETER_ID", "assessment_date"])[
-        "http_score"].mean()
+    check_inconsistencies(dataframe)
 
-    # Calcula a média das medianas diárias para cada ETER_ID
-    average_median_score = daily_medians.groupby("ETER_ID").mean()
-
-    # Calcula as penalidades por ETER_ID
-    penalties = dataframe.groupby("ETER_ID").apply(
-        lambda group: {
-            "same_platform_penalty": (
-                PENALTY_SAME_PLATFORM if group["http_inconsistency_same_platform"].any() else 0
-            ),
-            "between_platforms_penalty": (
-                PENALTY_BETWEEN_PLATFORMS if group["http_inconsistency_between_platforms"].any() else 0
-            )
-        }
-    )
-    # Combina a média das medianas com as penalidades
-    dataframe["total_http_score"] = dataframe["ETER_ID"].map(
-        lambda eter_id: average_median_score[eter_id]
-                        + penalties[eter_id]["same_platform_penalty"]
-                        + penalties[eter_id]["between_platforms_penalty"] * platform_counts
+    dataframe[HTTP_COMPONENT_SCORE_COL] = (
+            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
+            (1 - (dataframe["http_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM +
+                  dataframe["http_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS * (
+                          platform_counts / 100)))
     )
 
     return dataframe
 
 
-def check_https_inconsistencies(dataframe):
+def calculate_http_presence_and_version(row):
+    http_score = 0
+
+    if row["final_url"].lower().startswith("https://"):
+        http_score += HTTPS_PRESENCE
+    elif not row["final_url"].lower().startswith("http://"):
+        print(f"final_url is not HTTP or HTTPS ({row['final_url']}) at: {row['ETER_ID']} - {row['Url']}")
+
+    if row["protocol_http"].lower() == "h2":
+        http_score *= HTTP_V2_POINTS
+    elif row["protocol_http"].lower() == "h3":
+        http_score *= HTTP_V3_POINTS
+    elif row["protocol_http"].lower() != "http/1.1":
+        print(f"Unknown HTTP version ({row['protocol_http']}) at: {row['ETER_ID']} - {row['Url']}")
+
+    return http_score
+
+
+def check_inconsistencies(dataframe):
     dataframe["http_inconsistency_same_platform"] = False
     dataframe["http_inconsistency_between_platforms"] = False
 
-    https_inconsistencies_same_platform = dataframe.groupby(
-        ["ETER_ID", "assessment_date", "platform"]
+    dataframe["http_inconsistency_same_platform"] = dataframe.groupby(
+        ["ETER_ID", "platform"]
     )["final_url"].transform(
         lambda x: x.str.startswith("https://").nunique() > 1
     )
-    dataframe["http_inconsistency_same_platform"] = https_inconsistencies_same_platform
 
-    https_inconsistencies_between_platforms = dataframe.groupby(
-        ["ETER_ID", "assessment_date"]
+    dataframe["http_inconsistency_between_platforms"] = dataframe.groupby(
+        ["ETER_ID"]
     )["final_url"].transform(
         lambda x: x.str.startswith("https://").nunique() > 1
     )
-    dataframe["http_inconsistency_between_platforms"] = https_inconsistencies_between_platforms
 
     return dataframe
