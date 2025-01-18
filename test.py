@@ -7,7 +7,8 @@ import pandas as pd
 from src.analyzer.headers_calc import HEADER_COMPONENT_SCORE_COL
 from src.config import config
 
-input_directory = os.path.join('.', 'src', 'data', 'results', 'final_scores.csv')
+input_directory = os.path.join('.', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
+output_directory = os.path.join('.', 'src', 'data', 'results', 'analysis', 'graphs')
 df = pd.read_csv(input_directory)
 
 def get_data(dataframe):
@@ -94,78 +95,23 @@ def create_radar_charts(kpi_data):
         ax.xaxis.set_tick_params(labelcolor='none')
         ax.grid(True)
         # Adicionar a legenda
-        ax.legend(loc="upper right", bbox_to_anchor=(1.2, 1.1))
+        ax.legend(loc="upper right", bbox_to_anchor=(1.2, 1.17))
 
     # Adicionar título geral para a figura
 
     fig.text(
-        0.5, 0.9,  # Posição do título no eixo (x, y)
+        0.5, 0.95,  # Posição do título no eixo (x, y)
         "Usage of HTTP Security Headers (Desktop vs Mobile)",
         fontsize=16,
         fontweight="bold",
         ha="center"
     )
     # Ajustar espaçamento
-    #plt.tight_layout(rect=[0, 0, 1, 0.95])
-    fig.subplots_adjust(top=0.75)
+    plt.tight_layout(rect=[0, 0, 1, 0.90])
+    #fig.subplots_adjust(top=0.75, wspace=0.65)
+    filename = os.path.join(output_directory, "radar_chart.pdf")
+    fig.savefig(filename, format="pdf", bbox_inches="tight")
     plt.show()
-
-# Simulated data for radar chart
-# headers = list(config["expected_headers"].keys())
-# num_headers = len(headers)
-#
-# # Simulate data for Desktop and Mobile usage (percentage)
-# desktop_usage = np.random.uniform(50, 100, num_headers)  # Example percentages for desktop
-# mobile_usage = np.random.uniform(30, 90, num_headers)  # Example percentages for mobile
-#
-# # Radar chart setup
-# angles = np.linspace(0, 2 * np.pi, num_headers, endpoint=False).tolist()
-# angles += angles[:1]  # Close the circle
-#
-# desktop_usage = np.append(desktop_usage, desktop_usage[0])  # Close the circle
-# mobile_usage = np.append(mobile_usage, mobile_usage[0])  # Close the circle
-
-# # Headers to highlight
-# highlight_positive = config["critical_headers"]
-# highlight_deprecated = config["deprecated_headers"]
-#
-# # Create the figure and axis
-# fig, ax = plt.subplots(figsize=(8, 8), subplot_kw={"projection": "polar"})
-#
-# # Plot data
-# ax.plot(angles, desktop_usage, label="Desktop", linewidth=2)
-# ax.fill(angles, desktop_usage, alpha=0.25)
-#
-# ax.plot(angles, mobile_usage, label="Mobile", linewidth=2, linestyle='--')
-# ax.fill(angles, mobile_usage, alpha=0.25)
-#
-# # Add header labels to the chart
-# ax.set_yticks([20, 40, 60, 80, 100])  # Custom percentage ticks
-# ax.set_yticklabels(["20%", "40%", "60%", "80%", "100%"], fontsize=10)
-# ax.set_xticks(angles[:-1])
-# #ax.set_xticklabels(headers, fontsize=10, ha='center')
-#
-# # Customize header labels
-# for i, angle in enumerate(angles[:-1]):  # Skip the last angle (circle closure)
-#     header = headers[i]
-#     if header in highlight_positive:
-#         ax.text(angle, 110, header, color="green", fontsize=10, ha='center', va='center')
-#     elif header in highlight_deprecated:
-#         ax.text(angle, 110, header, color="red",  fontsize=10, ha='center', va='center')
-#     else:
-#         ax.text(angle, 105, header, fontsize=10, ha='center', va='center')
-#
-# # Remove os ticks dos ângulos (90°, 135°, etc.)
-# #ax.set_thetagrids([], labels=[])
-# ax.xaxis.set_tick_params(labelcolor='none')
-# ax.grid(True)
-# # Style adjustments
-# ax.set_title("Usage of HTTP Security Headers (Desktop vs Mobile) in Germany", size=14, y=1.1)
-# ax.legend(loc="upper right", bbox_to_anchor=(1.2, 1.1))
-#
-# # Show chart
-# plt.tight_layout()
-# plt.show()
 
 
 create_radar_charts(kpi)
