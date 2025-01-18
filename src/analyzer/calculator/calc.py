@@ -1,8 +1,8 @@
 import pandas as pd
 
-from src.analyzer.headers_calc import calculate_header_scores, HEADER_COMPONENT_SCORE_COL
-from src.analyzer.http import calculate_http_scores, HTTP_COMPONENT_SCORE_COL
-from src.analyzer.redirect import calculate_redirect_scores, REDIRECT_COMPONENT_SCORE_COL
+from src.analyzer.calculator.headers_calc import calculate_header_scores, HEADER_COMPONENT_SCORE_COL
+from src.analyzer.calculator.http import calculate_http_scores, HTTP_COMPONENT_SCORE_COL
+from src.analyzer.calculator.redirect import calculate_redirect_scores, REDIRECT_COMPONENT_SCORE_COL
 
 WEIGHT_HEADERS = 0.4
 WEIGHT_HTTP = 0.4

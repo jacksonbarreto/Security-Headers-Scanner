@@ -26,15 +26,15 @@ def calculate_header_scores(dataframe):
     dataframe[HEADER_SCORE_COL] = dataframe.apply(
         lambda x: sum(calculate_header_presence_and_config(header, x) for header in expected_headers),
         axis=1
-    )
+    ).round(2)
 
     dataframe[DAILY_SCORE_BY_PLATFORM_COL] = dataframe.groupby(
         ["ETER_ID", "assessment_date", "platform"]
-    )[HEADER_SCORE_COL].transform("median")
+    )[HEADER_SCORE_COL].transform("median").round(2)
 
     dataframe[DAILY_SCORE_INTER_PLATFORMS_COL] = dataframe.groupby(
         ["ETER_ID", "assessment_date"]
-    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean")
+    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean").round(2)
 
     check_inconsistencies(dataframe)
 
@@ -53,8 +53,8 @@ def calculate_header_scores(dataframe):
     )
 
     dataframe[HEADER_COMPONENT_SCORE_COL] = (
-            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-            (1 - (penalty_same_platform + penalty_between_platforms))
+        round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
+              (1 - (penalty_same_platform + penalty_between_platforms)), 2)
     )
 
     return dataframe
@@ -81,7 +81,7 @@ def calculate_header_presence_and_config(header, row):
 
         header_score *= multipliers.get(header, 1)
 
-    return min(header_score, 100)
+    return round(min(header_score, 100), 2)
 
 
 def check_inconsistencies(dataframe):

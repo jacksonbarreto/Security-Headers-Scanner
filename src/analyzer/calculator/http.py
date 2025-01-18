@@ -22,15 +22,15 @@ def calculate_http_scores(dataframe):
 
     dataframe[DAILY_SCORE_INTER_PLATFORMS_COL] = dataframe.groupby(
         ["ETER_ID", "assessment_date"]
-    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean")
+    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean").round(2)
 
     check_inconsistencies(dataframe)
 
     dataframe[HTTP_COMPONENT_SCORE_COL] = (
-            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-            (1 - (dataframe["http_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM +
-                  dataframe["http_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS * (
-                          platform_counts / 100)))
+        round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
+              (1 - (dataframe["http_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM +
+                    dataframe["http_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS * (
+                            platform_counts / 100))), 2)
     )
 
     return dataframe
@@ -51,7 +51,7 @@ def calculate_http_presence_and_version(row):
     elif row["protocol_http"].lower() != "http/1.1":
         print(f"Unknown HTTP version ({row['protocol_http']}) at: {row['ETER_ID']} - {row['Url']}")
 
-    return http_score
+    return round(http_score, 2)
 
 
 def check_inconsistencies(dataframe):

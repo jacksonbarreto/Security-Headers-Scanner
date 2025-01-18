@@ -1,7 +1,7 @@
 import os
 
-from src.analyzer.calc import calculate_final_scores
-from src.analyzer.utils import load_results
+from src.analyzer.calculator.calc import calculate_final_scores
+from src.analyzer.utils.utils import load_results
 
 
 def main():

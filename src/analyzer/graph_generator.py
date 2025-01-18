@@ -4,31 +4,28 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from src.analyzer.headers_calc import HEADER_COMPONENT_SCORE_COL
+from src.analyzer.calculator.headers_calc import HEADER_COMPONENT_SCORE_COL, HEADER_SCORE_COL
 from src.config import config
 
-input_directory = os.path.join('.', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
-output_directory = os.path.join('.', 'src', 'data', 'results', 'analysis', 'graphs')
+input_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
+output_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'graphs')
 df = pd.read_csv(input_directory)
+
 
 def get_data(dataframe):
     presence_columns = [col for col in dataframe.columns if col.endswith("_presence")]
 
-    # Aplicar a lógica diretamente no apply
-    selected_data = dataframe.groupby(["country", "platform", "ETER_ID"]).apply(
-        lambda group: group.loc[
-            group[HEADER_COMPONENT_SCORE_COL] == group[HEADER_COMPONENT_SCORE_COL].median()
-            ].iloc[0]
-    )
+    def select_representative_row(group):
+        idx = (group[HEADER_SCORE_COL] - group[HEADER_SCORE_COL].median()).abs().idxmin()
+        return group.loc[idx]
 
-    # Resetar o índice após o agrupamento
-    selected_data.reset_index(drop=True, inplace=True)
+    selected_data = dataframe.groupby(["country", "platform", "ETER_ID"]).apply(select_representative_row).reset_index(
+        drop=True)
 
-    # Agregar dados para calcular KPIs
     kpi_data = selected_data.groupby(["country", "platform"])[presence_columns].mean() * 100
 
-    # Retornar os dados processados e prontos para visualização
-    return kpi_data, selected_data
+    return kpi_data
+
 
 def get_country(country):
     if country == "de":
@@ -38,9 +35,6 @@ def get_country(country):
     elif country == "it":
         return "Italy"
     return country
-
-kpi, selectedData = get_data(df)
-
 
 
 def create_radar_charts(kpi_data):
@@ -84,13 +78,13 @@ def create_radar_charts(kpi_data):
         ax.set_title(f"{get_country(country)}", fontsize=14, pad=20, y=1.05)
 
         for i, angle in enumerate(angles[:-1]):  # Skip the last angle (circle closure)
-             header = headers[i]
-             if header in highlight_positive:
-                 ax.text(angle, 110, header, color="green", fontsize=10, ha='center', va='center')
-             elif header in highlight_deprecated:
-                 ax.text(angle, 110, header, color="red",  fontsize=10, ha='center', va='center')
-             else:
-                 ax.text(angle, 105, header, fontsize=10, ha='center', va='center')
+            header = headers[i]
+            if header in highlight_positive:
+                ax.text(angle, 110, header, color="green", fontsize=10, ha='center', va='center')
+            elif header in highlight_deprecated:
+                ax.text(angle, 110, header, color="red", fontsize=10, ha='center', va='center')
+            else:
+                ax.text(angle, 105, header, fontsize=10, ha='center', va='center')
 
         ax.xaxis.set_tick_params(labelcolor='none')
         ax.grid(True)
@@ -108,10 +102,12 @@ def create_radar_charts(kpi_data):
     )
     # Ajustar espaçamento
     plt.tight_layout(rect=[0, 0, 1, 0.90])
-    #fig.subplots_adjust(top=0.75, wspace=0.65)
+    # fig.subplots_adjust(top=0.75, wspace=0.65)
     filename = os.path.join(output_directory, "radar_chart.pdf")
     fig.savefig(filename, format="pdf", bbox_inches="tight")
     plt.show()
 
 
-create_radar_charts(kpi)
+if __name__ == "__main__":
+    kpi = get_data(df)
+    create_radar_charts(kpi)

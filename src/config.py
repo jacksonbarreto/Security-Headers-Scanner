@@ -35,9 +35,10 @@ config = {
         "Strict-Transport-Security": lambda value: (
             "Strong" if (
                     "max-age=" in value.lower()
-                    and int(value.lower().split('max-age=')[1].split(';')[0].strip().replace("\x93", "").replace(",", "")) >= 31536000
+                    and int(value.lower().split('max-age=')[1].split(';')[0].strip().replace("\x93", "").replace(",",
+                                                                                                                 "")) >= 31536000
                     and ("includesubdomains" in value.lower()
-                    or ("includesubdomains" in value.lower() and "preload" in value.lower()))
+                         or ("includesubdomains" in value.lower() and "preload" in value.lower()))
             )
             else "Weak"
         ),
@@ -68,9 +69,9 @@ config = {
         ) else "Weak",
         "Set-Cookie": lambda value: (
             "Strong" if (
-                "secure" in value.lower() and
-                ("samesite=strict" in value.lower() or "samesite=lax" in value.lower()) and
-                "httponly" in value.lower()
+                    "secure" in value.lower() and
+                    ("samesite=strict" in value.lower() or "samesite=lax" in value.lower()) and
+                    "httponly" in value.lower()
             ) else "Weak"
         ),
     },
