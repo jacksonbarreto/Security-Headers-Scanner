@@ -1,0 +1,600 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,platform,error
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.757
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55f6d67da7ca <unknown>
+#1 0x55f6d62d22f0 <unknown>
+#2 0x55f6d62ba5a7 <unknown>
+#3 0x55f6d62ba2b2 <unknown>
+#4 0x55f6d62b823f <unknown>
+#5 0x55f6d62b8a2f <unknown>
+#6 0x55f6d62c8357 <unknown>
+#7 0x55f6d62df5a4 <unknown>
+#8 0x55f6d62e54bb <unknown>
+#9 0x55f6d62b9137 <unknown>
+#10 0x55f6d62df404 <unknown>
+#11 0x55f6d6365749 <unknown>
+#12 0x55f6d6346753 <unknown>
+#13 0x55f6d6313baa <unknown>
+#14 0x55f6d6314dfe <unknown>
+#15 0x55f6d67a538b <unknown>
+#16 0x55f6d67a9307 <unknown>
+#17 0x55f6d6791e7c <unknown>
+#18 0x55f6d67a9ec7 <unknown>
+#19 0x55f6d677624f <unknown>
+#20 0x55f6d67c92f8 <unknown>
+#21 0x55f6d67c94c0 <unknown>
+#22 0x55f6d67d9646 <unknown>
+#23 0x7fd19f46bac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.776
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55c5ef0ef7ca <unknown>
+#1 0x55c5eebe72f0 <unknown>
+#2 0x55c5eebcf5a7 <unknown>
+#3 0x55c5eebcf2b2 <unknown>
+#4 0x55c5eebcd23f <unknown>
+#5 0x55c5eebcda2f <unknown>
+#6 0x55c5eebdd357 <unknown>
+#7 0x55c5eebf45a4 <unknown>
+#8 0x55c5eebfa4bb <unknown>
+#9 0x55c5eebce137 <unknown>
+#10 0x55c5eebf4404 <unknown>
+#11 0x55c5eec7a749 <unknown>
+#12 0x55c5eec5b753 <unknown>
+#13 0x55c5eec28baa <unknown>
+#14 0x55c5eec29dfe <unknown>
+#15 0x55c5ef0ba38b <unknown>
+#16 0x55c5ef0be307 <unknown>
+#17 0x55c5ef0a6e7c <unknown>
+#18 0x55c5ef0beec7 <unknown>
+#19 0x55c5ef08b24f <unknown>
+#20 0x55c5ef0de2f8 <unknown>
+#21 0x55c5ef0de4c0 <unknown>
+#22 0x55c5ef0ee646 <unknown>
+#23 0x7f52a1d6dac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.014
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5604b05ad7ca <unknown>
+#1 0x5604b00a52f0 <unknown>
+#2 0x5604b008d5a7 <unknown>
+#3 0x5604b008d2b2 <unknown>
+#4 0x5604b008b23f <unknown>
+#5 0x5604b008ba2f <unknown>
+#6 0x5604b009b357 <unknown>
+#7 0x5604b00b25a4 <unknown>
+#8 0x5604b00b84bb <unknown>
+#9 0x5604b008c137 <unknown>
+#10 0x5604b00b2404 <unknown>
+#11 0x5604b0138282 <unknown>
+#12 0x5604b0119753 <unknown>
+#13 0x5604b00e6baa <unknown>
+#14 0x5604b00e7dfe <unknown>
+#15 0x5604b057838b <unknown>
+#16 0x5604b057c307 <unknown>
+#17 0x5604b0564e7c <unknown>
+#18 0x5604b057cec7 <unknown>
+#19 0x5604b054924f <unknown>
+#20 0x5604b059c2f8 <unknown>
+#21 0x5604b059c4c0 <unknown>
+#22 0x5604b05ac646 <unknown>
+#23 0x7f1da5159ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.008
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55580dad87ca <unknown>
+#1 0x55580d5d02f0 <unknown>
+#2 0x55580d5b85a7 <unknown>
+#3 0x55580d5b82b2 <unknown>
+#4 0x55580d5b623f <unknown>
+#5 0x55580d5b6a2f <unknown>
+#6 0x55580d5c6357 <unknown>
+#7 0x55580d5dd5a4 <unknown>
+#8 0x55580d5e34bb <unknown>
+#9 0x55580d5b7137 <unknown>
+#10 0x55580d5dd404 <unknown>
+#11 0x55580d663282 <unknown>
+#12 0x55580d644753 <unknown>
+#13 0x55580d611baa <unknown>
+#14 0x55580d612dfe <unknown>
+#15 0x55580daa338b <unknown>
+#16 0x55580daa7307 <unknown>
+#17 0x55580da8fe7c <unknown>
+#18 0x55580daa7ec7 <unknown>
+#19 0x55580da7424f <unknown>
+#20 0x55580dac72f8 <unknown>
+#21 0x55580dac74c0 <unknown>
+#22 0x55580dad7646 <unknown>
+#23 0x7ff7eb0adac3 <unknown>
+"
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",desktop,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55b2897857ca <unknown>
+#1 0x55b28927d2f0 <unknown>
+#2 0x55b289275504 <unknown>
+#3 0x55b2892658a9 <unknown>
+#4 0x55b2892675b4 <unknown>
+#5 0x55b289265b5d <unknown>
+#6 0x55b2892655d5 <unknown>
+#7 0x55b2892652b2 <unknown>
+#8 0x55b28926323f <unknown>
+#9 0x55b2892638ba <unknown>
+#10 0x55b28927fc69 <unknown>
+#11 0x55b289311075 <unknown>
+#12 0x55b2892f19b2 <unknown>
+#13 0x55b2893103b3 <unknown>
+#14 0x55b2892f1753 <unknown>
+#15 0x55b2892bebaa <unknown>
+#16 0x55b2892bfdfe <unknown>
+#17 0x55b28975038b <unknown>
+#18 0x55b289754307 <unknown>
+#19 0x55b28973ce7c <unknown>
+#20 0x55b289754ec7 <unknown>
+#21 0x55b28972124f <unknown>
+#22 0x55b2897742f8 <unknown>
+#23 0x55b2897744c0 <unknown>
+#24 0x55b289784646 <unknown>
+#25 0x7f23d1ca0ac3 <unknown>
+"
+DE0440,"Hochschule für Gesundheit, Bochum",public,University of applied sciences,No,www.hs-gesundheit.de,DEA5,Arnsberg,Arnsberg,DEA51,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",mobile,"Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5624244fb7ca <unknown>
+#1 0x562423ff32f0 <unknown>
+#2 0x562423feb504 <unknown>
+#3 0x562423fdb8a9 <unknown>
+#4 0x562423fdd5b4 <unknown>
+#5 0x562423fdbb5d <unknown>
+#6 0x562423fdb5d5 <unknown>
+#7 0x562423fdb2b2 <unknown>
+#8 0x562423fd923f <unknown>
+#9 0x562423fd98ba <unknown>
+#10 0x562423ff5c69 <unknown>
+#11 0x562424087075 <unknown>
+#12 0x5624240679b2 <unknown>
+#13 0x5624240863b3 <unknown>
+#14 0x562424067753 <unknown>
+#15 0x562424034baa <unknown>
+#16 0x562424035dfe <unknown>
+#17 0x5624244c638b <unknown>
+#18 0x5624244ca307 <unknown>
+#19 0x5624244b2e7c <unknown>
+#20 0x5624244caec7 <unknown>
+#21 0x56242449724f <unknown>
+#22 0x5624244ea2f8 <unknown>
+#23 0x5624244ea4c0 <unknown>
+#24 0x5624244fa646 <unknown>
+#25 0x7f5bd1da5ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.850
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x560c8cf8d7ca <unknown>
+#1 0x560c8ca852f0 <unknown>
+#2 0x560c8ca6d5a7 <unknown>
+#3 0x560c8ca6d2b2 <unknown>
+#4 0x560c8ca6b23f <unknown>
+#5 0x560c8ca6ba2f <unknown>
+#6 0x560c8ca7b357 <unknown>
+#7 0x560c8ca925a4 <unknown>
+#8 0x560c8ca984bb <unknown>
+#9 0x560c8ca6c137 <unknown>
+#10 0x560c8ca92404 <unknown>
+#11 0x560c8cb18749 <unknown>
+#12 0x560c8caf9753 <unknown>
+#13 0x560c8cac6baa <unknown>
+#14 0x560c8cac7dfe <unknown>
+#15 0x560c8cf5838b <unknown>
+#16 0x560c8cf5c307 <unknown>
+#17 0x560c8cf44e7c <unknown>
+#18 0x560c8cf5cec7 <unknown>
+#19 0x560c8cf2924f <unknown>
+#20 0x560c8cf7c2f8 <unknown>
+#21 0x560c8cf7c4c0 <unknown>
+#22 0x560c8cf8c646 <unknown>
+#23 0x7f779bab7ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.829
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5561754787ca <unknown>
+#1 0x556174f702f0 <unknown>
+#2 0x556174f573b8 <unknown>
+#3 0x556174f7d101 <unknown>
+#4 0x556175003749 <unknown>
+#5 0x556174fe4753 <unknown>
+#6 0x556174fb1baa <unknown>
+#7 0x556174fb2dfe <unknown>
+#8 0x55617544338b <unknown>
+#9 0x556175447307 <unknown>
+#10 0x55617542fe7c <unknown>
+#11 0x556175447ec7 <unknown>
+#12 0x55617541424f <unknown>
+#13 0x5561754672f8 <unknown>
+#14 0x5561754674c0 <unknown>
+#15 0x556175477646 <unknown>
+#16 0x7fddeb51bac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.011
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5600bda0f7ca <unknown>
+#1 0x5600bd5072f0 <unknown>
+#2 0x5600bd4ef5a7 <unknown>
+#3 0x5600bd4ef2b2 <unknown>
+#4 0x5600bd4ed23f <unknown>
+#5 0x5600bd4eda2f <unknown>
+#6 0x5600bd4fd357 <unknown>
+#7 0x5600bd5145a4 <unknown>
+#8 0x5600bd51a4bb <unknown>
+#9 0x5600bd4ee137 <unknown>
+#10 0x5600bd514404 <unknown>
+#11 0x5600bd59a282 <unknown>
+#12 0x5600bd57b753 <unknown>
+#13 0x5600bd548baa <unknown>
+#14 0x5600bd549dfe <unknown>
+#15 0x5600bd9da38b <unknown>
+#16 0x5600bd9de307 <unknown>
+#17 0x5600bd9c6e7c <unknown>
+#18 0x5600bd9deec7 <unknown>
+#19 0x5600bd9ab24f <unknown>
+#20 0x5600bd9fe2f8 <unknown>
+#21 0x5600bd9fe4c0 <unknown>
+#22 0x5600bda0e646 <unknown>
+#23 0x7f7e7ae56ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.006
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5654edfa67ca <unknown>
+#1 0x5654eda9e2f0 <unknown>
+#2 0x5654eda865a7 <unknown>
+#3 0x5654eda862b2 <unknown>
+#4 0x5654eda8423f <unknown>
+#5 0x5654eda84a2f <unknown>
+#6 0x5654eda94357 <unknown>
+#7 0x5654edaab5a4 <unknown>
+#8 0x5654edab14bb <unknown>
+#9 0x5654eda85137 <unknown>
+#10 0x5654edaab404 <unknown>
+#11 0x5654edb31282 <unknown>
+#12 0x5654edb12753 <unknown>
+#13 0x5654edadfbaa <unknown>
+#14 0x5654edae0dfe <unknown>
+#15 0x5654edf7138b <unknown>
+#16 0x5654edf75307 <unknown>
+#17 0x5654edf5de7c <unknown>
+#18 0x5654edf75ec7 <unknown>
+#19 0x5654edf4224f <unknown>
+#20 0x5654edf952f8 <unknown>
+#21 0x5654edf954c0 <unknown>
+#22 0x5654edfa5646 <unknown>
+#23 0x7f92017f9ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.875
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5610fc16e7ca <unknown>
+#1 0x5610fbc662f0 <unknown>
+#2 0x5610fbc4e5a7 <unknown>
+#3 0x5610fbc4e2b2 <unknown>
+#4 0x5610fbc4c23f <unknown>
+#5 0x5610fbc4ca2f <unknown>
+#6 0x5610fbc5c357 <unknown>
+#7 0x5610fbc735a4 <unknown>
+#8 0x5610fbc794bb <unknown>
+#9 0x5610fbc4d137 <unknown>
+#10 0x5610fbc73404 <unknown>
+#11 0x5610fbcf9749 <unknown>
+#12 0x5610fbcda753 <unknown>
+#13 0x5610fbca7baa <unknown>
+#14 0x5610fbca8dfe <unknown>
+#15 0x5610fc13938b <unknown>
+#16 0x5610fc13d307 <unknown>
+#17 0x5610fc125e7c <unknown>
+#18 0x5610fc13dec7 <unknown>
+#19 0x5610fc10a24f <unknown>
+#20 0x5610fc15d2f8 <unknown>
+#21 0x5610fc15d4c0 <unknown>
+#22 0x5610fc16d646 <unknown>
+#23 0x7fa63cf56ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.853
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55fe3d1627ca <unknown>
+#1 0x55fe3cc5a2f0 <unknown>
+#2 0x55fe3cc413b8 <unknown>
+#3 0x55fe3cc67101 <unknown>
+#4 0x55fe3cced749 <unknown>
+#5 0x55fe3ccce753 <unknown>
+#6 0x55fe3cc9bbaa <unknown>
+#7 0x55fe3cc9cdfe <unknown>
+#8 0x55fe3d12d38b <unknown>
+#9 0x55fe3d131307 <unknown>
+#10 0x55fe3d119e7c <unknown>
+#11 0x55fe3d131ec7 <unknown>
+#12 0x55fe3d0fe24f <unknown>
+#13 0x55fe3d1512f8 <unknown>
+#14 0x55fe3d1514c0 <unknown>
+#15 0x55fe3d161646 <unknown>
+#16 0x7f4a02927ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.037
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55a0e91a27ca <unknown>
+#1 0x55a0e8c9a2f0 <unknown>
+#2 0x55a0e8c825a7 <unknown>
+#3 0x55a0e8c822b2 <unknown>
+#4 0x55a0e8c8023f <unknown>
+#5 0x55a0e8c80a2f <unknown>
+#6 0x55a0e8c90357 <unknown>
+#7 0x55a0e8ca75a4 <unknown>
+#8 0x55a0e8cad4bb <unknown>
+#9 0x55a0e8c81137 <unknown>
+#10 0x55a0e8ca7404 <unknown>
+#11 0x55a0e8d2d282 <unknown>
+#12 0x55a0e8d0e753 <unknown>
+#13 0x55a0e8cdbbaa <unknown>
+#14 0x55a0e8cdcdfe <unknown>
+#15 0x55a0e916d38b <unknown>
+#16 0x55a0e9171307 <unknown>
+#17 0x55a0e9159e7c <unknown>
+#18 0x55a0e9171ec7 <unknown>
+#19 0x55a0e913e24f <unknown>
+#20 0x55a0e91912f8 <unknown>
+#21 0x55a0e91914c0 <unknown>
+#22 0x55a0e91a1646 <unknown>
+#23 0x7fce88bb2ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.029
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55f2f1f887ca <unknown>
+#1 0x55f2f1a802f0 <unknown>
+#2 0x55f2f1a685a7 <unknown>
+#3 0x55f2f1a682b2 <unknown>
+#4 0x55f2f1a6623f <unknown>
+#5 0x55f2f1a66a2f <unknown>
+#6 0x55f2f1a76357 <unknown>
+#7 0x55f2f1a8d5a4 <unknown>
+#8 0x55f2f1a934bb <unknown>
+#9 0x55f2f1a67137 <unknown>
+#10 0x55f2f1a8d404 <unknown>
+#11 0x55f2f1b13282 <unknown>
+#12 0x55f2f1af4753 <unknown>
+#13 0x55f2f1ac1baa <unknown>
+#14 0x55f2f1ac2dfe <unknown>
+#15 0x55f2f1f5338b <unknown>
+#16 0x55f2f1f57307 <unknown>
+#17 0x55f2f1f3fe7c <unknown>
+#18 0x55f2f1f57ec7 <unknown>
+#19 0x55f2f1f2424f <unknown>
+#20 0x55f2f1f772f8 <unknown>
+#21 0x55f2f1f774c0 <unknown>
+#22 0x55f2f1f87646 <unknown>
+#23 0x7f2191930ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.815
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55816bc257ca <unknown>
+#1 0x55816b71d2f0 <unknown>
+#2 0x55816b7043b8 <unknown>
+#3 0x55816b72a101 <unknown>
+#4 0x55816b7b0749 <unknown>
+#5 0x55816b791753 <unknown>
+#6 0x55816b75ebaa <unknown>
+#7 0x55816b75fdfe <unknown>
+#8 0x55816bbf038b <unknown>
+#9 0x55816bbf4307 <unknown>
+#10 0x55816bbdce7c <unknown>
+#11 0x55816bbf4ec7 <unknown>
+#12 0x55816bbc124f <unknown>
+#13 0x55816bc142f8 <unknown>
+#14 0x55816bc144c0 <unknown>
+#15 0x55816bc24646 <unknown>
+#16 0x7f5d5c331ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.865
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55efa62967ca <unknown>
+#1 0x55efa5d8e2f0 <unknown>
+#2 0x55efa5d765a7 <unknown>
+#3 0x55efa5d762b2 <unknown>
+#4 0x55efa5d7423f <unknown>
+#5 0x55efa5d74a2f <unknown>
+#6 0x55efa5d84357 <unknown>
+#7 0x55efa5d9b5a4 <unknown>
+#8 0x55efa5da14bb <unknown>
+#9 0x55efa5d75137 <unknown>
+#10 0x55efa5d9b404 <unknown>
+#11 0x55efa5e21749 <unknown>
+#12 0x55efa5e02753 <unknown>
+#13 0x55efa5dcfbaa <unknown>
+#14 0x55efa5dd0dfe <unknown>
+#15 0x55efa626138b <unknown>
+#16 0x55efa6265307 <unknown>
+#17 0x55efa624de7c <unknown>
+#18 0x55efa6265ec7 <unknown>
+#19 0x55efa623224f <unknown>
+#20 0x55efa62852f8 <unknown>
+#21 0x55efa62854c0 <unknown>
+#22 0x55efa6295646 <unknown>
+#23 0x7f50ae639ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.010
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x557c754187ca <unknown>
+#1 0x557c74f102f0 <unknown>
+#2 0x557c74ef85a7 <unknown>
+#3 0x557c74ef82b2 <unknown>
+#4 0x557c74ef623f <unknown>
+#5 0x557c74ef6a2f <unknown>
+#6 0x557c74f06357 <unknown>
+#7 0x557c74f1d5a4 <unknown>
+#8 0x557c74f234bb <unknown>
+#9 0x557c74ef7137 <unknown>
+#10 0x557c74f1d404 <unknown>
+#11 0x557c74fa3282 <unknown>
+#12 0x557c74f84753 <unknown>
+#13 0x557c74f51baa <unknown>
+#14 0x557c74f52dfe <unknown>
+#15 0x557c753e338b <unknown>
+#16 0x557c753e7307 <unknown>
+#17 0x557c753cfe7c <unknown>
+#18 0x557c753e7ec7 <unknown>
+#19 0x557c753b424f <unknown>
+#20 0x557c754072f8 <unknown>
+#21 0x557c754074c0 <unknown>
+#22 0x557c75417646 <unknown>
+#23 0x7f56da1c8ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.010
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55c4f119d7ca <unknown>
+#1 0x55c4f0c952f0 <unknown>
+#2 0x55c4f0c7d5a7 <unknown>
+#3 0x55c4f0c7d2b2 <unknown>
+#4 0x55c4f0c7b23f <unknown>
+#5 0x55c4f0c7ba2f <unknown>
+#6 0x55c4f0c8b357 <unknown>
+#7 0x55c4f0ca25a4 <unknown>
+#8 0x55c4f0ca84bb <unknown>
+#9 0x55c4f0c7c137 <unknown>
+#10 0x55c4f0ca2404 <unknown>
+#11 0x55c4f0d28282 <unknown>
+#12 0x55c4f0d09753 <unknown>
+#13 0x55c4f0cd6baa <unknown>
+#14 0x55c4f0cd7dfe <unknown>
+#15 0x55c4f116838b <unknown>
+#16 0x55c4f116c307 <unknown>
+#17 0x55c4f1154e7c <unknown>
+#18 0x55c4f116cec7 <unknown>
+#19 0x55c4f113924f <unknown>
+#20 0x55c4f118c2f8 <unknown>
+#21 0x55c4f118c4c0 <unknown>
+#22 0x55c4f119c646 <unknown>
+#23 0x7f3b80feaac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: 59.735
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x557e0a8d47ca <unknown>
+#1 0x557e0a3cc2f0 <unknown>
+#2 0x557e0a3b45a7 <unknown>
+#3 0x557e0a3b42b2 <unknown>
+#4 0x557e0a3b223f <unknown>
+#5 0x557e0a3b2a2f <unknown>
+#6 0x557e0a3c2357 <unknown>
+#7 0x557e0a3d95a4 <unknown>
+#8 0x557e0a3df4bb <unknown>
+#9 0x557e0a3b3137 <unknown>
+#10 0x557e0a3d9404 <unknown>
+#11 0x557e0a45f749 <unknown>
+#12 0x557e0a440753 <unknown>
+#13 0x557e0a40dbaa <unknown>
+#14 0x557e0a40edfe <unknown>
+#15 0x557e0a89f38b <unknown>
+#16 0x557e0a8a3307 <unknown>
+#17 0x557e0a88be7c <unknown>
+#18 0x557e0a8a3ec7 <unknown>
+#19 0x557e0a87024f <unknown>
+#20 0x557e0a8c32f8 <unknown>
+#21 0x557e0a8c34c0 <unknown>
+#22 0x557e0a8d3646 <unknown>
+#23 0x7f1199fa6ac3 <unknown>
+"
+DE0016,Universität Augsburg,public,University,No,www.uni-augsburg.de,DE27,Schwaben,Schwaben,DE271,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: 59.763
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563ce03327ca <unknown>
+#1 0x563cdfe2a2f0 <unknown>
+#2 0x563cdfe125a7 <unknown>
+#3 0x563cdfe122b2 <unknown>
+#4 0x563cdfe1023f <unknown>
+#5 0x563cdfe10a2f <unknown>
+#6 0x563cdfe20357 <unknown>
+#7 0x563cdfe375a4 <unknown>
+#8 0x563cdfe3d4bb <unknown>
+#9 0x563cdfe11137 <unknown>
+#10 0x563cdfe37404 <unknown>
+#11 0x563cdfebd749 <unknown>
+#12 0x563cdfe9e753 <unknown>
+#13 0x563cdfe6bbaa <unknown>
+#14 0x563cdfe6cdfe <unknown>
+#15 0x563ce02fd38b <unknown>
+#16 0x563ce0301307 <unknown>
+#17 0x563ce02e9e7c <unknown>
+#18 0x563ce0301ec7 <unknown>
+#19 0x563ce02ce24f <unknown>
+#20 0x563ce03212f8 <unknown>
+#21 0x563ce03214c0 <unknown>
+#22 0x563ce0331646 <unknown>
+#23 0x7f89c3e6eac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",desktop,"Message: timeout: Timed out receiving message from renderer: -0.009
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555e5f8c17ca <unknown>
+#1 0x555e5f3b92f0 <unknown>
+#2 0x555e5f3a15a7 <unknown>
+#3 0x555e5f3a12b2 <unknown>
+#4 0x555e5f39f23f <unknown>
+#5 0x555e5f39fa2f <unknown>
+#6 0x555e5f3af357 <unknown>
+#7 0x555e5f3c65a4 <unknown>
+#8 0x555e5f3cc4bb <unknown>
+#9 0x555e5f3a0137 <unknown>
+#10 0x555e5f3c6404 <unknown>
+#11 0x555e5f44c282 <unknown>
+#12 0x555e5f42d753 <unknown>
+#13 0x555e5f3fabaa <unknown>
+#14 0x555e5f3fbdfe <unknown>
+#15 0x555e5f88c38b <unknown>
+#16 0x555e5f890307 <unknown>
+#17 0x555e5f878e7c <unknown>
+#18 0x555e5f890ec7 <unknown>
+#19 0x555e5f85d24f <unknown>
+#20 0x555e5f8b02f8 <unknown>
+#21 0x555e5f8b04c0 <unknown>
+#22 0x555e5f8c0646 <unknown>
+#23 0x7fd51d568ac3 <unknown>
+"
+DE0097,Universität Leipzig,public,University,Yes,www.uni-leipzig.de,DED5,Leipzig,Leipzig,DED51,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",mobile,"Message: timeout: Timed out receiving message from renderer: -0.012
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5590f98db7ca <unknown>
+#1 0x5590f93d32f0 <unknown>
+#2 0x5590f93bb5a7 <unknown>
+#3 0x5590f93bb2b2 <unknown>
+#4 0x5590f93b923f <unknown>
+#5 0x5590f93b9a2f <unknown>
+#6 0x5590f93c9357 <unknown>
+#7 0x5590f93e05a4 <unknown>
+#8 0x5590f93e64bb <unknown>
+#9 0x5590f93ba137 <unknown>
+#10 0x5590f93e0404 <unknown>
+#11 0x5590f9466282 <unknown>
+#12 0x5590f9447753 <unknown>
+#13 0x5590f9414baa <unknown>
+#14 0x5590f9415dfe <unknown>
+#15 0x5590f98a638b <unknown>
+#16 0x5590f98aa307 <unknown>
+#17 0x5590f9892e7c <unknown>
+#18 0x5590f98aaec7 <unknown>
+#19 0x5590f987724f <unknown>
+#20 0x5590f98ca2f8 <unknown>
+#21 0x5590f98ca4c0 <unknown>
+#22 0x5590f98da646 <unknown>
+#23 0x7fe373975ac3 <unknown>
+"

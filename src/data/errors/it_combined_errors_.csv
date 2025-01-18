@@ -1,0 +1,888 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,platform,error
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,desktop,"Message: timeout: Timed out receiving message from renderer: 59.715
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55b3d7ddc7ca <unknown>
+#1 0x55b3d78d42f0 <unknown>
+#2 0x55b3d78bc5a7 <unknown>
+#3 0x55b3d78bc2b2 <unknown>
+#4 0x55b3d78ba23f <unknown>
+#5 0x55b3d78baa2f <unknown>
+#6 0x55b3d78ca357 <unknown>
+#7 0x55b3d78e15a4 <unknown>
+#8 0x55b3d78e74bb <unknown>
+#9 0x55b3d78bb137 <unknown>
+#10 0x55b3d78e1404 <unknown>
+#11 0x55b3d7967749 <unknown>
+#12 0x55b3d7948753 <unknown>
+#13 0x55b3d7915baa <unknown>
+#14 0x55b3d7916dfe <unknown>
+#15 0x55b3d7da738b <unknown>
+#16 0x55b3d7dab307 <unknown>
+#17 0x55b3d7d93e7c <unknown>
+#18 0x55b3d7dabec7 <unknown>
+#19 0x55b3d7d7824f <unknown>
+#20 0x55b3d7dcb2f8 <unknown>
+#21 0x55b3d7dcb4c0 <unknown>
+#22 0x55b3d7ddb646 <unknown>
+#23 0x7f7cd7639ac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,mobile,"Message: timeout: Timed out receiving message from renderer: 59.792
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563e94b1c7ca <unknown>
+#1 0x563e946142f0 <unknown>
+#2 0x563e945fc5a7 <unknown>
+#3 0x563e945fc2b2 <unknown>
+#4 0x563e945fa23f <unknown>
+#5 0x563e945faa2f <unknown>
+#6 0x563e9460a357 <unknown>
+#7 0x563e946215a4 <unknown>
+#8 0x563e946274bb <unknown>
+#9 0x563e945fb137 <unknown>
+#10 0x563e94621404 <unknown>
+#11 0x563e946a7749 <unknown>
+#12 0x563e94688753 <unknown>
+#13 0x563e94655baa <unknown>
+#14 0x563e94656dfe <unknown>
+#15 0x563e94ae738b <unknown>
+#16 0x563e94aeb307 <unknown>
+#17 0x563e94ad3e7c <unknown>
+#18 0x563e94aebec7 <unknown>
+#19 0x563e94ab824f <unknown>
+#20 0x563e94b0b2f8 <unknown>
+#21 0x563e94b0b4c0 <unknown>
+#22 0x563e94b1b646 <unknown>
+#23 0x7f83c594cac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,desktop,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5601477737ca <unknown>
+#1 0x56014726b2f0 <unknown>
+#2 0x560147263504 <unknown>
+#3 0x5601472538a9 <unknown>
+#4 0x5601472555b4 <unknown>
+#5 0x560147253b5d <unknown>
+#6 0x5601472535d5 <unknown>
+#7 0x5601472532b2 <unknown>
+#8 0x56014725123f <unknown>
+#9 0x5601472518ba <unknown>
+#10 0x56014726dc69 <unknown>
+#11 0x5601472ff075 <unknown>
+#12 0x5601472df9b2 <unknown>
+#13 0x5601472fe3b3 <unknown>
+#14 0x5601472df753 <unknown>
+#15 0x5601472acbaa <unknown>
+#16 0x5601472addfe <unknown>
+#17 0x56014773e38b <unknown>
+#18 0x560147742307 <unknown>
+#19 0x56014772ae7c <unknown>
+#20 0x560147742ec7 <unknown>
+#21 0x56014770f24f <unknown>
+#22 0x5601477622f8 <unknown>
+#23 0x5601477624c0 <unknown>
+#24 0x560147772646 <unknown>
+#25 0x7f95ef4a9ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,mobile,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55a7c4e2d7ca <unknown>
+#1 0x55a7c49252f0 <unknown>
+#2 0x55a7c491d504 <unknown>
+#3 0x55a7c490d8a9 <unknown>
+#4 0x55a7c490f5b4 <unknown>
+#5 0x55a7c490db5d <unknown>
+#6 0x55a7c490d5d5 <unknown>
+#7 0x55a7c490d2b2 <unknown>
+#8 0x55a7c490b23f <unknown>
+#9 0x55a7c490b8ba <unknown>
+#10 0x55a7c4927c69 <unknown>
+#11 0x55a7c49b9075 <unknown>
+#12 0x55a7c49999b2 <unknown>
+#13 0x55a7c49b83b3 <unknown>
+#14 0x55a7c4999753 <unknown>
+#15 0x55a7c4966baa <unknown>
+#16 0x55a7c4967dfe <unknown>
+#17 0x55a7c4df838b <unknown>
+#18 0x55a7c4dfc307 <unknown>
+#19 0x55a7c4de4e7c <unknown>
+#20 0x55a7c4dfcec7 <unknown>
+#21 0x55a7c4dc924f <unknown>
+#22 0x55a7c4e1c2f8 <unknown>
+#23 0x55a7c4e1c4c0 <unknown>
+#24 0x55a7c4e2c646 <unknown>
+#25 0x7fad30518ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,desktop,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5641e43967ca <unknown>
+#1 0x5641e3e8e2f0 <unknown>
+#2 0x5641e3e86504 <unknown>
+#3 0x5641e3e768a9 <unknown>
+#4 0x5641e3e785b4 <unknown>
+#5 0x5641e3e76b5d <unknown>
+#6 0x5641e3e765d5 <unknown>
+#7 0x5641e3e762b2 <unknown>
+#8 0x5641e3e7423f <unknown>
+#9 0x5641e3e748ba <unknown>
+#10 0x5641e3e90c69 <unknown>
+#11 0x5641e3f22075 <unknown>
+#12 0x5641e3f029b2 <unknown>
+#13 0x5641e3f213b3 <unknown>
+#14 0x5641e3f02753 <unknown>
+#15 0x5641e3ecfbaa <unknown>
+#16 0x5641e3ed0dfe <unknown>
+#17 0x5641e436138b <unknown>
+#18 0x5641e4365307 <unknown>
+#19 0x5641e434de7c <unknown>
+#20 0x5641e4365ec7 <unknown>
+#21 0x5641e433224f <unknown>
+#22 0x5641e43852f8 <unknown>
+#23 0x5641e43854c0 <unknown>
+#24 0x5641e4395646 <unknown>
+#25 0x7f48e01bcac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,mobile,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555f119fc7ca <unknown>
+#1 0x555f114f42f0 <unknown>
+#2 0x555f114ec504 <unknown>
+#3 0x555f114dc8a9 <unknown>
+#4 0x555f114de5b4 <unknown>
+#5 0x555f114dcb5d <unknown>
+#6 0x555f114dc5d5 <unknown>
+#7 0x555f114dc2b2 <unknown>
+#8 0x555f114da23f <unknown>
+#9 0x555f114da8ba <unknown>
+#10 0x555f114f6c69 <unknown>
+#11 0x555f11588075 <unknown>
+#12 0x555f115689b2 <unknown>
+#13 0x555f115873b3 <unknown>
+#14 0x555f11568753 <unknown>
+#15 0x555f11535baa <unknown>
+#16 0x555f11536dfe <unknown>
+#17 0x555f119c738b <unknown>
+#18 0x555f119cb307 <unknown>
+#19 0x555f119b3e7c <unknown>
+#20 0x555f119cbec7 <unknown>
+#21 0x555f1199824f <unknown>
+#22 0x555f119eb2f8 <unknown>
+#23 0x555f119eb4c0 <unknown>
+#24 0x555f119fb646 <unknown>
+#25 0x7fdc22eeaac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,desktop,"Message: timeout: Timed out receiving message from renderer: 59.774
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563a9b99f7ca <unknown>
+#1 0x563a9b4972f0 <unknown>
+#2 0x563a9b47e3b8 <unknown>
+#3 0x563a9b4a4101 <unknown>
+#4 0x563a9b52a749 <unknown>
+#5 0x563a9b50b753 <unknown>
+#6 0x563a9b4d8baa <unknown>
+#7 0x563a9b4d9dfe <unknown>
+#8 0x563a9b96a38b <unknown>
+#9 0x563a9b96e307 <unknown>
+#10 0x563a9b956e7c <unknown>
+#11 0x563a9b96eec7 <unknown>
+#12 0x563a9b93b24f <unknown>
+#13 0x563a9b98e2f8 <unknown>
+#14 0x563a9b98e4c0 <unknown>
+#15 0x563a9b99e646 <unknown>
+#16 0x7f1dd4ecfac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,mobile,"Message: timeout: Timed out receiving message from renderer: 59.802
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x564b9550c7ca <unknown>
+#1 0x564b950042f0 <unknown>
+#2 0x564b94fec5a7 <unknown>
+#3 0x564b94fec2b2 <unknown>
+#4 0x564b94fea23f <unknown>
+#5 0x564b94feaa2f <unknown>
+#6 0x564b94ffa357 <unknown>
+#7 0x564b950115a4 <unknown>
+#8 0x564b950174bb <unknown>
+#9 0x564b94feb137 <unknown>
+#10 0x564b95011404 <unknown>
+#11 0x564b95097749 <unknown>
+#12 0x564b95078753 <unknown>
+#13 0x564b95045baa <unknown>
+#14 0x564b95046dfe <unknown>
+#15 0x564b954d738b <unknown>
+#16 0x564b954db307 <unknown>
+#17 0x564b954c3e7c <unknown>
+#18 0x564b954dbec7 <unknown>
+#19 0x564b954a824f <unknown>
+#20 0x564b954fb2f8 <unknown>
+#21 0x564b954fb4c0 <unknown>
+#22 0x564b9550b646 <unknown>
+#23 0x7f2ac6c20ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,desktop,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55618ca037ca <unknown>
+#1 0x55618c4fb2f0 <unknown>
+#2 0x55618c4f3504 <unknown>
+#3 0x55618c4e38a9 <unknown>
+#4 0x55618c4e55b4 <unknown>
+#5 0x55618c4e3b5d <unknown>
+#6 0x55618c4e35d5 <unknown>
+#7 0x55618c4e32b2 <unknown>
+#8 0x55618c4e123f <unknown>
+#9 0x55618c4e18ba <unknown>
+#10 0x55618c4fdc69 <unknown>
+#11 0x55618c58f075 <unknown>
+#12 0x55618c56f9b2 <unknown>
+#13 0x55618c58e3b3 <unknown>
+#14 0x55618c56f753 <unknown>
+#15 0x55618c53cbaa <unknown>
+#16 0x55618c53ddfe <unknown>
+#17 0x55618c9ce38b <unknown>
+#18 0x55618c9d2307 <unknown>
+#19 0x55618c9bae7c <unknown>
+#20 0x55618c9d2ec7 <unknown>
+#21 0x55618c99f24f <unknown>
+#22 0x55618c9f22f8 <unknown>
+#23 0x55618c9f24c0 <unknown>
+#24 0x55618ca02646 <unknown>
+#25 0x7f6c31595ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,mobile,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x560fb0c797ca <unknown>
+#1 0x560fb07712f0 <unknown>
+#2 0x560fb0769504 <unknown>
+#3 0x560fb07598a9 <unknown>
+#4 0x560fb075b5b4 <unknown>
+#5 0x560fb0759b5d <unknown>
+#6 0x560fb07595d5 <unknown>
+#7 0x560fb07592b2 <unknown>
+#8 0x560fb075723f <unknown>
+#9 0x560fb07578ba <unknown>
+#10 0x560fb0773c69 <unknown>
+#11 0x560fb0805075 <unknown>
+#12 0x560fb07e59b2 <unknown>
+#13 0x560fb08043b3 <unknown>
+#14 0x560fb07e5753 <unknown>
+#15 0x560fb07b2baa <unknown>
+#16 0x560fb07b3dfe <unknown>
+#17 0x560fb0c4438b <unknown>
+#18 0x560fb0c48307 <unknown>
+#19 0x560fb0c30e7c <unknown>
+#20 0x560fb0c48ec7 <unknown>
+#21 0x560fb0c1524f <unknown>
+#22 0x560fb0c682f8 <unknown>
+#23 0x560fb0c684c0 <unknown>
+#24 0x560fb0c78646 <unknown>
+#25 0x7f87de38bac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,desktop,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55b54e8fa7ca <unknown>
+#1 0x55b54e3f22f0 <unknown>
+#2 0x55b54e3ea504 <unknown>
+#3 0x55b54e3da8a9 <unknown>
+#4 0x55b54e3dc5b4 <unknown>
+#5 0x55b54e3dab5d <unknown>
+#6 0x55b54e3da5d5 <unknown>
+#7 0x55b54e3da2b2 <unknown>
+#8 0x55b54e3d823f <unknown>
+#9 0x55b54e3d88ba <unknown>
+#10 0x55b54e3f4c69 <unknown>
+#11 0x55b54e486075 <unknown>
+#12 0x55b54e4669b2 <unknown>
+#13 0x55b54e4853b3 <unknown>
+#14 0x55b54e466753 <unknown>
+#15 0x55b54e433baa <unknown>
+#16 0x55b54e434dfe <unknown>
+#17 0x55b54e8c538b <unknown>
+#18 0x55b54e8c9307 <unknown>
+#19 0x55b54e8b1e7c <unknown>
+#20 0x55b54e8c9ec7 <unknown>
+#21 0x55b54e89624f <unknown>
+#22 0x55b54e8e92f8 <unknown>
+#23 0x55b54e8e94c0 <unknown>
+#24 0x55b54e8f9646 <unknown>
+#25 0x7f68d49adac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,mobile,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55654aa707ca <unknown>
+#1 0x55654a5682f0 <unknown>
+#2 0x55654a560504 <unknown>
+#3 0x55654a5508a9 <unknown>
+#4 0x55654a5525b4 <unknown>
+#5 0x55654a550b5d <unknown>
+#6 0x55654a5505d5 <unknown>
+#7 0x55654a5502b2 <unknown>
+#8 0x55654a54e23f <unknown>
+#9 0x55654a54e8ba <unknown>
+#10 0x55654a56ac69 <unknown>
+#11 0x55654a5fc075 <unknown>
+#12 0x55654a5dc9b2 <unknown>
+#13 0x55654a5fb3b3 <unknown>
+#14 0x55654a5dc753 <unknown>
+#15 0x55654a5a9baa <unknown>
+#16 0x55654a5aadfe <unknown>
+#17 0x55654aa3b38b <unknown>
+#18 0x55654aa3f307 <unknown>
+#19 0x55654aa27e7c <unknown>
+#20 0x55654aa3fec7 <unknown>
+#21 0x55654aa0c24f <unknown>
+#22 0x55654aa5f2f8 <unknown>
+#23 0x55654aa5f4c0 <unknown>
+#24 0x55654aa6f646 <unknown>
+#25 0x7fd5562b4ac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,desktop,"Message: timeout: Timed out receiving message from renderer: 57.281
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555c11f477ca <unknown>
+#1 0x555c11a3f2f0 <unknown>
+#2 0x555c11a275a7 <unknown>
+#3 0x555c11a272b2 <unknown>
+#4 0x555c11a2523f <unknown>
+#5 0x555c11a25a2f <unknown>
+#6 0x555c11a35357 <unknown>
+#7 0x555c11a4c5a4 <unknown>
+#8 0x555c11a524bb <unknown>
+#9 0x555c11a26137 <unknown>
+#10 0x555c11a4c404 <unknown>
+#11 0x555c11ad2749 <unknown>
+#12 0x555c11ab3753 <unknown>
+#13 0x555c11a80baa <unknown>
+#14 0x555c11a81dfe <unknown>
+#15 0x555c11f1238b <unknown>
+#16 0x555c11f16307 <unknown>
+#17 0x555c11efee7c <unknown>
+#18 0x555c11f16ec7 <unknown>
+#19 0x555c11ee324f <unknown>
+#20 0x555c11f362f8 <unknown>
+#21 0x555c11f364c0 <unknown>
+#22 0x555c11f46646 <unknown>
+#23 0x7f0977651ac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,mobile,"Message: timeout: Timed out receiving message from renderer: 59.614
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555a52a967ca <unknown>
+#1 0x555a5258e2f0 <unknown>
+#2 0x555a525753b8 <unknown>
+#3 0x555a5259b101 <unknown>
+#4 0x555a52621749 <unknown>
+#5 0x555a52602753 <unknown>
+#6 0x555a525cfbaa <unknown>
+#7 0x555a525d0dfe <unknown>
+#8 0x555a52a6138b <unknown>
+#9 0x555a52a65307 <unknown>
+#10 0x555a52a4de7c <unknown>
+#11 0x555a52a65ec7 <unknown>
+#12 0x555a52a3224f <unknown>
+#13 0x555a52a852f8 <unknown>
+#14 0x555a52a854c0 <unknown>
+#15 0x555a52a95646 <unknown>
+#16 0x7f394ed23ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,desktop,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55d5c35d07ca <unknown>
+#1 0x55d5c30c82f0 <unknown>
+#2 0x55d5c30c0504 <unknown>
+#3 0x55d5c30b08a9 <unknown>
+#4 0x55d5c30b25b4 <unknown>
+#5 0x55d5c30b0b5d <unknown>
+#6 0x55d5c30b05d5 <unknown>
+#7 0x55d5c30b02b2 <unknown>
+#8 0x55d5c30ae23f <unknown>
+#9 0x55d5c30ae8ba <unknown>
+#10 0x55d5c30cac69 <unknown>
+#11 0x55d5c315c075 <unknown>
+#12 0x55d5c313c9b2 <unknown>
+#13 0x55d5c315b3b3 <unknown>
+#14 0x55d5c313c753 <unknown>
+#15 0x55d5c3109baa <unknown>
+#16 0x55d5c310adfe <unknown>
+#17 0x55d5c359b38b <unknown>
+#18 0x55d5c359f307 <unknown>
+#19 0x55d5c3587e7c <unknown>
+#20 0x55d5c359fec7 <unknown>
+#21 0x55d5c356c24f <unknown>
+#22 0x55d5c35bf2f8 <unknown>
+#23 0x55d5c35bf4c0 <unknown>
+#24 0x55d5c35cf646 <unknown>
+#25 0x7f9848259ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,mobile,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55a3c94957ca <unknown>
+#1 0x55a3c8f8d2f0 <unknown>
+#2 0x55a3c8f85504 <unknown>
+#3 0x55a3c8f758a9 <unknown>
+#4 0x55a3c8f775b4 <unknown>
+#5 0x55a3c8f75b5d <unknown>
+#6 0x55a3c8f755d5 <unknown>
+#7 0x55a3c8f752b2 <unknown>
+#8 0x55a3c8f7323f <unknown>
+#9 0x55a3c8f738ba <unknown>
+#10 0x55a3c8f8fc69 <unknown>
+#11 0x55a3c9021075 <unknown>
+#12 0x55a3c90019b2 <unknown>
+#13 0x55a3c90203b3 <unknown>
+#14 0x55a3c9001753 <unknown>
+#15 0x55a3c8fcebaa <unknown>
+#16 0x55a3c8fcfdfe <unknown>
+#17 0x55a3c946038b <unknown>
+#18 0x55a3c9464307 <unknown>
+#19 0x55a3c944ce7c <unknown>
+#20 0x55a3c9464ec7 <unknown>
+#21 0x55a3c943124f <unknown>
+#22 0x55a3c94842f8 <unknown>
+#23 0x55a3c94844c0 <unknown>
+#24 0x55a3c9494646 <unknown>
+#25 0x7f7a871c7ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,desktop,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x56433e3ee7ca <unknown>
+#1 0x56433dee62f0 <unknown>
+#2 0x56433dede504 <unknown>
+#3 0x56433dece8a9 <unknown>
+#4 0x56433ded05b4 <unknown>
+#5 0x56433deceb5d <unknown>
+#6 0x56433dece5d5 <unknown>
+#7 0x56433dece2b2 <unknown>
+#8 0x56433decc23f <unknown>
+#9 0x56433decc8ba <unknown>
+#10 0x56433dee8c69 <unknown>
+#11 0x56433df7a075 <unknown>
+#12 0x56433df5a9b2 <unknown>
+#13 0x56433df793b3 <unknown>
+#14 0x56433df5a753 <unknown>
+#15 0x56433df27baa <unknown>
+#16 0x56433df28dfe <unknown>
+#17 0x56433e3b938b <unknown>
+#18 0x56433e3bd307 <unknown>
+#19 0x56433e3a5e7c <unknown>
+#20 0x56433e3bdec7 <unknown>
+#21 0x56433e38a24f <unknown>
+#22 0x56433e3dd2f8 <unknown>
+#23 0x56433e3dd4c0 <unknown>
+#24 0x56433e3ed646 <unknown>
+#25 0x7f37becdaac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,mobile,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5559e2e877ca <unknown>
+#1 0x5559e297f2f0 <unknown>
+#2 0x5559e2977504 <unknown>
+#3 0x5559e29678a9 <unknown>
+#4 0x5559e29695b4 <unknown>
+#5 0x5559e2967b5d <unknown>
+#6 0x5559e29675d5 <unknown>
+#7 0x5559e29672b2 <unknown>
+#8 0x5559e296523f <unknown>
+#9 0x5559e29658ba <unknown>
+#10 0x5559e2981c69 <unknown>
+#11 0x5559e2a13075 <unknown>
+#12 0x5559e29f39b2 <unknown>
+#13 0x5559e2a123b3 <unknown>
+#14 0x5559e29f3753 <unknown>
+#15 0x5559e29c0baa <unknown>
+#16 0x5559e29c1dfe <unknown>
+#17 0x5559e2e5238b <unknown>
+#18 0x5559e2e56307 <unknown>
+#19 0x5559e2e3ee7c <unknown>
+#20 0x5559e2e56ec7 <unknown>
+#21 0x5559e2e2324f <unknown>
+#22 0x5559e2e762f8 <unknown>
+#23 0x5559e2e764c0 <unknown>
+#24 0x5559e2e86646 <unknown>
+#25 0x7fc96d551ac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,desktop,"Message: timeout: Timed out receiving message from renderer: 59.799
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x563e4b8637ca <unknown>
+#1 0x563e4b35b2f0 <unknown>
+#2 0x563e4b3435a7 <unknown>
+#3 0x563e4b3432b2 <unknown>
+#4 0x563e4b34123f <unknown>
+#5 0x563e4b341a2f <unknown>
+#6 0x563e4b351357 <unknown>
+#7 0x563e4b3685a4 <unknown>
+#8 0x563e4b36e4bb <unknown>
+#9 0x563e4b342137 <unknown>
+#10 0x563e4b368404 <unknown>
+#11 0x563e4b3ee749 <unknown>
+#12 0x563e4b3cf753 <unknown>
+#13 0x563e4b39cbaa <unknown>
+#14 0x563e4b39ddfe <unknown>
+#15 0x563e4b82e38b <unknown>
+#16 0x563e4b832307 <unknown>
+#17 0x563e4b81ae7c <unknown>
+#18 0x563e4b832ec7 <unknown>
+#19 0x563e4b7ff24f <unknown>
+#20 0x563e4b8522f8 <unknown>
+#21 0x563e4b8524c0 <unknown>
+#22 0x563e4b862646 <unknown>
+#23 0x7f510a90dac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,mobile,"Message: timeout: Timed out receiving message from renderer: 59.711
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x561799cfe7ca <unknown>
+#1 0x5617997f62f0 <unknown>
+#2 0x5617997de5a7 <unknown>
+#3 0x5617997de2b2 <unknown>
+#4 0x5617997dc23f <unknown>
+#5 0x5617997dca2f <unknown>
+#6 0x5617997ec357 <unknown>
+#7 0x5617998035a4 <unknown>
+#8 0x5617998094bb <unknown>
+#9 0x5617997dd137 <unknown>
+#10 0x561799803404 <unknown>
+#11 0x561799889749 <unknown>
+#12 0x56179986a753 <unknown>
+#13 0x561799837baa <unknown>
+#14 0x561799838dfe <unknown>
+#15 0x561799cc938b <unknown>
+#16 0x561799ccd307 <unknown>
+#17 0x561799cb5e7c <unknown>
+#18 0x561799ccdec7 <unknown>
+#19 0x561799c9a24f <unknown>
+#20 0x561799ced2f8 <unknown>
+#21 0x561799ced4c0 <unknown>
+#22 0x561799cfd646 <unknown>
+#23 0x7eff902a9ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,desktop,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55b47fc717ca <unknown>
+#1 0x55b47f7692f0 <unknown>
+#2 0x55b47f761504 <unknown>
+#3 0x55b47f7518a9 <unknown>
+#4 0x55b47f7535b4 <unknown>
+#5 0x55b47f751b5d <unknown>
+#6 0x55b47f7515d5 <unknown>
+#7 0x55b47f7512b2 <unknown>
+#8 0x55b47f74f23f <unknown>
+#9 0x55b47f74f8ba <unknown>
+#10 0x55b47f76bc69 <unknown>
+#11 0x55b47f7fd075 <unknown>
+#12 0x55b47f7dd9b2 <unknown>
+#13 0x55b47f7fc3b3 <unknown>
+#14 0x55b47f7dd753 <unknown>
+#15 0x55b47f7aabaa <unknown>
+#16 0x55b47f7abdfe <unknown>
+#17 0x55b47fc3c38b <unknown>
+#18 0x55b47fc40307 <unknown>
+#19 0x55b47fc28e7c <unknown>
+#20 0x55b47fc40ec7 <unknown>
+#21 0x55b47fc0d24f <unknown>
+#22 0x55b47fc602f8 <unknown>
+#23 0x55b47fc604c0 <unknown>
+#24 0x55b47fc70646 <unknown>
+#25 0x7ff76a88aac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,mobile,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55d6b540e7ca <unknown>
+#1 0x55d6b4f062f0 <unknown>
+#2 0x55d6b4efe504 <unknown>
+#3 0x55d6b4eee8a9 <unknown>
+#4 0x55d6b4ef05b4 <unknown>
+#5 0x55d6b4eeeb5d <unknown>
+#6 0x55d6b4eee5d5 <unknown>
+#7 0x55d6b4eee2b2 <unknown>
+#8 0x55d6b4eec23f <unknown>
+#9 0x55d6b4eec8ba <unknown>
+#10 0x55d6b4f08c69 <unknown>
+#11 0x55d6b4f9a075 <unknown>
+#12 0x55d6b4f7a9b2 <unknown>
+#13 0x55d6b4f993b3 <unknown>
+#14 0x55d6b4f7a753 <unknown>
+#15 0x55d6b4f47baa <unknown>
+#16 0x55d6b4f48dfe <unknown>
+#17 0x55d6b53d938b <unknown>
+#18 0x55d6b53dd307 <unknown>
+#19 0x55d6b53c5e7c <unknown>
+#20 0x55d6b53ddec7 <unknown>
+#21 0x55d6b53aa24f <unknown>
+#22 0x55d6b53fd2f8 <unknown>
+#23 0x55d6b53fd4c0 <unknown>
+#24 0x55d6b540d646 <unknown>
+#25 0x7f0c9abe2ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,desktop,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55f85d9a87ca <unknown>
+#1 0x55f85d4a02f0 <unknown>
+#2 0x55f85d498504 <unknown>
+#3 0x55f85d4888a9 <unknown>
+#4 0x55f85d48a5b4 <unknown>
+#5 0x55f85d488b5d <unknown>
+#6 0x55f85d4885d5 <unknown>
+#7 0x55f85d4882b2 <unknown>
+#8 0x55f85d48623f <unknown>
+#9 0x55f85d4868ba <unknown>
+#10 0x55f85d4a2c69 <unknown>
+#11 0x55f85d534075 <unknown>
+#12 0x55f85d5149b2 <unknown>
+#13 0x55f85d5333b3 <unknown>
+#14 0x55f85d514753 <unknown>
+#15 0x55f85d4e1baa <unknown>
+#16 0x55f85d4e2dfe <unknown>
+#17 0x55f85d97338b <unknown>
+#18 0x55f85d977307 <unknown>
+#19 0x55f85d95fe7c <unknown>
+#20 0x55f85d977ec7 <unknown>
+#21 0x55f85d94424f <unknown>
+#22 0x55f85d9972f8 <unknown>
+#23 0x55f85d9974c0 <unknown>
+#24 0x55f85d9a7646 <unknown>
+#25 0x7fd1b4774ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,mobile,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55fa118fb7ca <unknown>
+#1 0x55fa113f32f0 <unknown>
+#2 0x55fa113eb504 <unknown>
+#3 0x55fa113db8a9 <unknown>
+#4 0x55fa113dd5b4 <unknown>
+#5 0x55fa113dbb5d <unknown>
+#6 0x55fa113db5d5 <unknown>
+#7 0x55fa113db2b2 <unknown>
+#8 0x55fa113d923f <unknown>
+#9 0x55fa113d98ba <unknown>
+#10 0x55fa113f5c69 <unknown>
+#11 0x55fa11487075 <unknown>
+#12 0x55fa114679b2 <unknown>
+#13 0x55fa114863b3 <unknown>
+#14 0x55fa11467753 <unknown>
+#15 0x55fa11434baa <unknown>
+#16 0x55fa11435dfe <unknown>
+#17 0x55fa118c638b <unknown>
+#18 0x55fa118ca307 <unknown>
+#19 0x55fa118b2e7c <unknown>
+#20 0x55fa118caec7 <unknown>
+#21 0x55fa1189724f <unknown>
+#22 0x55fa118ea2f8 <unknown>
+#23 0x55fa118ea4c0 <unknown>
+#24 0x55fa118fa646 <unknown>
+#25 0x7fbdc032dac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,desktop,"Message: timeout: Timed out receiving message from renderer: 59.596
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55a215ed87ca <unknown>
+#1 0x55a2159d02f0 <unknown>
+#2 0x55a2159b85a7 <unknown>
+#3 0x55a2159b82b2 <unknown>
+#4 0x55a2159b623f <unknown>
+#5 0x55a2159b6a2f <unknown>
+#6 0x55a2159c6357 <unknown>
+#7 0x55a2159dd5a4 <unknown>
+#8 0x55a2159e34bb <unknown>
+#9 0x55a2159b7137 <unknown>
+#10 0x55a2159dd404 <unknown>
+#11 0x55a215a63749 <unknown>
+#12 0x55a215a44753 <unknown>
+#13 0x55a215a11baa <unknown>
+#14 0x55a215a12dfe <unknown>
+#15 0x55a215ea338b <unknown>
+#16 0x55a215ea7307 <unknown>
+#17 0x55a215e8fe7c <unknown>
+#18 0x55a215ea7ec7 <unknown>
+#19 0x55a215e7424f <unknown>
+#20 0x55a215ec72f8 <unknown>
+#21 0x55a215ec74c0 <unknown>
+#22 0x55a215ed7646 <unknown>
+#23 0x7ff361eceac3 <unknown>
+"
+IT0005,Università degli Studi di BARI ALDO MORO,public,University,No,www.uniba.it,ITF4,Puglia,Puglia,ITF47,Bari,Bari,mobile,"Message: timeout: Timed out receiving message from renderer: 59.647
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x55c37c1517ca <unknown>
+#1 0x55c37bc492f0 <unknown>
+#2 0x55c37bc303b8 <unknown>
+#3 0x55c37bc56101 <unknown>
+#4 0x55c37bcdc749 <unknown>
+#5 0x55c37bcbd753 <unknown>
+#6 0x55c37bc8abaa <unknown>
+#7 0x55c37bc8bdfe <unknown>
+#8 0x55c37c11c38b <unknown>
+#9 0x55c37c120307 <unknown>
+#10 0x55c37c108e7c <unknown>
+#11 0x55c37c120ec7 <unknown>
+#12 0x55c37c0ed24f <unknown>
+#13 0x55c37c1402f8 <unknown>
+#14 0x55c37c1404c0 <unknown>
+#15 0x55c37c150646 <unknown>
+#16 0x7fe8606d7ac3 <unknown>
+"
+IT0067,"Università ""Campus Bio-Medico"" di ROMA",private,University,No,www.unicampus.it,ITI4,Lazio,Lazio,ITI43,Roma,Roma,desktop,"Message: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x556c2962f7ca <unknown>
+#1 0x556c291272f0 <unknown>
+#2 0x556c2910f5a7 <unknown>
+#3 0x556c2910f2b2 <unknown>
+#4 0x556c2910d23f <unknown>
+#5 0x556c2910da2f <unknown>
+#6 0x556c2911d357 <unknown>
+#7 0x556c291345a4 <unknown>
+#8 0x556c2913a4bb <unknown>
+#9 0x556c2910e137 <unknown>
+#10 0x556c29134404 <unknown>
+#11 0x556c291ba749 <unknown>
+#12 0x556c2919b753 <unknown>
+#13 0x556c29168baa <unknown>
+#14 0x556c29169dfe <unknown>
+#15 0x556c295fa38b <unknown>
+#16 0x556c295fe307 <unknown>
+#17 0x556c295e6e7c <unknown>
+#18 0x556c295feec7 <unknown>
+#19 0x556c295cb24f <unknown>
+#20 0x556c2961e2f8 <unknown>
+#21 0x556c2961e4c0 <unknown>
+#22 0x556c2962e646 <unknown>
+#23 0x7fbf58a65ac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,desktop,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5574251c57ca <unknown>
+#1 0x557424cbd2f0 <unknown>
+#2 0x557424cb5504 <unknown>
+#3 0x557424ca58a9 <unknown>
+#4 0x557424ca75b4 <unknown>
+#5 0x557424ca5b5d <unknown>
+#6 0x557424ca55d5 <unknown>
+#7 0x557424ca52b2 <unknown>
+#8 0x557424ca323f <unknown>
+#9 0x557424ca38ba <unknown>
+#10 0x557424cbfc69 <unknown>
+#11 0x557424d51075 <unknown>
+#12 0x557424d319b2 <unknown>
+#13 0x557424d503b3 <unknown>
+#14 0x557424d31753 <unknown>
+#15 0x557424cfebaa <unknown>
+#16 0x557424cffdfe <unknown>
+#17 0x55742519038b <unknown>
+#18 0x557425194307 <unknown>
+#19 0x55742517ce7c <unknown>
+#20 0x557425194ec7 <unknown>
+#21 0x55742516124f <unknown>
+#22 0x5574251b42f8 <unknown>
+#23 0x5574251b44c0 <unknown>
+#24 0x5574251c4646 <unknown>
+#25 0x7fcaf1ccbac3 <unknown>
+"
+IT0112,"Accademia delle Belle Arti ""Mario Sironi"" - Sassari",public,Other,No,www.accademiasironi.it,ITG2,Sardegna,Sardegna,ITG2D,,Sassari,mobile,"Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x558ff65587ca <unknown>
+#1 0x558ff60502f0 <unknown>
+#2 0x558ff6048504 <unknown>
+#3 0x558ff60388a9 <unknown>
+#4 0x558ff603a5b4 <unknown>
+#5 0x558ff6038b5d <unknown>
+#6 0x558ff60385d5 <unknown>
+#7 0x558ff60382b2 <unknown>
+#8 0x558ff603623f <unknown>
+#9 0x558ff60368ba <unknown>
+#10 0x558ff6052c69 <unknown>
+#11 0x558ff60e4075 <unknown>
+#12 0x558ff60c49b2 <unknown>
+#13 0x558ff60e33b3 <unknown>
+#14 0x558ff60c4753 <unknown>
+#15 0x558ff6091baa <unknown>
+#16 0x558ff6092dfe <unknown>
+#17 0x558ff652338b <unknown>
+#18 0x558ff6527307 <unknown>
+#19 0x558ff650fe7c <unknown>
+#20 0x558ff6527ec7 <unknown>
+#21 0x558ff64f424f <unknown>
+#22 0x558ff65472f8 <unknown>
+#23 0x558ff65474c0 <unknown>
+#24 0x558ff6557646 <unknown>
+#25 0x7f4bffc13ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,desktop,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x5652c3ab97ca <unknown>
+#1 0x5652c35b12f0 <unknown>
+#2 0x5652c35a9504 <unknown>
+#3 0x5652c35998a9 <unknown>
+#4 0x5652c359b5b4 <unknown>
+#5 0x5652c3599b5d <unknown>
+#6 0x5652c35995d5 <unknown>
+#7 0x5652c35992b2 <unknown>
+#8 0x5652c359723f <unknown>
+#9 0x5652c35978ba <unknown>
+#10 0x5652c35b3c69 <unknown>
+#11 0x5652c3645075 <unknown>
+#12 0x5652c36259b2 <unknown>
+#13 0x5652c36443b3 <unknown>
+#14 0x5652c3625753 <unknown>
+#15 0x5652c35f2baa <unknown>
+#16 0x5652c35f3dfe <unknown>
+#17 0x5652c3a8438b <unknown>
+#18 0x5652c3a88307 <unknown>
+#19 0x5652c3a70e7c <unknown>
+#20 0x5652c3a88ec7 <unknown>
+#21 0x5652c3a5524f <unknown>
+#22 0x5652c3aa82f8 <unknown>
+#23 0x5652c3aa84c0 <unknown>
+#24 0x5652c3ab8646 <unknown>
+#25 0x7f7c6c5f3ac3 <unknown>
+"
+IT0138,"Accademia delle Belle Arti legalmente riconosciuta di VERONA ""Cignaroli""",private,Other,No,www.accademiacignaroli.it,ITH3,Veneto,Veneto,ITH31,Verona,Verona,mobile,"Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=132.0.6834.83)
+Stacktrace:
+#0 0x555e045437ca <unknown>
+#1 0x555e0403b2f0 <unknown>
+#2 0x555e04033504 <unknown>
+#3 0x555e040238a9 <unknown>
+#4 0x555e040255b4 <unknown>
+#5 0x555e04023b5d <unknown>
+#6 0x555e040235d5 <unknown>
+#7 0x555e040232b2 <unknown>
+#8 0x555e0402123f <unknown>
+#9 0x555e040218ba <unknown>
+#10 0x555e0403dc69 <unknown>
+#11 0x555e040cf075 <unknown>
+#12 0x555e040af9b2 <unknown>
+#13 0x555e040ce3b3 <unknown>
+#14 0x555e040af753 <unknown>
+#15 0x555e0407cbaa <unknown>
+#16 0x555e0407ddfe <unknown>
+#17 0x555e0450e38b <unknown>
+#18 0x555e04512307 <unknown>
+#19 0x555e044fae7c <unknown>
+#20 0x555e04512ec7 <unknown>
+#21 0x555e044df24f <unknown>
+#22 0x555e045322f8 <unknown>
+#23 0x555e045324c0 <unknown>
+#24 0x555e04542646 <unknown>
+#25 0x7fbe4f6c0ac3 <unknown>
+"
