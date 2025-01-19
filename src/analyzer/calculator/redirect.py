@@ -33,11 +33,15 @@ def calculate_redirect_scores(dataframe):
 
     check_inconsistencies(dataframe)
 
+    penalty_same_platform = (dataframe["redirect_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM)
+    penalty_between_platforms = (dataframe["redirect_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS * (
+            platform_counts / 100))
+    penalty_combined = penalty_same_platform + penalty_between_platforms
+    penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
+
     dataframe[REDIRECT_COMPONENT_SCORE_COL] = (
-            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-            (1 - (dataframe["redirect_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM +
-                  dataframe["redirect_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS * (
-                          platform_counts / 100)))
+        round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
+              penalty_combined, 2)
     )
 
     return dataframe
