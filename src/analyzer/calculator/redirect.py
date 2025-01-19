@@ -1,6 +1,5 @@
 REDIRECT_TO_SAME_DOMAIN = 100
-REDIRECT_TO_OTHER_DOMAIN = 0.7 * REDIRECT_TO_SAME_DOMAIN
-PENALTY_WITHOUT_REDIRECT = 0.3
+REDIRECT_TO_OTHER_DOMAIN = 70
 PENALTY_SAME_PLATFORM = 0.05
 PENALTY_BETWEEN_PLATFORMS = 0.1
 REDIRECT_SCORE_COL = "daily_redirect_score"
@@ -18,7 +17,7 @@ def calculate_redirect_scores(dataframe):
         lambda row: (
             REDIRECT_TO_SAME_DOMAIN if row["redirected_to_https"] and row["redirected_https_to_same_domain"]
             else REDIRECT_TO_OTHER_DOMAIN if row["redirected_to_https"]
-            else PENALTY_WITHOUT_REDIRECT
+            else 0
         ),
         axis=1
     )
@@ -40,9 +39,9 @@ def calculate_redirect_scores(dataframe):
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
 
     dataframe[REDIRECT_COMPONENT_SCORE_COL] = (
-        round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-              penalty_combined, 2)
-    )
+            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL]
+            .transform("mean") * penalty_combined
+    ).clip(upper=100).round(2)
 
     return dataframe
 

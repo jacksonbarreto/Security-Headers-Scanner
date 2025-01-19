@@ -80,9 +80,9 @@ config = {
     HEADERS_MULTIPLIERS: {
         "Strict-Transport-Security": 1.8,
         "Content-Security-Policy": 1.5,
-        "cross-origin-embedder-policy": 1.2,
-        "cross-origin-resource-policy": 1.1,
-        "cross-origin-opener-policy": 1.4,
+        "cross-origin-embedder-policy": 1.3,
+        "cross-origin-resource-policy": 1.3,
+        "cross-origin-opener-policy": 1.3,
     },
     "timeout": 60,
     "max_threads": 4,

@@ -55,9 +55,9 @@ def calculate_header_scores(dataframe):
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
 
     dataframe[HEADER_COMPONENT_SCORE_COL] = (
-        round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-              penalty_combined, 2)
-    )
+            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL]
+            .transform("mean") * penalty_combined
+    ).clip(upper=100).round(2)
 
     return dataframe
 
