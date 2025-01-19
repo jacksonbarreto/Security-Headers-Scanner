@@ -25,7 +25,8 @@ def calculate_final_scores(dataframe):
 
     dataframe["grade"] = dataframe["final_score"].apply(
         lambda
-            score: "A" if score >= 81 else "B" if score >= 61 else "C" if score >= 41 else "D" if score >= 21 else "F"
+            score: "A" if score >= 80 else "B" if score >= 65 else "C" if score >= 50 else "D" if score >= 35 \
+            else "E" if score >= 20 else "F"
     )
 
     return dataframe
