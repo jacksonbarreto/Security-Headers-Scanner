@@ -51,10 +51,12 @@ def calculate_header_scores(dataframe):
                 "header_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL * (
                     platform_counts / 100)
     )
+    penalty_combined = penalty_same_platform + penalty_between_platforms
+    penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
 
     dataframe[HEADER_COMPONENT_SCORE_COL] = (
         round(dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL].transform("mean") *
-              (1 - (penalty_same_platform + penalty_between_platforms)), 2)
+              penalty_combined, 2)
     )
 
     return dataframe
