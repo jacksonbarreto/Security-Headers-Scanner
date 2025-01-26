@@ -2,7 +2,7 @@ import json
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
+from selenium_stealth import stealth
 from src.config import config
 from src.scanner.scan_result import ScanResult
 
@@ -10,15 +10,17 @@ from src.scanner.scan_result import ScanResult
 def get_webdriver(user_agent, language):
     arguments = ["--headless", f"user-agent={user_agent}", f"accept-language={language}", f"--lang={language}",
                  "--no-sandbox", "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled",
-                 "--dns-server=1.1.1.1", "--ignore-certificate-errors", "--ignore-certificate-errors-spki-list",
-                 "--ignore-ssl-errors=yes"]
+                 f"--dns-server={config.get("dns_server", "1.1.1.1")}", "--ignore-certificate-errors",
+                 "--ignore-certificate-errors-spki-list", "--ignore-ssl-errors=yes"]
     options = Options()
     for arg in arguments:
         options.add_argument(arg)
+    if "android" in user_agent.lower():
+        options.add_experimental_option("mobileEmulation", {"deviceName": "Nexus 5"})
 
     options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
     driver = webdriver.Chrome(options=options)
-    driver.set_page_load_timeout(config['timeout'])
+    driver.set_page_load_timeout(config.get('timeout', 60))
     driver.execute_cdp_cmd("Network.setCacheDisabled", {"cacheDisabled": True})
     driver.execute_cdp_cmd("Network.enable", {})
     driver.execute_cdp_cmd("Network.setExtraHTTPHeaders", {
@@ -26,6 +28,16 @@ def get_webdriver(user_agent, language):
             "Accept-Language": language
         }
     })
+    driver.implicitly_wait(10)
+
+    stealth(driver,
+            languages=[language],
+            vendor="Google Inc.",
+            platform="Win64" if "android" not in user_agent.lower() else "Android",
+            webgl_vendor="Intel Inc.",
+            renderer="Intel Iris OpenGL Engine",
+            fix_hairline=True,
+            )
     return driver
 
 
@@ -36,7 +48,7 @@ def get_scan_result(web_driver):
     initial_status = None
     final_status = None
     redirect_count = 0
-
+    final_url = web_driver.current_url
     for entry in logs:
         log = entry['message']
         message_data = json.loads(log)['message']
@@ -50,7 +62,7 @@ def get_scan_result(web_driver):
                         initial_status = redirect_status
         if 'Network.responseReceived' in message_data['method']:
             response_data = message_data['params'].get('response', {})
-            if response_data:
+            if response_data and response_data.get('url', '') == final_url:
                 headers = response_data.get('headers', {})
                 protocol = response_data.get('protocol', "Unknown")
                 final_status = response_data.get('status', None)

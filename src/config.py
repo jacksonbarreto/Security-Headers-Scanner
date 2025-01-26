@@ -2,6 +2,11 @@ EXPECTED_HEADERS = "expected_headers"
 DEPRECATED_HEADERS = "deprecated_headers"
 HEADERS_MULTIPLIERS = "header_multipliers"
 CRITICAL_HEADERS = "critical_headers"
+COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS = "critical_header_inconsistency_between_platforms"
+COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS = "header_inconsistency_between_platforms"
+COL_HTTP_INCONSISTENCY_BETWEEN_PLATFORMS = "http_inconsistency_between_platforms"
+COL_REDIRECT_INCONSISTENCY_BETWEEN_PLATFORMS = "redirect_inconsistency_between_platforms"
+
 BASIC_POINT_UNIT = "basic_point_unit"
 
 config = {
@@ -84,8 +89,11 @@ config = {
         "cross-origin-resource-policy": 1.3,
         "cross-origin-opener-policy": 1.3,
     },
-    "timeout": 60,
+    "timeout": 90,
     "max_threads": 4,
-    "daily_assessments": 5,
+    "daily_assessments": 1,
     "basic_point_unit": 10,
+    "dns_server": "8.8.8.8",
 }
+
+

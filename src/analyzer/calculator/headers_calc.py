@@ -1,62 +1,52 @@
-from src.config import config, EXPECTED_HEADERS, DEPRECATED_HEADERS, HEADERS_MULTIPLIERS, CRITICAL_HEADERS
+from src.config import config, EXPECTED_HEADERS, DEPRECATED_HEADERS, HEADERS_MULTIPLIERS, CRITICAL_HEADERS, \
+    COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS, \
+    COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS
 
 total_valid_headers = len(config[EXPECTED_HEADERS]) - len(config[DEPRECATED_HEADERS])
 HEADER_PRESENCE = 100 / total_valid_headers
 STRONG_CONFIGURATION = 1.4
 WEAK_CONFIGURATION = 0.15
 PENALTY_DEPRECATED_HEADER = 0.4
-PENALTY_SAME_PLATFORM_CRITICAL = 0.1
-PENALTY_SAME_PLATFORM_NON_CRITICAL = 0.05
 PENALTY_BETWEEN_PLATFORMS_CRITICAL = 0.15
 PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL = 0.10
-HEADER_SCORE_COL = "daily_header_score"
-DAILY_SCORE_BY_PLATFORM_COL = "daily_header_score_by_platform"
-DAILY_SCORE_INTER_PLATFORMS_COL = "daily_header_score_inter_platforms"
+HEADER_SCORE_BY_PLATFORM_COL = "header_score_by_platform"
+HEADER_AVG_SCORE_BTW_PLATFORMS_COL = "header_avg_score_btw_platforms"
 HEADER_COMPONENT_SCORE_COL = "header_component_score"
 
 
 def calculate_header_scores(dataframe):
     expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS].items()}.keys())
     platform_counts = dataframe["platform"].nunique()
-    dataframe[HEADER_SCORE_COL] = 0
-    dataframe[DAILY_SCORE_BY_PLATFORM_COL] = 0
-    dataframe[DAILY_SCORE_INTER_PLATFORMS_COL] = 0
+    dataframe[HEADER_SCORE_BY_PLATFORM_COL] = 0
+    dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL] = 0
     dataframe[HEADER_COMPONENT_SCORE_COL] = 0
 
-    dataframe[HEADER_SCORE_COL] = dataframe.apply(
+    dataframe[HEADER_SCORE_BY_PLATFORM_COL] = dataframe.apply(
         lambda x: sum(calculate_header_presence_and_config(header, x) for header in expected_headers),
         axis=1
     ).round(2)
 
-    dataframe[DAILY_SCORE_BY_PLATFORM_COL] = dataframe.groupby(
-        ["ETER_ID", "assessment_date", "platform"]
-    )[HEADER_SCORE_COL].transform("median").round(2)
-
-    dataframe[DAILY_SCORE_INTER_PLATFORMS_COL] = dataframe.groupby(
-        ["ETER_ID", "assessment_date"]
-    )[DAILY_SCORE_BY_PLATFORM_COL].transform("mean").round(2)
+    dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL] = dataframe.groupby(
+        ["ETER_ID"]
+    )[HEADER_SCORE_BY_PLATFORM_COL].transform("mean").round(2)
 
     check_inconsistencies(dataframe)
 
-    penalty_same_platform = (
-            dataframe["critical_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM_CRITICAL +
-            dataframe["header_inconsistency_same_platform"] * PENALTY_SAME_PLATFORM_NON_CRITICAL
+    penalty_combined = (
+            dataframe[COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS]
+            * PENALTY_BETWEEN_PLATFORMS_CRITICAL
+            * (platform_counts / 100)
+            +
+            dataframe[COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS]
+            * PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL
+            * (platform_counts / 100)
     )
-
-    penalty_between_platforms = (
-            dataframe[
-                "critical_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS_CRITICAL * (
-                    platform_counts / 100) +
-            dataframe[
-                "header_inconsistency_between_platforms"] * PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL * (
-                    platform_counts / 100)
-    )
-    penalty_combined = penalty_same_platform + penalty_between_platforms
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
 
+
     dataframe[HEADER_COMPONENT_SCORE_COL] = (
-            dataframe.groupby("ETER_ID")[DAILY_SCORE_INTER_PLATFORMS_COL]
-            .transform("mean") * penalty_combined
+            dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL]
+            * penalty_combined
     ).clip(upper=100).round(2)
 
     return dataframe
@@ -87,58 +77,18 @@ def calculate_header_presence_and_config(header, row):
 
 
 def check_inconsistencies(dataframe):
-    dataframe["critical_inconsistency_same_platform"] = False
-    dataframe["critical_inconsistency_between_platforms"] = False
-    dataframe["header_inconsistency_between_platforms"] = False
-    dataframe["header_inconsistency_same_platform"] = False
-
     expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS].items()}.keys())
     critical_headers = [header.lower() for header in config[CRITICAL_HEADERS]]
+    inconsistencies_columns = [
+        COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS,
+        COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS
+    ]
+    for col in inconsistencies_columns:
+        headers_to_check = critical_headers if "critical" in col.lower() else expected_headers
 
-    same_platform_inconsistencies = dataframe.groupby(["ETER_ID", "platform"])[
-                                        [f"{header}_presence" for header in expected_headers] +
-                                        [f"{header}_config" for header in expected_headers]
-                                        ].nunique() > 1
+        group_by = dataframe.groupby(["ETER_ID"])[
+                       [f"{header}_presence" for header in headers_to_check] +
+                       [f"{header}_config" for header in headers_to_check]
+                       ].nunique() > 1
 
-    dataframe["header_inconsistency_same_platform"] = dataframe.apply(
-        lambda x: same_platform_inconsistencies.loc[
-            (x["ETER_ID"], x["platform"])
-        ].any(),
-        axis=1
-    )
-
-    between_platforms_inconsistencies = dataframe.groupby("ETER_ID")[
-                                            [f"{header}_presence" for header in expected_headers] +
-                                            [f"{header}_config" for header in expected_headers]
-                                            ].nunique() > 1
-
-    dataframe["header_inconsistency_between_platforms"] = dataframe.apply(
-        lambda x: between_platforms_inconsistencies.loc[
-            x["ETER_ID"]
-        ].any(),
-        axis=1
-    )
-
-    same_platform_critical_inconsistencies = dataframe.groupby(["ETER_ID", "platform"])[
-                                                 [f"{header}_presence" for header in critical_headers] +
-                                                 [f"{header}_config" for header in critical_headers]
-                                                 ].nunique() > 1
-
-    dataframe["critical_inconsistency_same_platform"] = dataframe.apply(
-        lambda x: same_platform_critical_inconsistencies.loc[
-            (x["ETER_ID"], x["platform"])
-        ].any(),
-        axis=1
-    )
-
-    between_platforms_critical_inconsistencies = dataframe.groupby("ETER_ID")[
-                                                     [f"{header}_presence" for header in critical_headers] +
-                                                     [f"{header}_config" for header in critical_headers]
-                                                     ].nunique() > 1
-
-    dataframe["critical_inconsistency_between_platforms"] = dataframe.apply(
-        lambda x: between_platforms_critical_inconsistencies.loc[
-            x["ETER_ID"]
-        ].any(),
-        axis=1
-    )
+        dataframe[col] = dataframe["ETER_ID"].map(group_by.any(axis=1))

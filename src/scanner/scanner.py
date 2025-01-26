@@ -1,3 +1,4 @@
+import logging
 import os
 import signal
 import sys
@@ -22,12 +23,12 @@ active_web_drivers = []
 
 def signal_handler(sig, frame):
     global active_web_drivers
-    print("\nInterruption received. Ending active WebDrivers...")
+    logging.warning("\nInterruption received. Ending active WebDrivers...")
     for driver in active_web_drivers:
         try:
             driver.quit()
         except Exception as e:
-            print(f"Error quitting WebDriver: {e}")
+            logging.error(f"Error quitting WebDriver: {e}")
     sys.exit(0)
 
 
@@ -46,26 +47,28 @@ def run_scan(input_file):
     max_threads = config.get('max_threads', 5)
 
     df = pd.read_csv(input_file)
+    if "error" in df.columns:
+        df = df.drop(columns=["error"])
 
     url_column_name = next((col for col in df.columns if col.lower() == 'url'), None)
     if url_column_name is None:
         raise ValueError(f"No 'url' column found in CSV ({filename}).")
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
-        futures = [executor.submit(process_scan, row, url_column_name, language) for index, row in df.iterrows()]
+        futures = [executor.submit(row_scan, row, url_column_name, language) for index, row in df.iterrows()]
         for future in as_completed(futures):
             try:
                 future.result()  # Catch exceptions
             except Exception as e:
-                print(f"Thread error in CSV ({filename}): {e}")
+                logging.error(f"Thread error in CSV ({filename}): {e}")
 
     for platform, results in results_by_platform.items():
         save(results, country_code, platform)
     if errors:
-        save(errors, country_code, 'combined', error=True)
+        save(errors, country_code, '', error=True)
 
 
-def process_scan(row, url_column_name, language):
+def row_scan(row, url_column_name, language):
     global active_web_drivers
     process_result_by_platform = {}
     process_error = []
@@ -93,7 +96,7 @@ def process_scan(row, url_column_name, language):
         web_driver = get_webdriver(user_agent, language)
         active_web_drivers.append(web_driver)
         try:
-            print(f"Scanning HTTP: {base_url} - {platform}")
+            logging.info(f"Scanning HTTP: {base_url} - {platform}")
             web_driver.get(http_url)
             scan_result = get_scan_result(web_driver)
             result["http_status_code"] = scan_result.initial_status
@@ -105,7 +108,7 @@ def process_scan(row, url_column_name, language):
                 result["redirected_https_to_same_domain"] = base_domain == final_domain
 
             if not result["redirected_to_https"]:
-                print(f"Scanning HTTPS: {https_url}")
+                logging.info(f"Scanning HTTPS: {https_url}")
                 web_driver.quit()
                 active_web_drivers.remove(web_driver)
                 web_driver = get_webdriver(user_agent, language)
@@ -123,9 +126,10 @@ def process_scan(row, url_column_name, language):
             })
             process_result_by_platform[platform] = {**row.to_dict(), **result}
         except Exception as e:
-            print(f"Error scanning {base_url} - {platform}: {e}")
-            error_result = {**row.to_dict(), "platform": platform, "error": str(e)}
+            logging.error(f"Error scanning {base_url} - {platform}: {e}")
+            error_result = {**row.to_dict(), "error": str(e)}
             process_error.append(error_result)
+            break
         finally:
             web_driver.quit()
             active_web_drivers.remove(web_driver)

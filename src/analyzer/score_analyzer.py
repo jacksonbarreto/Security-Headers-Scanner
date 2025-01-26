@@ -7,7 +7,7 @@ from src.analyzer.utils.utils import load_results
 def main():
     input_directory = os.path.join('../..', 'src', 'data', 'results')
     output_directory = os.path.join(input_directory, 'analysis')
-    filename_output = 'final_result_with_scores'
+    filename_output = 'sh_final_result_with_scores'
 
     consolidated_data = load_results(input_directory)
 

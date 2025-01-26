@@ -12,13 +12,13 @@ def normalize_domain(url):
         domain = domain[4:]
     return domain.split(':')[0]
 
-def save(dataframe, country_code, platform, error=False):
+def save(dataframe, country_code, platform=None, error=False):
     folder = 'errors' if error else 'results'
     output_dir = os.path.join('.', 'src', 'data', folder)
 
     os.makedirs(output_dir, exist_ok=True)
 
-    filename = f"{country_code}_{platform}{'_errors_' if error else ''}.csv"
+    filename = f"{country_code}{f'_{platform}' if platform else ''}{'_errors' if error else ''}.csv"
     output_file = os.path.join(output_dir, filename)
 
     if isinstance(dataframe, list):
