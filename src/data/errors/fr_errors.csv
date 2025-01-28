@@ -1,0 +1,33 @@
+ETER_ID,Name,Category,Institution_Category_Standardized,Member_of_European_University_alliance,Url,NUTS2,NUTS2_Label_2016,NUTS2_Label_2021,NUTS3,NUTS3_Label_2016,NUTS3_Label_2021,error
+FR0182,École nationale supérieure d'architecture de Paris-La Villette,public,Other,No,www.paris-lavillette.archi.fr,FR10,Ile-de-France,Ile-de-France,FR101,Paris,Paris,"Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=131.0.6778.267)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6291680D5+2992373]
+	(No symbol) [0x00007FF628DFBFD0]
+	(No symbol) [0x00007FF628C9590A]
+	(No symbol) [0x00007FF628C93061]
+	(No symbol) [0x00007FF628C83BD9]
+	(No symbol) [0x00007FF628C8592F]
+	(No symbol) [0x00007FF628C83E9F]
+	(No symbol) [0x00007FF628C8371D]
+	(No symbol) [0x00007FF628C8363A]
+	(No symbol) [0x00007FF628C81251]
+	(No symbol) [0x00007FF628C81B1C]
+	(No symbol) [0x00007FF628C989DA]
+	(No symbol) [0x00007FF628D3038E]
+	(No symbol) [0x00007FF628D0F36A]
+	(No symbol) [0x00007FF628D2F584]
+	(No symbol) [0x00007FF628D0F113]
+	(No symbol) [0x00007FF628CDA918]
+	(No symbol) [0x00007FF628CDBA81]
+	GetHandleVerifier [0x00007FF6291C6A2D+3379789]
+	GetHandleVerifier [0x00007FF6291DC32D+3468109]
+	GetHandleVerifier [0x00007FF6291D0043+3418211]
+	GetHandleVerifier [0x00007FF628F5C78B+847787]
+	(No symbol) [0x00007FF628E0757F]
+	(No symbol) [0x00007FF628E02FC4]
+	(No symbol) [0x00007FF628E0315D]
+	(No symbol) [0x00007FF628DF2979]
+	BaseThreadInitThunk [0x00007FFD90377374+20]
+	RtlUserThreadStart [0x00007FFD9055CC91+33]
+"

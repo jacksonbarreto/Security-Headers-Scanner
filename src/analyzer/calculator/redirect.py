@@ -41,6 +41,6 @@ def calculate_redirect_scores(dataframe):
 
 
 def check_inconsistencies(dataframe):
-    dataframe[COL_REDIRECT_INCONSISTENCY_BETWEEN_PLATFORMS] = dataframe.groupby(
-        ["ETER_ID"]
-    )["redirected_to_https"].transform(lambda x: x.nunique() > 1)
+    group_by = dataframe.groupby(["ETER_ID"])[["redirected_to_https", "redirected_https_to_same_domain"]].nunique() > 1
+
+    dataframe[COL_REDIRECT_INCONSISTENCY_BETWEEN_PLATFORMS] = dataframe["ETER_ID"].map(group_by.any(axis=1))

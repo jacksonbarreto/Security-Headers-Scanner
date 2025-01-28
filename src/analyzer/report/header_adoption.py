@@ -104,8 +104,8 @@ def create_radar_charts(kpi_data):
 
 
 if __name__ == "__main__":
-    input_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
-    output_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'graphs')
+    input_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
+    output_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'graphs')
     df = pd.read_csv(input_directory)
     kpi = get_data(df)
 

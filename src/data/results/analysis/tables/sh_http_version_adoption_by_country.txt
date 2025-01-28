@@ -1,0 +1,16 @@
+
+\begin{table}[H]
+    \centering
+    \caption{HTTP Version Adoption by Country}
+    \label{tab:country_http_version_adoption}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xccccc}
+        \toprule
+        \rotatebox{90}{\makecell{Country}} & \rotatebox{90}{\makecell{HTTP-3}} & \rotatebox{90}{\makecell{HTTP-2}} & \rotatebox{90}{\makecell{HTTP-1.1}} & \rotatebox{90}{\makecell{HTTP-1.0}} \\
+        \midrule
+            Italy & 1.94 & 63.11 & 34.95 & - \\
+            Germany & - & 65.91 & 33.84 & 0.25 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+    

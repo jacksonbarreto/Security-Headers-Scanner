@@ -1,4 +1,4 @@
-EXPECTED_HEADERS = "expected_headers"
+EXPECTED_HEADERS_KEY = "expected_headers"
 DEPRECATED_HEADERS = "deprecated_headers"
 HEADERS_MULTIPLIERS = "header_multipliers"
 CRITICAL_HEADERS = "critical_headers"
@@ -21,7 +21,7 @@ config = {
         {"fr": "fr;en;q=0.6"},
         {"it": "it;en;q=0.6"},
     ],
-    EXPECTED_HEADERS: {
+    EXPECTED_HEADERS_KEY: {
         "X-XSS-Protection": lambda value: "Strong" if "1; mode=block" in value.lower() else "Weak",
         "X-Frame-Options": lambda value: "Strong" if value.lower() in ["deny", "sameorigin"] else "Weak",
         "X-Content-Type-Options": lambda value: "Strong" if value.lower() == "nosniff" else "Weak",
@@ -91,7 +91,6 @@ config = {
     },
     "timeout": 90,
     "max_threads": 4,
-    "daily_assessments": 1,
     "basic_point_unit": 10,
     "dns_server": "8.8.8.8",
 }

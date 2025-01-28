@@ -2,8 +2,10 @@ import os
 import pandas as pd
 from urllib.parse import urlparse
 
+
 def sanitize_url(url):
     return url.replace("http://", "").replace("https://", "").split("/")[0].split(':')[0]
+
 
 def normalize_domain(url):
     parsed_url = urlparse(url)
@@ -11,6 +13,7 @@ def normalize_domain(url):
     if domain.startswith("www."):
         domain = domain[4:]
     return domain.split(':')[0]
+
 
 def save(dataframe, country_code, platform=None, error=False):
     folder = 'errors' if error else 'results'
@@ -31,3 +34,23 @@ def save(dataframe, country_code, platform=None, error=False):
             df.to_csv(output_file, mode='a', header=False, index=False)
         else:
             df.to_csv(output_file, index=False)
+
+
+def check_error_files():
+    error_directory = os.path.join('..', '..', 'data', 'errors')
+    files = [f for f in os.listdir(error_directory) if f.endswith('.csv')]
+    if files:
+        return True
+    return False
+
+def reset_error_files():
+    source_directory = os.path.join('..', '..', 'data', 'source')
+    error_directory = os.path.join('..', '..', 'data', 'errors')
+    files = [f for f in os.listdir(source_directory) if f.endswith('.csv')]
+    for file in files:
+        os.remove(os.path.join(source_directory, file))
+
+    error_files = [f for f in os.listdir(error_directory) if f.endswith('.csv')]
+    for file in error_files:
+        os.rename(os.path.join(error_directory, file), os.path.join(source_directory, file))
+    return True

@@ -1,13 +1,18 @@
 import logging
 import os
 
+from src.analyzer.report.main import generate_reports
 from src.config import config
 from src.scanner.scanner import run_scan
+from src.scanner.utils.utils import check_error_files, reset_error_files
+
 #import daemon
 #from setproctitle import setproctitle
 
 log_file = os.path.join('.', 'scan.log')
 
+error_directory = os.path.join('.', 'src', 'data', 'errors')
+max_assessments = 10
 
 def main():
     input_directory = os.path.join('.', 'src', 'data', 'source')
@@ -24,16 +29,29 @@ def main():
         logging.error("No expected headers defined in config file (config.py).")
         return
 
-    daily_assessments = config.get("daily_assessments", 5)
-
-    for i in range(daily_assessments):
+    assessments = 0
+    while True:
         for file in files:
             file_path = os.path.join(input_directory, file)
-            logging.info(f"({i + 1}/{daily_assessments}) - Scanning file: {file}")
+            logging.info(f"(Scanning file: {file}")
             try:
                 run_scan(file_path)
             except Exception as e:
                 logging.error(f"Error scanning {file}: {e}")
+
+        assessments += 1
+        if check_error_files():
+            if assessments >= max_assessments:
+                logging.warning(f"Max attempts reached ({max_assessments}). Some errors may persist.")
+                break
+            logging.warning(f"Found {len(files)} error files in '{error_directory}'. Please check the files.")
+            reset_error_files()
+        else:
+            break
+    logging.info("Scanning completed successfully. Generating reports...")
+    generate_reports()
+    logging.info("Reports generated successfully.")
+
 
 
 def start_daemon():
@@ -45,7 +63,6 @@ def start_daemon():
     )
     try:
         main()
-        logging.info("Scan complete.")
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
 

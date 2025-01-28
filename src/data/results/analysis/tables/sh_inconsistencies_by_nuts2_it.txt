@@ -1,0 +1,35 @@
+
+\begin{table}[H]
+    \centering
+    \caption{Security Headers Inconsistencies by NUTS2 in Italy}
+    \label{tab:nuts2_inconsistencies_it}
+    \rowcolors{2}{white}{gray!15}
+    \begin{tabularx}{\textwidth}{Xcccc}
+        \toprule
+        \textbf{NUTS2} & \rotatebox{90}{\makecell{NUTS2}} & \rotatebox{90}{\makecell{Critical Header Inconsistency}} & \rotatebox{90}{\makecell{Header Inconsistency}} & \rotatebox{90}{\makecell{Redirect Inconsistency}} \\
+         \midrule
+            Abruzzo & - & - & - \\
+            Basilicata & - & - & - \\
+            Calabria & - & - & - \\
+            Campania & - & - & - \\
+            Emilia-Romagna & - & - & - \\
+            Friuli-Venezia Giulia & - & - & - \\
+            Lazio & - & - & - \\
+            Liguria & - & - & - \\
+            Lombardia & - & - & - \\
+            Marche & - & - & - \\
+            Molise & - & - & - \\
+            Piemonte & - & - & - \\
+            Provincia Autonoma di Bolzano/Bozen & - & - & - \\
+            Provincia Autonoma di Trento & - & - & - \\
+            Puglia & - & - & - \\
+            Sardegna & - & - & - \\
+            Sicilia & - & - & - \\
+            Toscana & - & - & - \\
+            Umbria & - & - & - \\
+            Valle d’Aosta/Vallée d’Aoste & - & - & - \\
+            Veneto & - & - & - \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+    

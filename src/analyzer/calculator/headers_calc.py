@@ -1,11 +1,13 @@
-from src.config import config, EXPECTED_HEADERS, DEPRECATED_HEADERS, HEADERS_MULTIPLIERS, CRITICAL_HEADERS, \
+from src.config import config, EXPECTED_HEADERS_KEY, DEPRECATED_HEADERS, HEADERS_MULTIPLIERS, CRITICAL_HEADERS, \
     COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS, \
     COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS
 
-total_valid_headers = len(config[EXPECTED_HEADERS]) - len(config[DEPRECATED_HEADERS])
+total_valid_headers = len(config[EXPECTED_HEADERS_KEY]) - len(config[DEPRECATED_HEADERS])
 HEADER_PRESENCE = 100 / total_valid_headers
 STRONG_CONFIGURATION = 1.4
 WEAK_CONFIGURATION = 0.15
+HTTP_V2_POINTS = 1.1
+HTTP_V3_POINTS = 1.3
 PENALTY_DEPRECATED_HEADER = 0.4
 PENALTY_BETWEEN_PLATFORMS_CRITICAL = 0.15
 PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL = 0.10
@@ -15,7 +17,7 @@ HEADER_COMPONENT_SCORE_COL = "header_component_score"
 
 
 def calculate_header_scores(dataframe):
-    expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS].items()}.keys())
+    expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS_KEY].items()}.keys())
     platform_counts = dataframe["platform"].nunique()
     dataframe[HEADER_SCORE_BY_PLATFORM_COL] = 0
     dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL] = 0
@@ -42,10 +44,13 @@ def calculate_header_scores(dataframe):
             * (platform_counts / 100)
     )
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
-
+    http_version_multiplier = dataframe["protocol_http"].apply(
+        lambda x: HTTP_V3_POINTS if x.lower() == "h3" else HTTP_V2_POINTS if x.lower() == "h2" else 1
+    )
 
     dataframe[HEADER_COMPONENT_SCORE_COL] = (
-            dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL]
+            (dataframe[HEADER_AVG_SCORE_BTW_PLATFORMS_COL]
+            * http_version_multiplier)
             * penalty_combined
     ).clip(upper=100).round(2)
 
@@ -77,7 +82,7 @@ def calculate_header_presence_and_config(header, row):
 
 
 def check_inconsistencies(dataframe):
-    expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS].items()}.keys())
+    expected_headers = list({k.lower(): v for k, v in config[EXPECTED_HEADERS_KEY].items()}.keys())
     critical_headers = [header.lower() for header in config[CRITICAL_HEADERS]]
     inconsistencies_columns = [
         COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS,

@@ -1,4 +1,3 @@
-from src.analyzer.calculator.headers_calc import HEADER_AVG_SCORE_BTW_PLATFORMS_COL
 from src.config import COL_HTTP_INCONSISTENCY_BETWEEN_PLATFORMS
 
 HTTP_V2_POINTS = 1.1

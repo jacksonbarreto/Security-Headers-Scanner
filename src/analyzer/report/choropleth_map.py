@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-from src.analyzer.graph_generator import get_country
+from src.analyzer.report.graph_generator import get_country
 
 
 def generate_nuts_heatmap_csvs(dataframe, output="output"):
@@ -54,8 +54,8 @@ def generate_latex_table_from_csv(csv_file, country, output="output"):
 
 
 if __name__ == "__main__":
-    input_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
-    output_directory = os.path.join('../..', 'src', 'data', 'results', 'analysis', 'choropleth_map')
+    input_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
+    output_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'choropleth_map')
     df = pd.read_csv(input_directory)
     generate_nuts_heatmap_csvs(df, output_directory)
 
