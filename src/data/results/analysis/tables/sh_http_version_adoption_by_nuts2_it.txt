@@ -1,12 +1,12 @@
 
 \begin{table}[H]
     \centering
-    \caption{HTTP Version Adoption by NUTS2 in Italy}
+    \caption{HTTP Version Adoption by NUTS2 in Italy (\%)}
     \label{tab:nuts2_http_version_adoption_in_it}
     \rowcolors{2}{white}{gray!15}
     \begin{tabularx}{\textwidth}{Xccccc}
         \toprule
-        \rotatebox{90}{\makecell{NUTS2}} & \rotatebox{90}{\makecell{HTTP-3}} & \rotatebox{90}{\makecell{HTTP-2}} & \rotatebox{90}{\makecell{HTTP-1.1}} & \rotatebox{90}{\makecell{HTTP-1.0}} \\
+        \makecell{NUTS2} & \makecell{HTTP-3} & \makecell{HTTP-2} & \makecell{HTTP-1.1} & \makecell{HTTP-1.0} \\
         \midrule
             Calabria & 10 & 60 & 30 & - \\
             Veneto & 8.33 & 58.33 & 33.33 & - \\

@@ -103,10 +103,14 @@ def create_radar_charts(kpi_data):
     plt.show()
 
 
-if __name__ == "__main__":
+def make_header_adoption():
     input_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'final_result_with_scores.csv')
     output_directory = os.path.join('../../..', 'src', 'data', 'results', 'analysis', 'graphs')
     df = pd.read_csv(input_directory)
     kpi = get_data(df)
 
     create_radar_charts(kpi)
+
+
+if __name__ == "__main__":
+    make_header_adoption()

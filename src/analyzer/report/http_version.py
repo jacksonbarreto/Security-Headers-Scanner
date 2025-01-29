@@ -62,7 +62,7 @@ def latex_http_table(dataframe, level, title, label):
 
     dataframe = dataframe[columns_to_display].rename(columns=rename_map)
 
-    column_headers = " & ".join(f"\\rotatebox{{90}}{{\\makecell{{{col}}}}}" for col in dataframe.columns)
+    column_headers = " & ".join(f"\\makecell{{{col}}}" for col in dataframe.columns)
 
     table_rows = "\n".join(
         f"            {row[0] if level != 'country' else get_country(row[0])} & " + " & ".join(
@@ -99,14 +99,14 @@ def generate_http_adoption_tables(stats_dataframe):
     for country in countries:
         filtered_df = stats_dataframe[stats_dataframe["country"] == country]
         nuts2_table = latex_http_table(filtered_df, "nuts",
-                                       f"HTTP Version Adoption by NUTS2 in {get_country(country)}",
+                                       f"HTTP Version Adoption by NUTS2 in {get_country(country)} (\\%)",
                                        f"nuts2_http_version_adoption_in_{country.lower()}")
         file_name = f"sh_http_version_adoption_by_nuts2_{country}.txt"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
-    country_table = latex_http_table(stats_dataframe, "country", "HTTP Version Adoption by Country",
+    country_table = latex_http_table(stats_dataframe, "country", "HTTP Version Adoption by Country (\\%)",
                                      "country_http_version_adoption")
     file_name = "sh_http_version_adoption_by_country.txt"
     path_to_save = os.path.join(TABLE_DIRECTORY, file_name)

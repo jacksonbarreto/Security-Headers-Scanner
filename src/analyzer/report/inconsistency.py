@@ -70,7 +70,7 @@ def latex_table(dataframe, level, title, label, country_filter=None):
         col.replace("_", " ").title().replace(" Between Platforms", "") for col in inconsistency_columns
     ], ascending=False, kind="mergesort")
 
-    column_headers = " & ".join(f"\\rotatebox{{90}}{{\\makecell{{{col}}}}}" for col in dataframe.columns)
+    column_headers = " & ".join(f"\\makecell{{{col.replace(' Inconsistency','')}}}" for col in dataframe.columns)
 
     table_rows = "\n".join(
         f"            {row[0] if level != 'country' else get_country(row[0])} & " + " & ".join(
@@ -105,14 +105,14 @@ def generate_latex_table(dataframe):
     total_countries = dataframe["country"].unique()
     for country in total_countries:
         nuts2_table = latex_table(dataframe, "nuts",
-                                  f"Security Headers Inconsistencies by NUTS2 in {get_country(country)}",
+                                  f"Security Headers Inconsistencies by NUTS2 in {get_country(country)} (\\%)",
                                   f"nuts2_inconsistencies_{country}", country)
         file_name = f"sh_inconsistencies_by_nuts2_in_{country}.txt"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
-    country_table = latex_table(dataframe, "country", "Security Headers Inconsistencies by Country",
+    country_table = latex_table(dataframe, "country", "Security Headers Inconsistencies by Country (\\%)",
                                 "country_inconsistencies")
     file_name = "sh_inconsistencies_by_country.txt"
     path_to_save = os.path.join(TABLE_DIRECTORY, file_name)

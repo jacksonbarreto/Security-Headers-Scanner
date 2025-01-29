@@ -1,12 +1,12 @@
 
 \begin{table}[H]
     \centering
-    \caption{Security Headers Inconsistencies by Country}
+    \caption{Security Headers Inconsistencies by Country (\%)}
     \label{tab:country_inconsistencies}
     \rowcolors{2}{white}{gray!15}
     \begin{tabularx}{\textwidth}{Xcccc}
         \toprule
-        \rotatebox{90}{\makecell{Country}} & \rotatebox{90}{\makecell{Critical Header Inconsistency}} & \rotatebox{90}{\makecell{Header Inconsistency}} & \rotatebox{90}{\makecell{Redirect Inconsistency}} \\
+        \makecell{Country} & \makecell{Critical Header} & \makecell{Header} & \makecell{Redirect} \\
         \midrule
             Germany & - & 0.50 & - \\
             Italy & - & - & - \\

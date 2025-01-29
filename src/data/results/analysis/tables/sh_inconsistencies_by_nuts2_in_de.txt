@@ -1,12 +1,12 @@
 
 \begin{table}[H]
     \centering
-    \caption{Security Headers Inconsistencies by NUTS2 in Germany}
+    \caption{Security Headers Inconsistencies by NUTS2 in Germany (\%)}
     \label{tab:nuts2_inconsistencies_de}
     \rowcolors{2}{white}{gray!15}
     \begin{tabularx}{\textwidth}{Xcccc}
         \toprule
-        \rotatebox{90}{\makecell{NUTS2}} & \rotatebox{90}{\makecell{Critical Header Inconsistency}} & \rotatebox{90}{\makecell{Header Inconsistency}} & \rotatebox{90}{\makecell{Redirect Inconsistency}} \\
+        \makecell{NUTS2} & \makecell{Critical Header} & \makecell{Header} & \makecell{Redirect} \\
         \midrule
             Mittelfranken & - & 12.50 & - \\
             Darmstadt & - & 5.56 & - \\
