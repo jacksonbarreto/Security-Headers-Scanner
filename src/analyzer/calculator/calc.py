@@ -18,7 +18,7 @@ def calculate_final_scores(dataframe):
          dataframe[REDIRECT_COMPONENT_SCORE_COL] * WEIGHT_REDIRECT).round(2)
     )
 
-    bins = [0, 20, 35, 50, 65, 80, 100]
+    bins = [0, 20, 35, 50, 65, 80, 101]
     labels = ["F", "E", "D", "C", "B", "A"]
     dataframe["grade"] = pd.cut(dataframe["final_score"], bins=bins, labels=labels, right=False)
 

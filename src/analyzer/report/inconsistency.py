@@ -105,9 +105,9 @@ def generate_latex_table(dataframe):
     total_countries = dataframe["country"].unique()
     for country in total_countries:
         nuts2_table = latex_table(dataframe, "nuts",
-                                  f"Security Headers Inconsistencies by NUTS2 in {get_country(country)} (\\%)",
+                                  f"Security Headers Inconsistencies in {get_country(country)} by NUTS2 (\\%)",
                                   f"nuts2_inconsistencies_{country}", country)
-        file_name = f"sh_inconsistencies_by_nuts2_in_{country}.txt"
+        file_name = f"sh_inconsistencies_in_{country}_by_nuts2.txt"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
