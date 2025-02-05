@@ -101,13 +101,13 @@ def generate_http_adoption_tables(stats_dataframe):
         nuts2_table = latex_http_table(filtered_df, "nuts",
                                        f"HTTP Version Adoption in {get_country(country)} by NUTS2 (\\%)",
                                        f"nuts2_http_version_adoption_in_{country.lower()}")
-        path_to_save = os.path.join(TABLE_DIRECTORY, f"sh_http_version_adoption_in_{country}_by_nuts2.txt")
+        path_to_save = os.path.join(TABLE_DIRECTORY, f"sh_http_version_adoption_in_{country}_by_nuts2.tex")
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
     country_table = latex_http_table(stats_dataframe, "country", "HTTP Version Adoption by Country (\\%)",
                                      "country_http_version_adoption")
-    path_to_save = os.path.join(TABLE_DIRECTORY, "sh_http_version_adoption_by_country.txt")
+    path_to_save = os.path.join(TABLE_DIRECTORY, "sh_http_version_adoption_by_country.tex")
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
         tex_file.write(country_table)
 

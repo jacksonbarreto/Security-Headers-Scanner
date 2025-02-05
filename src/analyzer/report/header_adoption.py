@@ -404,11 +404,11 @@ def get_reverse_country(country):
 def create_radar_charts(kpi_data):
     highlight_positive = config["critical_headers"]
     highlight_deprecated = config["deprecated_headers"]
-    headers = list(config["expected_headers"].keys())  # Garantir que a lista de headers esteja correta
+    headers = list(config["expected_headers"].keys())
 
     num_headers = len(headers)
     angles = np.linspace(0, 2 * np.pi, num_headers, endpoint=False).tolist()
-    angles.append(angles[0])  # Fechar o gráfico radar
+    angles.append(angles[0])
 
     countries = kpi_data["country"].unique()
 

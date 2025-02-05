@@ -107,14 +107,14 @@ def generate_latex_table(dataframe):
         nuts2_table = latex_table(dataframe, "nuts",
                                   f"Security Headers Inconsistencies in {get_country(country)} by NUTS2 (\\%)",
                                   f"nuts2_inconsistencies_{country}", country)
-        file_name = f"sh_inconsistencies_in_{country}_by_nuts2.txt"
+        file_name = f"sh_inconsistencies_in_{country}_by_nuts2.tex"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
     country_table = latex_table(dataframe, "country", "Security Headers Inconsistencies by Country (\\%)",
                                 "country_inconsistencies")
-    file_name = "sh_inconsistencies_by_country.txt"
+    file_name = "sh_inconsistencies_by_country.tex"
     path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
         tex_file.write(country_table)
@@ -174,6 +174,7 @@ def plot_dot_chart(dataframe, level, title, country_filter=None):
 
 def generate_plot_dot_chart(dataframe):
     total_countries = dataframe["country"].unique()
+    print(f"countries: {total_countries}")
     for country in total_countries:
         fig = plot_dot_chart(dataframe, "nuts",
                                           f"Security Headers Inconsistencies by NUTS2 in {get_country(country)}",
