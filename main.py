@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 
 from src.analyzer.report.main import generate_reports
 from src.config import config
@@ -16,7 +17,7 @@ max_assessments = 10
 
 def main():
     input_directory = os.path.join('.', 'src', 'data', 'source')
-    files = [f for f in os.listdir(input_directory) if f.endswith('.csv')]
+    files = [f for f in os.listdir(input_directory) if re.match(r'^[a-zA-Z]{2}-.*\.csv$', f)]
     logging.info(f"Found {len(files)} files to scan.")
 
     if not files:

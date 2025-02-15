@@ -5,12 +5,12 @@ from src.config import config, EXPECTED_HEADERS_KEY, DEPRECATED_HEADERS, HEADERS
 total_valid_headers = len(config[EXPECTED_HEADERS_KEY]) - len(config[DEPRECATED_HEADERS])
 HEADER_PRESENCE = 100 / total_valid_headers
 STRONG_CONFIGURATION = 1.4
-WEAK_CONFIGURATION = 0.15
+WEAK_CONFIGURATION = 0.85
 HTTP_V2_POINTS = 1.1
 HTTP_V3_POINTS = 1.3
-PENALTY_DEPRECATED_HEADER = 0.4
-PENALTY_BETWEEN_PLATFORMS_CRITICAL = 0.15
-PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL = 0.10
+PENALTY_DEPRECATED_HEADER = 0.6
+PENALTY_BETWEEN_PLATFORMS_CRITICAL = 0.85
+PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL = 0.90
 HEADER_SCORE_BY_PLATFORM_COL = "header_score_by_platform"
 HEADER_AVG_SCORE_BTW_PLATFORMS_COL = "header_avg_score_btw_platforms"
 HEADER_COMPONENT_SCORE_COL = "header_component_score"
@@ -37,11 +37,11 @@ def calculate_header_scores(dataframe):
     penalty_combined = (
             dataframe[COL_CRITICAL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS]
             * PENALTY_BETWEEN_PLATFORMS_CRITICAL
-            * (platform_counts / 100)
+            * (1 - (platform_counts / 100))
             +
             dataframe[COL_HEADER_INCONSISTENCY_BETWEEN_PLATFORMS]
             * PENALTY_BETWEEN_PLATFORMS_NON_CRITICAL
-            * (platform_counts / 100)
+            * (1 - (platform_counts / 100))
     )
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
     http_version_multiplier = dataframe["protocol_http"].apply(

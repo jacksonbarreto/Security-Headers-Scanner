@@ -25,9 +25,18 @@ def prepare_inconsistency_stats(dataframe):
         total_schools_country=("ETER_ID", "count"),
         **{f"{col}_schools_country": (col, "sum") for col in inconsistency_columns},
     ).reset_index()
+    _stats_by_nuts_category = dataframe.groupby(["country", "NUTS2_Label_2016", "Category"]).agg(
+        total_schools_nuts_category=("ETER_ID", "count"),
+        **{f"{col}_schools_nuts_category": (col, "sum") for col in inconsistency_columns},
+    ).reset_index()
     consolidated_stats = _stats_by_nuts.merge(
         _stats_by_country,
         on="country",
+        how="left"
+    )
+    consolidated_stats = consolidated_stats.merge(
+        _stats_by_nuts_category,
+        on=["country", "NUTS2_Label_2016"],
         how="left"
     )
     for col in inconsistency_columns:
@@ -39,12 +48,17 @@ def prepare_inconsistency_stats(dataframe):
                 (consolidated_stats[f"{col}_schools_country"] / consolidated_stats["total_schools_country"]) * 100
         ).round(2)
 
+        consolidated_stats[f"{col}_percent_nuts_category"] = (
+                (consolidated_stats[f"{col}_schools_nuts_category"] / consolidated_stats[
+                    "total_schools_nuts_category"]) * 100
+        ).round(2)
+
         consolidated_stats.rename(columns={"NUTS2_Label_2016": "nuts"}, inplace=True)
 
     return consolidated_stats
 
 
-def latex_table(dataframe, level, title, label, country_filter=None):
+def latex_table(dataframe, level, title, label, country_filter=None, category_filter=None):
     if level == "nuts":
         if country_filter:
             dataframe = dataframe[dataframe["country"] == country_filter]
@@ -60,6 +74,20 @@ def latex_table(dataframe, level, title, label, country_filter=None):
         rename_map = {
             "country": "Country",
             **{f"{col}_percent_country": col.replace("_", " ").title().replace(" Between Platforms", "") for col in
+               inconsistency_columns},
+        }
+    elif level == "nuts_category":
+        if country_filter:
+            dataframe = dataframe[dataframe["country"] == country_filter]
+        if category_filter:
+            dataframe = dataframe[dataframe["Category"] == category_filter]
+
+        columns_to_display = ["nuts", "Category"] + [f"{col}_percent_nuts_category" for col in inconsistency_columns]
+        rename_map = {
+            "nuts": "NUTS2",
+            "Category": "Institution Type",
+            **{f"{col}_percent_nuts_category": col.replace("_", " ").title().replace(" Between Platforms", "") for col
+               in
                inconsistency_columns},
         }
     else:
@@ -108,6 +136,20 @@ def generate_latex_table(dataframe):
                                   f"Security Headers Inconsistencies in {get_country(country)} by NUTS2 (\\%)",
                                   f"nuts2_inconsistencies_{country}", country)
         file_name = f"sh_inconsistencies_in_{country}_by_nuts2.tex"
+        path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
+        with open(path_to_save, "w", encoding="utf-8") as tex_file:
+            tex_file.write(nuts2_table)
+        nuts2_table = latex_table(dataframe, "nuts_category",
+                                  f"Security Headers Inconsistencies at Publica HEIs in {get_country(country)} by NUTS2 (\\%)",
+                                  f"inconsistencies_in_{country}_by_nuts2_public", country)
+        file_name = f"sh_inconsistencies_in_{country}_by_nuts2_public.tex"
+        path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
+        with open(path_to_save, "w", encoding="utf-8") as tex_file:
+            tex_file.write(nuts2_table)
+        nuts2_table = latex_table(dataframe, "nuts_category",
+                                  f"Security Headers Inconsistencies at Private HEIs in {get_country(country)} by NUTS2 (\\%)",
+                                  f"inconsistencies_in_{country}_by_nuts2_private", country, "private")
+        file_name = f"sh_inconsistencies_in_{country}_by_nuts2_private.tex"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
@@ -183,11 +225,14 @@ def generate_plot_dot_chart(dataframe):
         path_to_save = os.path.join(CHART_DIRECTORY, file_name)
         fig.savefig(path_to_save, format="pdf", bbox_inches="tight")
         plt.show()
+        plt.close(fig)
+
     fig = plot_dot_chart(dataframe, "country", "Security Headers Inconsistencies by Country")
     file_name = "sh_chart_inconsistencies_by_country.pdf"
     path_to_save = os.path.join(CHART_DIRECTORY, file_name)
     fig.savefig(path_to_save, format="pdf", bbox_inches="tight")
     plt.show()
+    plt.close(fig)
 
 
 def make_inconsistencies():

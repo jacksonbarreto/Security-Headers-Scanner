@@ -2,7 +2,7 @@ from src.config import COL_REDIRECT_INCONSISTENCY_BETWEEN_PLATFORMS
 
 REDIRECT_TO_SAME_DOMAIN = 100
 REDIRECT_TO_OTHER_DOMAIN = 70
-PENALTY_BETWEEN_PLATFORMS = 0.1
+PENALTY_BETWEEN_PLATFORMS = 0.9
 REDIRECT_SCORE_BY_PLATFORM_COL = "redirect_score_by_platform"
 REDIRECT_AVG_SCORE_BTW_PLATFORMS_COL = "redirect_avg_score_btw_platforms"
 REDIRECT_COMPONENT_SCORE_COL = "redirect_component_score"
@@ -29,7 +29,7 @@ def calculate_redirect_scores(dataframe):
     penalty_combined = (
             dataframe[COL_REDIRECT_INCONSISTENCY_BETWEEN_PLATFORMS]
             * PENALTY_BETWEEN_PLATFORMS
-            * (platform_counts / 100)
+            * (1 - (platform_counts / 100))
     )
     penalty_combined = penalty_combined.where(penalty_combined > 0, 1)
     dataframe[REDIRECT_COMPONENT_SCORE_COL] = (
