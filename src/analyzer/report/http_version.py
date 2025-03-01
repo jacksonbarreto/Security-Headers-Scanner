@@ -55,12 +55,17 @@ def latex_http_table(dataframe, level, title, label):
         dataframe = dataframe.sort_values(by=[f"{col}_percent_country" for col in HTTP_VERSIONS], ascending=False)
         rename_map = {
             "country": "Country",
-            **{f"{col}_percent_country": col.upper().replace("/", "-") for col in HTTP_VERSIONS}
+            **{f"{col}_percent_country": col.upper().replace("/", "-") for col in HTTP_VERSIONS if col in dataframe.columns}
         }
     else:
         raise ValueError("Invalid level. Use 'nuts' or 'country'.")
 
     dataframe = dataframe[columns_to_display].rename(columns=rename_map)
+
+    h_temp = [col.upper().replace("/", "-") for col in HTTP_VERSIONS]
+    cols_to_remove = [col for col in h_temp if col in dataframe.columns and dataframe[col].sum() == 0]
+    dataframe = dataframe.drop(columns=cols_to_remove)
+    print (dataframe.head())
 
     column_headers = " & ".join(f"\\makecell{{{col}}}" for col in dataframe.columns)
 
@@ -98,6 +103,8 @@ def generate_http_adoption_tables(stats_dataframe):
 
     for country in countries:
         filtered_df = stats_dataframe[stats_dataframe["country"] == country]
+
+
         nuts2_table = latex_http_table(filtered_df, "nuts",
                                        f"HTTP Version Adoption in {get_country(country)} by NUTS2 (\\%)",
                                        f"nuts2_http_version_adoption_in_{country.lower()}")
@@ -105,7 +112,9 @@ def generate_http_adoption_tables(stats_dataframe):
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
             tex_file.write(nuts2_table)
 
-    country_table = latex_http_table(stats_dataframe, "country", "HTTP Version Adoption by Country (\\%)",
+    cols_to_remove = [col for col in stats_dataframe.columns if col.endswith("_percent") and stats_dataframe[col].sum() == 0]
+    filtered_df = stats_dataframe.drop(columns=cols_to_remove)
+    country_table = latex_http_table(filtered_df, "country", "HTTP Version Adoption by Country (\\%)",
                                      "country_http_version_adoption")
     path_to_save = os.path.join(TABLE_DIRECTORY, "sh_http_version_adoption_by_country.tex")
     with open(path_to_save, "w", encoding="utf-8") as tex_file:
@@ -129,7 +138,7 @@ def plot_http_adoption_chart(dataframe, level, title, country_filter=None):
         size_box = (10, max(3, num_rows * 0.8))
     else:
         raise ValueError("Invalid level. Use 'nuts' or 'country'.")
-
+    dataframe = dataframe.sort_values(by=columns_to_plot, ascending=True)
     dataframe = dataframe[[y_column] + columns_to_plot].set_index(y_column)
     fig, ax = plt.subplots(figsize=size_box)
 
@@ -185,4 +194,7 @@ def make_http_version_adoption():
 
 
 if __name__ == "__main__":
+    pd.set_option('display.max_columns', None)
+    pd.set_option('display.width', None)
+
     make_http_version_adoption()

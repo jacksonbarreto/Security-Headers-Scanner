@@ -188,7 +188,7 @@ def latex_header_table(dataframe, level, title, label, config_weak=False):
     column_headers = " & ".join(f"\\rotatebox{{90}}{{\\makecell{{{col}}}}}" for col in dataframe.columns)
 
     table_rows = "\n".join(
-        f"            {row[0]} & " + " & ".join(
+        f"            {row[0] if level != 'country' else get_country(row[0])} & " + " & ".join(
             "-" if pd.isna(value) or value == 0
             else f"{int(value)}" if isinstance(value, (float, int)) and value == int(value)
             else f"{value:.2f}" if isinstance(value, float)
@@ -266,7 +266,7 @@ def generate_header_table(stats_dataframe):
     save_table(country_table, os.path.join(TABLE_DIRECTORY, "sh_adoption_by_country.tex"))
     filtered_df.sort_values(by=critical_headers_weak, ascending=True, inplace=True)
     country_table = latex_header_table(filtered_df, "country",
-                                       "Security Headers Weak Configuration by Country (\\%)", "sh_adoption_country",
+                                       "Security Headers Weak Configuration by Country (\\%)", "sh_weak_config_country",
                                        True)
     save_table(country_table, os.path.join(TABLE_DIRECTORY, "sh_weak_config_by_country.tex"))
 
@@ -304,7 +304,8 @@ def plot_heat_map(dataframe, level, title):
             adoption_value = dataframe.iloc[i, j]
             weak_value = dataframe.iloc[i, j + num_x]
 
-            x, y = j, num_y - i - 1  # Coordenadas invertidas para alinhar ao eixo Y corretamente
+            #x, y = j, num_y - i - 1  # Coordenadas invertidas para alinhar ao eixo Y corretamente
+            x, y = j, i
 
             # Triângulo Superior (Adoção - Azul)
             color_top = cmap_blue(norm_blue(adoption_value))
@@ -550,7 +551,7 @@ def make_header_adoption():
 
 
     generate_header_table(stats)
-    #generate_heatmap(stats)
+    generate_heatmap(stats)
     df_platform = pd.read_csv(RESULT_PLATFORM_FILE_PATH)
     stats_platform = get_stats(df_platform)
     print(stats_platform.head())

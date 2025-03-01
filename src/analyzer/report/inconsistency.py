@@ -98,6 +98,13 @@ def latex_table(dataframe, level, title, label, country_filter=None, category_fi
         col.replace("_", " ").title().replace(" Between Platforms", "") for col in inconsistency_columns
     ], ascending=False, kind="mergesort")
 
+    if level == "nuts" or level == "nuts_category":
+        dataframe = dataframe.drop_duplicates(subset=['NUTS2'], keep='first')
+    if level == "nuts_category":
+        dataframe = dataframe.drop(columns=["Institution Type"])
+
+
+    print(dataframe.head())
     column_headers = " & ".join(f"\\makecell{{{col.replace(' Inconsistency','')}}}" for col in dataframe.columns)
 
     table_rows = "\n".join(
@@ -141,7 +148,7 @@ def generate_latex_table(dataframe):
             tex_file.write(nuts2_table)
         nuts2_table = latex_table(dataframe, "nuts_category",
                                   f"Security Headers Inconsistencies at Publica HEIs in {get_country(country)} by NUTS2 (\\%)",
-                                  f"inconsistencies_in_{country}_by_nuts2_public", country)
+                                  f"inconsistencies_in_{country}_by_nuts2_public", country, "public")
         file_name = f"sh_inconsistencies_in_{country}_by_nuts2_public.tex"
         path_to_save = os.path.join(TABLE_DIRECTORY, file_name)
         with open(path_to_save, "w", encoding="utf-8") as tex_file:
@@ -243,4 +250,6 @@ def make_inconsistencies():
 
 
 if __name__ == "__main__":
+    pd.set_option('display.max_columns', None)
+    pd.set_option('display.width', None)
     make_inconsistencies()
